@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (() => {
+        document.documentElement.classList.add("js");
+        const ok = new Set(["light", "dark"]);
+        const saved = localStorage.getItem("psychobros-theme");
+        const theme = (ok.has(saved) && saved) ||
+          (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Robots with skirts, a fishing minigame with existential stakes, and an ending screen that asks if you would like to erase your save for a stranger. A PsychoBros review of NieR:Automata™ by Square Enix." />
+    <meta name="theme-color" content="#0b0d12" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="PsychoBros" />
+    <meta property="og:title" content="NieR:Automata™ review — PsychoBros" />
+    <meta property="og:description" content="Robots with skirts, a fishing minigame with existential stakes, and an ending screen that asks if you would like to erase your save for a stranger. A PsychoBros review of NieR:Automata™ by Square Enix." />
+    <meta property="og:url" content="https://psychobrosgames.github.io/reviews/nier-automata/" />
+    <meta property="og:image" content="https://psychobrosgames.github.io/assets/press/nier-automata/cover.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta property="og:image:alt" content="Screenshot from NieR:Automata™" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://psychobrosgames.github.io/assets/press/nier-automata/cover.jpg" />
+    <title>NieR:Automata™ review — PsychoBros</title>
+    <link rel="canonical" href="https://psychobrosgames.github.io/reviews/nier-automata/" />
+    <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"NieR:Automata™ review","description":"Robots with skirts, a fishing minigame with existential stakes, and an ending screen that asks if you would like to erase your save for a stranger. A PsychoBros review of NieR:Automata™ by Square Enix.","datePublished":"2017-04-28","dateModified":"2017-04-28","url":"https://psychobrosgames.github.io/reviews/nier-automata/","image":"https://psychobrosgames.github.io/assets/press/nier-automata/cover.jpg","author":{"@type":"Organization","name":"PsychoBros"},"publisher":{"@type":"Organization","name":"PsychoBros","logo":{"@type":"ImageObject","url":"https://psychobrosgames.github.io/assets/favicon.svg"}},"about":{"@type":"VideoGame","name":"NieR:Automata™","genre":"Action"}}</script>
+  </head>
+  <body class="page-review">
+    <a class="skip" href="#main">Skip to content</a>
+    
+    <header class="masthead" data-masthead>
+      <div class="wrap masthead__inner">
+        <a class="brand" href="../../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <nav class="masthead__nav" aria-label="Main navigation">
+          <a href="../../reviews/" aria-current="page">Reviews</a>
+          <a href="../../years/">By Year</a>
+          <a href="../../about/#crew">The Dads</a>
+          <a href="../../about/">About &amp; Press</a>
+        </nav>
+        <div class="masthead__actions">
+          
+  <button class="iconbtn" type="button" data-theme-toggle aria-label="Switch color theme">
+    <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="4.2" />
+      <path d="M12 2.4v2.4M12 19.2v2.4M4.4 4.4l1.7 1.7M17.9 17.9l1.7 1.7M2.4 12h2.4M19.2 12h2.4M4.4 19.6l1.7-1.7M17.9 6.1l1.7-1.7" />
+    </svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20.7 14.1A8 8 0 0 1 9.9 3.3 8.5 8.5 0 1 0 20.7 14.1Z" />
+    </svg>
+  </button>
+          <button class="iconbtn burger" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <nav class="mobilenav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true" inert>
+        <a href="../../reviews/" aria-current="page">Reviews</a>
+          <a href="../../years/">By Year</a>
+          <a href="../../about/#crew">The Dads</a>
+          <a href="../../about/">About &amp; Press</a>
+      </nav>
+    </header>
+    
+      <main id="main">
+        <span id="top"></span>
+        <article class="article">
+          <header class="pagehead pagehead--article">
+            <div class="wrap">
+              <nav class="crumbs" aria-label="Breadcrumb">
+                <a href="../../">Home</a><span>/</span><a href="../">Reviews</a><span>/</span><span aria-current="page">NieR:Automata™</span>
+              </nav>
+              <p class="kicker">AAA</p>
+              <h1>NieR:Automata™</h1>
+              <p class="pagehead__deck">Robots with skirts, a fishing minigame with existential stakes, and an ending screen that asks if you would like to erase your save for a stranger.</p>
+              <div class="byline byline--article">
+                <span>By <b>PsychoBros</b></span>
+                <time datetime="2017-04-28">April 28, 2017</time>
+                <span>Square Enix</span>
+              </div>
+            </div>
+          </header>
+
+          <div class="wrap article__hero reveal">
+            <figure class="article__figure">
+              <img class="article__cover" src="../../assets/press/nier-automata/cover.jpg" alt="Screenshot from NieR:Automata™" width="1200" height="675" fetchpriority="high" />
+              <figcaption class="article__credit">Press image courtesy of Square Enix, PlatinumGames Inc. / Square Enix. Sourced from the game's <a href="https://store.steampowered.com/app/524220/" rel="noopener">official Steam listing</a>.</figcaption>
+            </figure>
+            <div class="article__aside">
+              <div class="article__scorecard">
+                <p class="kicker">Dad Hype Meter</p>
+                <p class="article__score" data-tone="warm">8.4<i>/10</i></p>
+                <p class="article__band">Wishlisted immediately</p>
+                <p class="article__scorenote">Our verdict, after we actually played the thing. <a href="../../about/#standards">How this works</a></p>
+              </div>
+              <figure class="keyart">
+                <h2 class="kicker">Official key art</h2>
+                <img src="../../assets/press/nier-automata/key-art.jpg" alt="Official key art for NieR:Automata™" width="460" height="215" loading="lazy" decoding="async" />
+                <figcaption>&copy; Square Enix, PlatinumGames Inc. / Square Enix</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="wrap article__grid">
+            <aside class="article__side">
+              <div class="specs">
+                <h2 class="kicker">The basics</h2>
+                <dl>
+                  <div><dt>Developer</dt><dd>Square Enix</dd></div>
+                  <div><dt>Genre</dt><dd>Action</dd></div>
+                  <div><dt>Platforms</dt><dd>Windows</dd></div>
+                  
+                  <div><dt>Reviewed</dt><dd><a href="../../years/2017/">2017</a></dd></div>
+                </dl>
+              </div>
+              <div class="specs">
+                <h2 class="kicker">Tagged</h2>
+                <p class="taglist"><a class="tag" href="../../tags/aaa/">AAA</a><a class="tag" href="../../tags/action/">Action</a><a class="tag" href="../../tags/rpg/">RPG</a></p>
+              </div>
+              <div class="specs">
+                <h2 class="kicker">Dad consensus</h2>
+                <dl>
+                  <div><dt>Dad Who Skipped the Tutorial</dt><dd>I got to Route B and made a face.</dd></div><div><dt>The Descent Guy</dt><dd>Chip loadouts on the whiteboard.</dd></div><div><dt>Normal-ish Dad</dt><dd>Ambushed emotionally on a Tuesday.</dd></div>
+                </dl>
+              </div>
+            </aside>
+
+            <div class="article__body">
+              <div class="verdict reveal">
+                <p class="kicker">The thirty-second version</p>
+                <h2>Finish it five times. Yes, really.</h2>
+                <p class="verdict__joke">First game that made me cry. And I have watched every Pixar movie in a hospital.</p>
+                <p>NieR: Automata is a game we still bring up at unrelated dinner parties. The combat is Platinum-slick, the story is a series of small gut punches, and there is no way around telling you the truth: you have to play it more than once for it to land. If that sounds like homework, this isn&#039;t the one. If it sounds like an offer, get in.</p>
+              </div>
+
+              <section class="prose reveal" aria-labelledby="what-title">
+                <h2 id="what-title">Okay, what is this thing?</h2>
+                <p>You&#039;re a battle android in a skirt and a blindfold, fighting a giant machine that is somehow riding a rollercoaster. Nine hours later that same game is a top-down bullet hell, then a text adventure, then a boss fight that reads like a philosophy lecture with a health bar. Yoko Taro is doing something. We&#039;re not always sure what. We are always in.</p><p>The Platinum combat holds it together: light attack, heavy attack, dodge, a hovering pod that lays down suppressive fire. Under that sits the chip system, where every ability is a physical circuit board you slot into a limited grid, HUD elements included. Skip the map on purpose, unslot it, that&#039;s on you. It&#039;s the only game we know where the pause menu is part of the story.</p>
+              </section>
+
+              <figure class="shots reveal">
+                <div class="shots__grid">
+                  <img src="../../assets/press/nier-automata/gallery-1.jpg" alt="Screenshot 2 from NieR:Automata™" width="800" height="450" loading="lazy" decoding="async" /><img src="../../assets/press/nier-automata/gallery-2.jpg" alt="Screenshot 3 from NieR:Automata™" width="800" height="450" loading="lazy" decoding="async" />
+                </div>
+                <figcaption>Press screenshots courtesy of Square Enix, PlatinumGames Inc. / Square Enix.</figcaption>
+              </figure>
+
+              <section class="reveal" aria-labelledby="why-title">
+                <h2 class="h-rule" id="why-title">Why it escaped the group chat</h2>
+                <ul class="checklist">
+                  <li>The full arc requires multiple playthroughs, each of which reframes the earlier ones. This is on purpose, not padding.</li><li>The score is by Keiichi Okabe and it is enormous. It has ended more than one of our long car rides in a good way.</li><li>Combat is Platinum-developed, so it feels closer to Bayonetta than to a traditional JRPG.</li>
+                </ul>
+              </section>
+
+              <section class="reveal" aria-labelledby="tribunal-title">
+                <h2 class="h-rule" id="tribunal-title">Three dads enter</h2>
+                <div class="tribunal">
+                  
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">01</p>
+                    <div>
+                      <p class="tribunal__who">Dad Who Skipped the Tutorial</p>
+                      <h3>The &#039;do the same game again&#039; pitch didn&#039;t land at first.</h3>
+                      <p>I finished the first playthrough, got told the game hadn&#039;t really started yet, and made the face we all make about paperwork. I picked it up again a month later, hit route C, and admitted it was good, actually. I still can&#039;t tell you what the plot is. Neither can the other two, if we&#039;re honest.</p>
+                    </div>
+                  </article>
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">02</p>
+                    <div>
+                      <p class="tribunal__who">The Descent Guy</p>
+                      <h3>Fusing chips to slot a bigger HP bar is a real move.</h3>
+                      <p>I treated the chip grid like a loadout puzzle and had a two-tab spreadsheet inside a week. Fuse chips to save slots, delete the HP bar to gain damage: this is my exact vocabulary now. I argue the top-down shooter sections are the sharpest part of the game, and one of the other two is starting to suspect I might be right.</p>
+                    </div>
+                  </article>
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">03</p>
+                    <div>
+                      <p class="tribunal__who">Normal-ish Dad</p>
+                      <h3>The story earns every one of its five endings.</h3>
+                      <p>I went in expecting a hack-and-slash and came out staring at the wall. Sessions run long because you can&#039;t stop at a chapter break, and the fishing is a genuine trap for an evening. I recommend it to the exact friends who ask, and to nobody else. Which is, I think, the correct posture on this game.</p>
+                    </div>
+                  </article>
+                </div>
+              </section>
+
+              <section class="reveal" aria-labelledby="fit-title">
+                <h2 class="visually-hidden" id="fit-title">Who it is for and what to watch</h2>
+                <div class="fit">
+                  <div class="fit__col fit__col--yes">
+                    <h3>Invite these people</h3>
+                    <ul><li>People who don&#039;t mind games with homework if the homework is good</li><li>Anyone who liked Bayonetta but wanted it to make them sad</li><li>Group chats that can handle &#039;let me explain ending E&#039; at 11pm</li></ul>
+                  </div>
+                  <div class="fit__col fit__col--watch">
+                    <h3>Dad caveats</h3>
+                    <ul><li>The PC version is famously fussy at launch and you&#039;ll want the community fixes</li><li>Route A ends before the game really starts, which is a divisive design call</li><li>There is fishing. You will lose an evening to it.</li></ul>
+                  </div>
+                </div>
+              </section>
+
+              <section class="receipts reveal" aria-labelledby="receipts-title">
+                <h2 class="kicker" id="receipts-title">Receipts</h2>
+                <p>Two of us reached ending E on PC across around forty hours each; the third stopped after Route A and needs to be gently coaxed back.</p>
+                <ul>
+                  <li><a href="https://store.steampowered.com/app/524220/" target="_blank" rel="noreferrer">NieR:Automata™ on Steam</a></li>
+                </ul>
+              </section>
+            </div>
+          </div>
+
+          <nav class="wrap pager" aria-label="More reviews">
+            <a class="pager__link" href="../prey/"><span>&larr; Newer</span><strong>Prey</strong></a>
+            <a class="pager__link pager__link--next" href="../hollow-knight/"><span>Older &rarr;</span><strong>Hollow Knight</strong></a>
+          </nav>
+
+          <section class="wrap section" aria-labelledby="related-title">
+            
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">Keep going</p>
+      <h2><span id="related-title">More reviews</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="../">All 20 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+            <div class="grid">
+  <article class="card reveal"
+    data-card
+    data-title="beast of reincarnation"
+    data-studio="game freak inc."
+    data-genre="action"
+    data-year="2026"
+    data-tags="aa|action|adventure|rpg">
+    <a class="card__art" href="../../reviews/beast-of-reincarnation/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/beast-of-reincarnation/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.0</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-08-16">Aug 16</time></p>
+      <h3 class="card__title"><a href="../../reviews/beast-of-reincarnation/">Beast of Reincarnation</a></h3>
+      <p class="card__take">Every Pokémon game has been secretly asking for a dog. Now it&#039;s the whole game.</p>
+      <p class="card__foot"><span>GAME FREAK inc.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="big walk"
+    data-studio="house house"
+    data-genre="adventure"
+    data-year="2026"
+    data-tags="indie|adventure">
+    <a class="card__art" href="../../reviews/big-walk/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/big-walk/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.6</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2026-08-13">Aug 13</time></p>
+      <h3 class="card__title"><a href="../../reviews/big-walk/">Big Walk</a></h3>
+      <p class="card__take">Finally, a co-op game where nobody has a health bar to argue about.</p>
+      <p class="card__foot"><span>House House</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="mina the hollower"
+    data-studio="yacht club games"
+    data-genre="action"
+    data-year="2026"
+    data-tags="indie|action|adventure">
+    <a class="card__art" href="../../reviews/mina-the-hollower/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/mina-the-hollower/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.5</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-06-28">Jun 28</time></p>
+      <h3 class="card__title"><a href="../../reviews/mina-the-hollower/">Mina the Hollower</a></h3>
+      <p class="card__take">The main character has a whip. That&#039;s the pitch. That&#039;s a great pitch.</p>
+      <p class="card__foot"><span>Yacht Club Games</span></p>
+    </div>
+  </article></div>
+          </section>
+        </article>
+      </main>
+    
+  <footer class="foot">
+    <div class="wrap foot__grid">
+      <div class="foot__brandcol">
+        <a class="brand" href="../../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <p>Three dads in their forties reviewing games between school pickup and bedtime. One of us will not stop talking about Descent.</p>
+      </div>
+      <div class="foot__col">
+        <h2>Read</h2>
+        <a href="../../reviews/">All reviews</a>
+        <a href="../../years/">Browse by year</a>
+        <a href="../../tags/pax-west-2025/">PAX West 2025</a>
+      </div>
+      <div class="foot__col">
+        <h2>The boring bits</h2>
+        <a href="../../about/#crew">Meet the dads</a>
+        <a href="../../about/#standards">How we stay honest</a>
+        <a href="../../about/#press">Press &amp; partnerships</a>
+      </div>
+      <div class="foot__col">
+        <h2>Elsewhere</h2>
+        <a href="https://github.com/PsychoBrosGames" rel="noreferrer">GitHub</a>
+        <a href="../../about/#press">Get in touch</a>
+      </div>
+    </div>
+    <div class="wrap foot__bottom">
+      <p>&copy; <span data-year></span> PsychoBros. Built after the kids went to bed. Mostly.</p>
+      <p class="foot__rights">Game screenshots and key art are official press assets belonging to their respective developers and publishers, used editorially. <a href="../../about/#standards">Image policy</a>.</p>
+      <a class="totop" href="#top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </footer>
+    <script src="../../script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (() => {
+        document.documentElement.classList.add("js");
+        const ok = new Set(["light", "dark"]);
+        const saved = localStorage.getItem("psychobros-theme");
+        const theme = (ok.has(saved) && saved) ||
+          (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The only game we&#039;ve handed our partners a controller for and had them still speaking to us at the end. A PsychoBros review of It Takes Two by Hazelight Studios." />
+    <meta name="theme-color" content="#0b0d12" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="PsychoBros" />
+    <meta property="og:title" content="It Takes Two review — PsychoBros" />
+    <meta property="og:description" content="The only game we&#039;ve handed our partners a controller for and had them still speaking to us at the end. A PsychoBros review of It Takes Two by Hazelight Studios." />
+    <meta property="og:url" content="https://psychobrosgames.github.io/reviews/it-takes-two/" />
+    <meta property="og:image" content="https://psychobrosgames.github.io/assets/press/it-takes-two/cover.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta property="og:image:alt" content="Screenshot from It Takes Two" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://psychobrosgames.github.io/assets/press/it-takes-two/cover.jpg" />
+    <title>It Takes Two review — PsychoBros</title>
+    <link rel="canonical" href="https://psychobrosgames.github.io/reviews/it-takes-two/" />
+    <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"It Takes Two review","description":"The only game we've handed our partners a controller for and had them still speaking to us at the end. A PsychoBros review of It Takes Two by Hazelight Studios.","datePublished":"2021-04-03","dateModified":"2021-04-03","url":"https://psychobrosgames.github.io/reviews/it-takes-two/","image":"https://psychobrosgames.github.io/assets/press/it-takes-two/cover.jpg","author":{"@type":"Organization","name":"PsychoBros"},"publisher":{"@type":"Organization","name":"PsychoBros","logo":{"@type":"ImageObject","url":"https://psychobrosgames.github.io/assets/favicon.svg"}},"about":{"@type":"VideoGame","name":"It Takes Two","genre":"Action"}}</script>
+  </head>
+  <body class="page-review">
+    <a class="skip" href="#main">Skip to content</a>
+    
+    <header class="masthead" data-masthead>
+      <div class="wrap masthead__inner">
+        <a class="brand" href="../../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <nav class="masthead__nav" aria-label="Main navigation">
+          <a href="../../reviews/" aria-current="page">Reviews</a>
+          <a href="../../years/">By Year</a>
+          <a href="../../about/#crew">The Dads</a>
+          <a href="../../about/">About &amp; Press</a>
+        </nav>
+        <div class="masthead__actions">
+          
+  <button class="iconbtn" type="button" data-theme-toggle aria-label="Switch color theme">
+    <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="4.2" />
+      <path d="M12 2.4v2.4M12 19.2v2.4M4.4 4.4l1.7 1.7M17.9 17.9l1.7 1.7M2.4 12h2.4M19.2 12h2.4M4.4 19.6l1.7-1.7M17.9 6.1l1.7-1.7" />
+    </svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20.7 14.1A8 8 0 0 1 9.9 3.3 8.5 8.5 0 1 0 20.7 14.1Z" />
+    </svg>
+  </button>
+          <button class="iconbtn burger" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <nav class="mobilenav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true" inert>
+        <a href="../../reviews/" aria-current="page">Reviews</a>
+          <a href="../../years/">By Year</a>
+          <a href="../../about/#crew">The Dads</a>
+          <a href="../../about/">About &amp; Press</a>
+      </nav>
+    </header>
+    
+      <main id="main">
+        <span id="top"></span>
+        <article class="article">
+          <header class="pagehead pagehead--article">
+            <div class="wrap">
+              <nav class="crumbs" aria-label="Breadcrumb">
+                <a href="../../">Home</a><span>/</span><a href="../">Reviews</a><span>/</span><span aria-current="page">It Takes Two</span>
+              </nav>
+              <p class="kicker">AA</p>
+              <h1>It Takes Two</h1>
+              <p class="pagehead__deck">The only game we&#039;ve handed our partners a controller for and had them still speaking to us at the end.</p>
+              <div class="byline byline--article">
+                <span>By <b>PsychoBros</b></span>
+                <time datetime="2021-04-03">April 3, 2021</time>
+                <span>Hazelight Studios</span>
+              </div>
+            </div>
+          </header>
+
+          <div class="wrap article__hero reveal">
+            <figure class="article__figure">
+              <img class="article__cover" src="../../assets/press/it-takes-two/cover.jpg" alt="Screenshot from It Takes Two" width="1200" height="675" fetchpriority="high" />
+              <figcaption class="article__credit">Press image courtesy of Hazelight Studios / Electronic Arts. Sourced from the game's <a href="https://store.steampowered.com/app/1426210/" rel="noopener">official Steam listing</a>.</figcaption>
+            </figure>
+            <div class="article__aside">
+              <div class="article__scorecard">
+                <p class="kicker">Dad Hype Meter</p>
+                <p class="article__score" data-tone="hot">9.2<i>/10</i></p>
+                <p class="article__band">Group chat meltdown</p>
+                <p class="article__scorenote">Our verdict, after we actually played the thing. <a href="../../about/#standards">How this works</a></p>
+              </div>
+              <figure class="keyart">
+                <h2 class="kicker">Official key art</h2>
+                <img src="../../assets/press/it-takes-two/key-art.jpg" alt="Official key art for It Takes Two" width="460" height="215" loading="lazy" decoding="async" />
+                <figcaption>&copy; Hazelight Studios / Electronic Arts</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="wrap article__grid">
+            <aside class="article__side">
+              <div class="specs">
+                <h2 class="kicker">The basics</h2>
+                <dl>
+                  <div><dt>Developer</dt><dd>Hazelight Studios</dd></div>
+                  <div><dt>Genre</dt><dd>Action</dd></div>
+                  <div><dt>Platforms</dt><dd>Windows</dd></div>
+                  
+                  <div><dt>Reviewed</dt><dd><a href="../../years/2021/">2021</a></dd></div>
+                </dl>
+              </div>
+              <div class="specs">
+                <h2 class="kicker">Tagged</h2>
+                <p class="taglist"><a class="tag" href="../../tags/aa/">AA</a><a class="tag" href="../../tags/action/">Action</a><a class="tag" href="../../tags/adventure/">Adventure</a></p>
+              </div>
+              <div class="specs">
+                <h2 class="kicker">Dad consensus</h2>
+                <dl>
+                  <div><dt>Dad Who Skipped the Tutorial</dt><dd>I held the sticks correctly and everything</dd></div><div><dt>The Descent Guy</dt><dd>I wanted a mechanic to overthink and got twelve</dd></div><div><dt>Normal-ish Dad</dt><dd>The one I handed my partner</dd></div>
+                </dl>
+              </div>
+            </aside>
+
+            <div class="article__body">
+              <div class="verdict reveal">
+                <p class="kicker">The thirty-second version</p>
+                <h2>The co-op game they don&#039;t make anymore.</h2>
+                <p class="verdict__joke">Sold as marriage counselling. It&#039;s actually kart racing. Same thing, honestly.</p>
+                <p>It Takes Two is a two-player co-op adventure that changes what it is every twenty minutes. Platformer, shooter, boss rush, minigolf, tower defence, sometimes in the same level. There is no solo mode and there shouldn&#039;t be. Play it with the person you live with, on the sofa, at a sensible bedtime, and it&#039;s genuinely one of the best things any of us have ever finished together.</p>
+              </div>
+
+              <section class="prose reveal" aria-labelledby="what-title">
+                <h2 id="what-title">Okay, what is this thing?</h2>
+                <p>You start as two puppets. Your daughter cries on you. A magic self-help book with a mediterranean accent shows up. What follows is roughly twelve hours of one of you shouting &#039;no, YOUR side, YOUR side&#039; at the other, punctuated by boss fights against household objects that had no business being that scary. We laughed. We were also asked why we were laughing at 11pm.</p><p>The mechanic is that each of you has a different toolkit every level, and they only work when combined. One gets nails, the other gets a hammer. One gets fire, the other gets sap. It never repeats itself. Just when you&#039;re getting good at one thing, Josef Fares yanks it away and hands you a whole new pair of powers. It shouldn&#039;t work as often as it does.</p>
+              </section>
+
+              <figure class="shots reveal">
+                <div class="shots__grid">
+                  <img src="../../assets/press/it-takes-two/gallery-1.jpg" alt="Screenshot 2 from It Takes Two" width="800" height="450" loading="lazy" decoding="async" /><img src="../../assets/press/it-takes-two/gallery-2.jpg" alt="Screenshot 3 from It Takes Two" width="800" height="450" loading="lazy" decoding="async" />
+                </div>
+                <figcaption>Press screenshots courtesy of Hazelight Studios / Electronic Arts.</figcaption>
+              </figure>
+
+              <section class="reveal" aria-labelledby="why-title">
+                <h2 class="h-rule" id="why-title">Why it escaped the group chat</h2>
+                <ul class="checklist">
+                  <li>Two-player co-op only. There is no solo mode, and it&#039;s better for it.</li><li>Friend&#039;s Pass lets one copy invite a second player in for free.</li><li>Every level introduces a new pair of abilities and mostly retires them by the next.</li>
+                </ul>
+              </section>
+
+              <section class="reveal" aria-labelledby="tribunal-title">
+                <h2 class="h-rule" id="tribunal-title">Three dads enter</h2>
+                <div class="tribunal">
+                  
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">01</p>
+                    <div>
+                      <p class="tribunal__who">Dad Who Skipped the Tutorial</p>
+                      <h3>The person who doesn&#039;t play games completed this with me.</h3>
+                      <p>My wife, who once described Mario Kart as &#039;the noisy one&#039;, finished this with me in three sittings. That&#039;s the point. The controls are simple enough that whichever half of a couple normally reads the instructions never has to. She got weirdly good at one boss I&#039;d been dreading. I&#039;m still processing that.</p>
+                    </div>
+                  </article>
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">02</p>
+                    <div>
+                      <p class="tribunal__who">The Descent Guy</p>
+                      <h3>It refuses to let me settle in and I&#039;m furious about it in a good way.</h3>
+                      <p>I had a whole plan for the first hour, and then the game handed me time-rewinding on a mouse. I kept expecting one core loop and got twelve small ones instead. This is not my usual thing. I&#039;ve still ranked the boss fights, and I won&#039;t stop talking about the Rose&#039;s Room chapter, which coming from me is a compliment.</p>
+                    </div>
+                  </article>
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">03</p>
+                    <div>
+                      <p class="tribunal__who">Normal-ish Dad</p>
+                      <h3>Finishable at the rate real adults play at.</h3>
+                      <p>Twelve to fifteen hours, split across four evenings, no filler, no side content nagging at me. My marriage remained intact. The story is silly and the ending genuinely earns its swing. If you can get two adults on the same sofa on the same night in the same year, this is what you should be putting on.</p>
+                    </div>
+                  </article>
+                </div>
+              </section>
+
+              <section class="reveal" aria-labelledby="fit-title">
+                <h2 class="visually-hidden" id="fit-title">Who it is for and what to watch</h2>
+                <div class="fit">
+                  <div class="fit__col fit__col--yes">
+                    <h3>Invite these people</h3>
+                    <ul><li>Couples with one gamer and one gamer-adjacent</li><li>Anyone who misses split-screen and forgives EA for the split-screen</li><li>Groups of two friends who need to prove they can still finish something together</li></ul>
+                  </div>
+                  <div class="fit__col fit__col--watch">
+                    <h3>Dad caveats</h3>
+                    <ul><li>The dialogue leans hard on the therapy metaphor and lands where it lands</li><li>Zero solo option, so this genuinely needs a second human</li><li>Some late levels ask more of the platforming than we&#039;d remembered</li></ul>
+                  </div>
+                </div>
+              </section>
+
+              <section class="receipts reveal" aria-labelledby="receipts-title">
+                <h2 class="kicker" id="receipts-title">Receipts</h2>
+                <p>Played to completion by two of us on separate PC sessions with our respective spouses on the sofa, roughly a week each.</p>
+                <ul>
+                  <li><a href="https://store.steampowered.com/app/1426210/" target="_blank" rel="noreferrer">It Takes Two on Steam</a></li>
+                </ul>
+              </section>
+            </div>
+          </div>
+
+          <nav class="wrap pager" aria-label="More reviews">
+            <a class="pager__link" href="../resident-evil-village/"><span>&larr; Newer</span><strong>Resident Evil Village</strong></a>
+            <a class="pager__link pager__link--next" href="../valheim/"><span>Older &rarr;</span><strong>Valheim</strong></a>
+          </nav>
+
+          <section class="wrap section" aria-labelledby="related-title">
+            
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">Keep going</p>
+      <h2><span id="related-title">More reviews</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="../">All 20 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+            <div class="grid">
+  <article class="card reveal"
+    data-card
+    data-title="beast of reincarnation"
+    data-studio="game freak inc."
+    data-genre="action"
+    data-year="2026"
+    data-tags="aa|action|adventure|rpg">
+    <a class="card__art" href="../../reviews/beast-of-reincarnation/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/beast-of-reincarnation/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.0</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-08-16">Aug 16</time></p>
+      <h3 class="card__title"><a href="../../reviews/beast-of-reincarnation/">Beast of Reincarnation</a></h3>
+      <p class="card__take">Every Pokémon game has been secretly asking for a dog. Now it&#039;s the whole game.</p>
+      <p class="card__foot"><span>GAME FREAK inc.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="big walk"
+    data-studio="house house"
+    data-genre="adventure"
+    data-year="2026"
+    data-tags="indie|adventure">
+    <a class="card__art" href="../../reviews/big-walk/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/big-walk/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.6</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2026-08-13">Aug 13</time></p>
+      <h3 class="card__title"><a href="../../reviews/big-walk/">Big Walk</a></h3>
+      <p class="card__take">Finally, a co-op game where nobody has a health bar to argue about.</p>
+      <p class="card__foot"><span>House House</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="mina the hollower"
+    data-studio="yacht club games"
+    data-genre="action"
+    data-year="2026"
+    data-tags="indie|action|adventure">
+    <a class="card__art" href="../../reviews/mina-the-hollower/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/mina-the-hollower/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.5</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-06-28">Jun 28</time></p>
+      <h3 class="card__title"><a href="../../reviews/mina-the-hollower/">Mina the Hollower</a></h3>
+      <p class="card__take">The main character has a whip. That&#039;s the pitch. That&#039;s a great pitch.</p>
+      <p class="card__foot"><span>Yacht Club Games</span></p>
+    </div>
+  </article></div>
+          </section>
+        </article>
+      </main>
+    
+  <footer class="foot">
+    <div class="wrap foot__grid">
+      <div class="foot__brandcol">
+        <a class="brand" href="../../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <p>Three dads in their forties reviewing games between school pickup and bedtime. One of us will not stop talking about Descent.</p>
+      </div>
+      <div class="foot__col">
+        <h2>Read</h2>
+        <a href="../../reviews/">All reviews</a>
+        <a href="../../years/">Browse by year</a>
+        <a href="../../tags/pax-west-2025/">PAX West 2025</a>
+      </div>
+      <div class="foot__col">
+        <h2>The boring bits</h2>
+        <a href="../../about/#crew">Meet the dads</a>
+        <a href="../../about/#standards">How we stay honest</a>
+        <a href="../../about/#press">Press &amp; partnerships</a>
+      </div>
+      <div class="foot__col">
+        <h2>Elsewhere</h2>
+        <a href="https://github.com/PsychoBrosGames" rel="noreferrer">GitHub</a>
+        <a href="../../about/#press">Get in touch</a>
+      </div>
+    </div>
+    <div class="wrap foot__bottom">
+      <p>&copy; <span data-year></span> PsychoBros. Built after the kids went to bed. Mostly.</p>
+      <p class="foot__rights">Game screenshots and key art are official press assets belonging to their respective developers and publishers, used editorially. <a href="../../about/#standards">Image policy</a>.</p>
+      <a class="totop" href="#top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </footer>
+    <script src="../../script.js"></script>
+  </body>
+</html>

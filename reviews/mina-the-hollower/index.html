@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (() => {
+        document.documentElement.classList.add("js");
+        const ok = new Set(["light", "dark"]);
+        const saved = localStorage.getItem("psychobros-theme");
+        const theme = (ok.has(saved) && saved) ||
+          (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A whip, a burrow move, a moody little island to save, and the best pixel art since Shovel Knight put on lipstick. A PsychoBros review of Mina the Hollower by Yacht Club Games." />
+    <meta name="theme-color" content="#0b0d12" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="PsychoBros" />
+    <meta property="og:title" content="Mina the Hollower review — PsychoBros" />
+    <meta property="og:description" content="A whip, a burrow move, a moody little island to save, and the best pixel art since Shovel Knight put on lipstick. A PsychoBros review of Mina the Hollower by Yacht Club Games." />
+    <meta property="og:url" content="https://psychobrosgames.github.io/reviews/mina-the-hollower/" />
+    <meta property="og:image" content="https://psychobrosgames.github.io/assets/press/mina-the-hollower/cover.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta property="og:image:alt" content="Screenshot from Mina the Hollower" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://psychobrosgames.github.io/assets/press/mina-the-hollower/cover.jpg" />
+    <title>Mina the Hollower review — PsychoBros</title>
+    <link rel="canonical" href="https://psychobrosgames.github.io/reviews/mina-the-hollower/" />
+    <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Mina the Hollower review","description":"A whip, a burrow move, a moody little island to save, and the best pixel art since Shovel Knight put on lipstick. A PsychoBros review of Mina the Hollower by Yacht Club Games.","datePublished":"2026-06-28","dateModified":"2026-06-28","url":"https://psychobrosgames.github.io/reviews/mina-the-hollower/","image":"https://psychobrosgames.github.io/assets/press/mina-the-hollower/cover.jpg","author":{"@type":"Organization","name":"PsychoBros"},"publisher":{"@type":"Organization","name":"PsychoBros","logo":{"@type":"ImageObject","url":"https://psychobrosgames.github.io/assets/favicon.svg"}},"about":{"@type":"VideoGame","name":"Mina the Hollower","genre":"Action"}}</script>
+  </head>
+  <body class="page-review">
+    <a class="skip" href="#main">Skip to content</a>
+    
+    <header class="masthead" data-masthead>
+      <div class="wrap masthead__inner">
+        <a class="brand" href="../../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <nav class="masthead__nav" aria-label="Main navigation">
+          <a href="../../reviews/" aria-current="page">Reviews</a>
+          <a href="../../years/">By Year</a>
+          <a href="../../about/#crew">The Dads</a>
+          <a href="../../about/">About &amp; Press</a>
+        </nav>
+        <div class="masthead__actions">
+          
+  <button class="iconbtn" type="button" data-theme-toggle aria-label="Switch color theme">
+    <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="4.2" />
+      <path d="M12 2.4v2.4M12 19.2v2.4M4.4 4.4l1.7 1.7M17.9 17.9l1.7 1.7M2.4 12h2.4M19.2 12h2.4M4.4 19.6l1.7-1.7M17.9 6.1l1.7-1.7" />
+    </svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20.7 14.1A8 8 0 0 1 9.9 3.3 8.5 8.5 0 1 0 20.7 14.1Z" />
+    </svg>
+  </button>
+          <button class="iconbtn burger" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <nav class="mobilenav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true" inert>
+        <a href="../../reviews/" aria-current="page">Reviews</a>
+          <a href="../../years/">By Year</a>
+          <a href="../../about/#crew">The Dads</a>
+          <a href="../../about/">About &amp; Press</a>
+      </nav>
+    </header>
+    
+      <main id="main">
+        <span id="top"></span>
+        <article class="article">
+          <header class="pagehead pagehead--article">
+            <div class="wrap">
+              <nav class="crumbs" aria-label="Breadcrumb">
+                <a href="../../">Home</a><span>/</span><a href="../">Reviews</a><span>/</span><span aria-current="page">Mina the Hollower</span>
+              </nav>
+              <p class="kicker">Indie</p>
+              <h1>Mina the Hollower</h1>
+              <p class="pagehead__deck">A whip, a burrow move, a moody little island to save, and the best pixel art since Shovel Knight put on lipstick.</p>
+              <div class="byline byline--article">
+                <span>By <b>PsychoBros</b></span>
+                <time datetime="2026-06-28">June 28, 2026</time>
+                <span>Yacht Club Games</span>
+              </div>
+            </div>
+          </header>
+
+          <div class="wrap article__hero reveal">
+            <figure class="article__figure">
+              <img class="article__cover" src="../../assets/press/mina-the-hollower/cover.jpg" alt="Screenshot from Mina the Hollower" width="1200" height="675" fetchpriority="high" />
+              <figcaption class="article__credit">Press image courtesy of Yacht Club Games. Sourced from the game's <a href="https://store.steampowered.com/app/1875580/" rel="noopener">official Steam listing</a>.</figcaption>
+            </figure>
+            <div class="article__aside">
+              <div class="article__scorecard">
+                <p class="kicker">Dad Hype Meter</p>
+                <p class="article__score" data-tone="hot">8.5<i>/10</i></p>
+                <p class="article__band">Snacks were abandoned</p>
+                <p class="article__scorenote">Our verdict, after we actually played the thing. <a href="../../about/#standards">How this works</a></p>
+              </div>
+              <figure class="keyart">
+                <h2 class="kicker">Official key art</h2>
+                <img src="../../assets/press/mina-the-hollower/key-art.jpg" alt="Official key art for Mina the Hollower" width="460" height="215" loading="lazy" decoding="async" />
+                <figcaption>&copy; Yacht Club Games</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="wrap article__grid">
+            <aside class="article__side">
+              <div class="specs">
+                <h2 class="kicker">The basics</h2>
+                <dl>
+                  <div><dt>Developer</dt><dd>Yacht Club Games</dd></div>
+                  <div><dt>Genre</dt><dd>Action</dd></div>
+                  <div><dt>Platforms</dt><dd>Windows, macOS, Linux</dd></div>
+                  
+                  <div><dt>Reviewed</dt><dd><a href="../../years/2026/">2026</a></dd></div>
+                </dl>
+              </div>
+              <div class="specs">
+                <h2 class="kicker">Tagged</h2>
+                <p class="taglist"><a class="tag" href="../../tags/indie/">Indie</a><a class="tag" href="../../tags/action/">Action</a><a class="tag" href="../../tags/adventure/">Adventure</a></p>
+              </div>
+              <div class="specs">
+                <h2 class="kicker">Dad consensus</h2>
+                <dl>
+                  <div><dt>Dad Who Skipped the Tutorial</dt><dd>One-button verb heaven</dd></div><div><dt>The Descent Guy</dt><dd>The pixel-perfect brainworm</dd></div><div><dt>Normal-ish Dad</dt><dd>Post-work sized</dd></div>
+                </dl>
+              </div>
+            </aside>
+
+            <div class="article__body">
+              <div class="verdict reveal">
+                <p class="kicker">The thirty-second version</p>
+                <h2>Yacht Club still know exactly what they&#039;re doing.</h2>
+                <p class="verdict__joke">The main character has a whip. That&#039;s the pitch. That&#039;s a great pitch.</p>
+                <p>Mina the Hollower is a beautifully cranky little action-adventure that plays like a Game Boy Color cartridge you never actually owned but somehow miss. The whip feels great, the burrow is a real movement idea, and the whole thing runs on the same taste and craft that made Shovel Knight so easy to love. If you&#039;ve got a nice controller, use it here.</p>
+              </div>
+
+              <section class="prose reveal" aria-labelledby="what-title">
+                <h2 id="what-title">Okay, what is this thing?</h2>
+                <p>You play Mina, a Hollower, which is apparently the medieval term for &#039;a small hero with a whip and a bad attitude.&#039; She&#039;s dropped onto a cursed island and told to fix it, and inside twenty minutes you&#039;ve cracked something small and rude with the whip and burrowed under a wall to find a secret. Yacht Club Games have made a game that feels like the childhood cartridge you told everyone else about.</p><p>The whip and the burrow are the whole thing, and they&#039;re enough. Combat is precise and readable, the burrow lets you cheat around encounters in ways that feel earned, and the environments give you real reasons to look for hidden holes to dive into. It&#039;s tightly designed in the way indie throwbacks either nail or completely botch, and Yacht Club nailed it.</p>
+              </section>
+
+              <figure class="shots reveal">
+                <div class="shots__grid">
+                  <img src="../../assets/press/mina-the-hollower/gallery-1.jpg" alt="Screenshot 2 from Mina the Hollower" width="800" height="450" loading="lazy" decoding="async" /><img src="../../assets/press/mina-the-hollower/gallery-2.jpg" alt="Screenshot 3 from Mina the Hollower" width="800" height="450" loading="lazy" decoding="async" />
+                </div>
+                <figcaption>Press screenshots courtesy of Yacht Club Games.</figcaption>
+              </figure>
+
+              <section class="reveal" aria-labelledby="why-title">
+                <h2 class="h-rule" id="why-title">Why it escaped the group chat</h2>
+                <ul class="checklist">
+                  <li>You play Mina, a Hollower, with a whip primary and a burrow move that reshapes traversal.</li><li>From Yacht Club Games, the studio behind Shovel Knight, and it shows in every pixel.</li><li>Presented in a hand-crafted pixel style that reads like a Game Boy Color game with modern sensibilities.</li>
+                </ul>
+              </section>
+
+              <section class="reveal" aria-labelledby="tribunal-title">
+                <h2 class="h-rule" id="tribunal-title">Three dads enter</h2>
+                <div class="tribunal">
+                  
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">01</p>
+                    <div>
+                      <p class="tribunal__who">Dad Who Skipped the Tutorial</p>
+                      <h3>The whip felt good instantly, which is the entire fight.</h3>
+                      <p>I don&#039;t have time to learn combos. Mina has a whip, and a whip is a one-button verb, which is my exact speed. I got through the first area with almost no menu screens opened, which coming from me is a five-star review. I also love the burrow, because it lets me skip fights I don&#039;t fancy.</p>
+                    </div>
+                  </article>
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">02</p>
+                    <div>
+                      <p class="tribunal__who">The Descent Guy</p>
+                      <h3>A movement toolkit with layers I can&#039;t stop mapping.</h3>
+                      <p>I was three rooms in before I started asking whether the burrow has i-frames. It might. It might not. I&#039;m testing. I love that a small pixel game has a real toolkit under the surface, and I&#039;m building routes through screens I&#039;m fairly sure the designers didn&#039;t intend. I&#039;m probably wrong about that. I don&#039;t care.</p>
+                    </div>
+                  </article>
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">03</p>
+                    <div>
+                      <p class="tribunal__who">Normal-ish Dad</p>
+                      <h3>A great post-dinner game if you don&#039;t fancy an epic.</h3>
+                      <p>I get an hour after dinner and this fills it perfectly. Bite-size encounters, a save that never punishes me for stepping away, and enough taste in the art that even a bad night still looks lovely. Absolute palate cleanser between the longer games I&#039;m supposed to be finishing and am not.</p>
+                    </div>
+                  </article>
+                </div>
+              </section>
+
+              <section class="reveal" aria-labelledby="fit-title">
+                <h2 class="visually-hidden" id="fit-title">Who it is for and what to watch</h2>
+                <div class="fit">
+                  <div class="fit__col fit__col--yes">
+                    <h3>Invite these people</h3>
+                    <ul><li>Anyone with a soft spot for Game Boy Color pixel work</li><li>Shovel Knight loyalists who want the same taste in a new shape</li><li>Dads with a controller drawer and no time for 80-hour RPGs</li></ul>
+                  </div>
+                  <div class="fit__col fit__col--watch">
+                    <h3>Dad caveats</h3>
+                    <ul><li>It is proudly retro, which for some folks reads as &#039;small&#039; rather than &#039;tight&#039;</li><li>The burrow is a real skill you have to actually learn; button-mashing hurts</li><li>You will find yourself humming the theme in the shower like an idiot</li></ul>
+                  </div>
+                </div>
+              </section>
+
+              <section class="receipts reveal" aria-labelledby="receipts-title">
+                <h2 class="kicker" id="receipts-title">Receipts</h2>
+                <p>Played on PC by two of us with a controller across a couple of weeks, mostly after bedtime. The third watched a stream and immediately bought it.</p>
+                <ul>
+                  <li><a href="https://store.steampowered.com/app/1875580/" target="_blank" rel="noreferrer">Mina the Hollower on Steam</a></li>
+                </ul>
+              </section>
+            </div>
+          </div>
+
+          <nav class="wrap pager" aria-label="More reviews">
+            <a class="pager__link" href="../big-walk/"><span>&larr; Newer</span><strong>Big Walk</strong></a>
+            <a class="pager__link pager__link--next" href="../forza-horizon-6/"><span>Older &rarr;</span><strong>Forza Horizon 6</strong></a>
+          </nav>
+
+          <section class="wrap section" aria-labelledby="related-title">
+            
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">Keep going</p>
+      <h2><span id="related-title">More reviews</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="../">All 20 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+            <div class="grid">
+  <article class="card reveal"
+    data-card
+    data-title="beast of reincarnation"
+    data-studio="game freak inc."
+    data-genre="action"
+    data-year="2026"
+    data-tags="aa|action|adventure|rpg">
+    <a class="card__art" href="../../reviews/beast-of-reincarnation/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/beast-of-reincarnation/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.0</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-08-16">Aug 16</time></p>
+      <h3 class="card__title"><a href="../../reviews/beast-of-reincarnation/">Beast of Reincarnation</a></h3>
+      <p class="card__take">Every Pokémon game has been secretly asking for a dog. Now it&#039;s the whole game.</p>
+      <p class="card__foot"><span>GAME FREAK inc.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="big walk"
+    data-studio="house house"
+    data-genre="adventure"
+    data-year="2026"
+    data-tags="indie|adventure">
+    <a class="card__art" href="../../reviews/big-walk/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/big-walk/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.6</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2026-08-13">Aug 13</time></p>
+      <h3 class="card__title"><a href="../../reviews/big-walk/">Big Walk</a></h3>
+      <p class="card__take">Finally, a co-op game where nobody has a health bar to argue about.</p>
+      <p class="card__foot"><span>House House</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="forza horizon 6"
+    data-studio="playground games"
+    data-genre="racing"
+    data-year="2026"
+    data-tags="aaa|racing|simulation|sports">
+    <a class="card__art" href="../../reviews/forza-horizon-6/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/forza-horizon-6/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.8</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Racing</span><time datetime="2026-06-07">Jun 7</time></p>
+      <h3 class="card__title"><a href="../../reviews/forza-horizon-6/">Forza Horizon 6</a></h3>
+      <p class="card__take">Bought a kei van in-game, thought about it for a week, did not buy one in real life.</p>
+      <p class="card__foot"><span>Playground Games</span></p>
+    </div>
+  </article></div>
+          </section>
+        </article>
+      </main>
+    
+  <footer class="foot">
+    <div class="wrap foot__grid">
+      <div class="foot__brandcol">
+        <a class="brand" href="../../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <p>Three dads in their forties reviewing games between school pickup and bedtime. One of us will not stop talking about Descent.</p>
+      </div>
+      <div class="foot__col">
+        <h2>Read</h2>
+        <a href="../../reviews/">All reviews</a>
+        <a href="../../years/">Browse by year</a>
+        <a href="../../tags/pax-west-2025/">PAX West 2025</a>
+      </div>
+      <div class="foot__col">
+        <h2>The boring bits</h2>
+        <a href="../../about/#crew">Meet the dads</a>
+        <a href="../../about/#standards">How we stay honest</a>
+        <a href="../../about/#press">Press &amp; partnerships</a>
+      </div>
+      <div class="foot__col">
+        <h2>Elsewhere</h2>
+        <a href="https://github.com/PsychoBrosGames" rel="noreferrer">GitHub</a>
+        <a href="../../about/#press">Get in touch</a>
+      </div>
+    </div>
+    <div class="wrap foot__bottom">
+      <p>&copy; <span data-year></span> PsychoBros. Built after the kids went to bed. Mostly.</p>
+      <p class="foot__rights">Game screenshots and key art are official press assets belonging to their respective developers and publishers, used editorially. <a href="../../about/#standards">Image policy</a>.</p>
+      <a class="totop" href="#top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </footer>
+    <script src="../../script.js"></script>
+  </body>
+</html>

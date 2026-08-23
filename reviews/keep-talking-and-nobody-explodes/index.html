@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (() => {
+        document.documentElement.classList.add("js");
+        const ok = new Set(["light", "dark"]);
+        const saved = localStorage.getItem("psychobros-theme");
+        const theme = (ok.has(saved) && saved) ||
+          (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="One dad stares at a bomb, two dads argue over a PDF, and everyone learns that saying &#039;the red one&#039; out loud is not helpful. A PsychoBros review of Keep Talking and Nobody Explodes by Steel Crate Games." />
+    <meta name="theme-color" content="#0b0d12" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="PsychoBros" />
+    <meta property="og:title" content="Keep Talking and Nobody Explodes review — PsychoBros" />
+    <meta property="og:description" content="One dad stares at a bomb, two dads argue over a PDF, and everyone learns that saying &#039;the red one&#039; out loud is not helpful. A PsychoBros review of Keep Talking and Nobody Explodes by Steel Crate Games." />
+    <meta property="og:url" content="https://psychobrosgames.github.io/reviews/keep-talking-and-nobody-explodes/" />
+    <meta property="og:image" content="https://psychobrosgames.github.io/assets/press/keep-talking-and-nobody-explodes/cover.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta property="og:image:alt" content="Screenshot from Keep Talking and Nobody Explodes" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://psychobrosgames.github.io/assets/press/keep-talking-and-nobody-explodes/cover.jpg" />
+    <title>Keep Talking and Nobody Explodes review — PsychoBros</title>
+    <link rel="canonical" href="https://psychobrosgames.github.io/reviews/keep-talking-and-nobody-explodes/" />
+    <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Keep Talking and Nobody Explodes review","description":"One dad stares at a bomb, two dads argue over a PDF, and everyone learns that saying 'the red one' out loud is not helpful. A PsychoBros review of Keep Talking and Nobody Explodes by Steel Crate Games.","datePublished":"2015-10-28","dateModified":"2015-10-28","url":"https://psychobrosgames.github.io/reviews/keep-talking-and-nobody-explodes/","image":"https://psychobrosgames.github.io/assets/press/keep-talking-and-nobody-explodes/cover.jpg","author":{"@type":"Organization","name":"PsychoBros"},"publisher":{"@type":"Organization","name":"PsychoBros","logo":{"@type":"ImageObject","url":"https://psychobrosgames.github.io/assets/favicon.svg"}},"about":{"@type":"VideoGame","name":"Keep Talking and Nobody Explodes","genre":"Indie"}}</script>
+  </head>
+  <body class="page-review">
+    <a class="skip" href="#main">Skip to content</a>
+    
+    <header class="masthead" data-masthead>
+      <div class="wrap masthead__inner">
+        <a class="brand" href="../../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <nav class="masthead__nav" aria-label="Main navigation">
+          <a href="../../reviews/" aria-current="page">Reviews</a>
+          <a href="../../years/">By Year</a>
+          <a href="../../about/#crew">The Dads</a>
+          <a href="../../about/">About &amp; Press</a>
+        </nav>
+        <div class="masthead__actions">
+          
+  <button class="iconbtn" type="button" data-theme-toggle aria-label="Switch color theme">
+    <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="4.2" />
+      <path d="M12 2.4v2.4M12 19.2v2.4M4.4 4.4l1.7 1.7M17.9 17.9l1.7 1.7M2.4 12h2.4M19.2 12h2.4M4.4 19.6l1.7-1.7M17.9 6.1l1.7-1.7" />
+    </svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20.7 14.1A8 8 0 0 1 9.9 3.3 8.5 8.5 0 1 0 20.7 14.1Z" />
+    </svg>
+  </button>
+          <button class="iconbtn burger" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <nav class="mobilenav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true" inert>
+        <a href="../../reviews/" aria-current="page">Reviews</a>
+          <a href="../../years/">By Year</a>
+          <a href="../../about/#crew">The Dads</a>
+          <a href="../../about/">About &amp; Press</a>
+      </nav>
+    </header>
+    
+      <main id="main">
+        <span id="top"></span>
+        <article class="article">
+          <header class="pagehead pagehead--article">
+            <div class="wrap">
+              <nav class="crumbs" aria-label="Breadcrumb">
+                <a href="../../">Home</a><span>/</span><a href="../">Reviews</a><span>/</span><span aria-current="page">Keep Talking and Nobody Explodes</span>
+              </nav>
+              <p class="kicker">Indie</p>
+              <h1>Keep Talking and Nobody Explodes</h1>
+              <p class="pagehead__deck">One dad stares at a bomb, two dads argue over a PDF, and everyone learns that saying &#039;the red one&#039; out loud is not helpful.</p>
+              <div class="byline byline--article">
+                <span>By <b>PsychoBros</b></span>
+                <time datetime="2015-10-28">October 28, 2015</time>
+                <span>Steel Crate Games</span>
+              </div>
+            </div>
+          </header>
+
+          <div class="wrap article__hero reveal">
+            <figure class="article__figure">
+              <img class="article__cover" src="../../assets/press/keep-talking-and-nobody-explodes/cover.jpg" alt="Screenshot from Keep Talking and Nobody Explodes" width="1200" height="675" fetchpriority="high" />
+              <figcaption class="article__credit">Press image courtesy of Steel Crate Games. Sourced from the game's <a href="https://store.steampowered.com/app/341800/" rel="noopener">official Steam listing</a>.</figcaption>
+            </figure>
+            <div class="article__aside">
+              <div class="article__scorecard">
+                <p class="kicker">Dad Hype Meter</p>
+                <p class="article__score" data-tone="hot">8.6<i>/10</i></p>
+                <p class="article__band">Snacks were abandoned</p>
+                <p class="article__scorenote">Our verdict, after we actually played the thing. <a href="../../about/#standards">How this works</a></p>
+              </div>
+              <figure class="keyart">
+                <h2 class="kicker">Official key art</h2>
+                <img src="../../assets/press/keep-talking-and-nobody-explodes/key-art.jpg" alt="Official key art for Keep Talking and Nobody Explodes" width="460" height="215" loading="lazy" decoding="async" />
+                <figcaption>&copy; Steel Crate Games</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="wrap article__grid">
+            <aside class="article__side">
+              <div class="specs">
+                <h2 class="kicker">The basics</h2>
+                <dl>
+                  <div><dt>Developer</dt><dd>Steel Crate Games</dd></div>
+                  <div><dt>Genre</dt><dd>Indie</dd></div>
+                  <div><dt>Platforms</dt><dd>Windows, macOS, Linux</dd></div>
+                  
+                  <div><dt>Reviewed</dt><dd><a href="../../years/2015/">2015</a></dd></div>
+                </dl>
+              </div>
+              <div class="specs">
+                <h2 class="kicker">Tagged</h2>
+                <p class="taglist"><a class="tag" href="../../tags/indie/">Indie</a></p>
+              </div>
+              <div class="specs">
+                <h2 class="kicker">Dad consensus</h2>
+                <dl>
+                  <div><dt>Dad Who Skipped the Tutorial</dt><dd>Great at wires, bad at Simon</dd></div><div><dt>The Descent Guy</dt><dd>Owns the memory module</dd></div><div><dt>Normal-ish Dad</dt><dd>The perfect game-night format</dd></div>
+                </dl>
+              </div>
+            </aside>
+
+            <div class="article__body">
+              <div class="verdict reveal">
+                <p class="kicker">The thirty-second version</p>
+                <h2>Marriage counselling with a countdown timer.</h2>
+                <p class="verdict__joke">We defused the bomb. The friendship? Less clear.</p>
+                <p>Keep Talking and Nobody Explodes is a party game that turns your dining room into an air traffic control tower and reveals which one of your friends should never be trusted with instructions. It&#039;s cheap, it&#039;s replayable, it&#039;s genuinely hilarious, and the manual is a print-and-clip nightmare in the best way. If you have three people who can talk over each other, you have a game night.</p>
+              </div>
+
+              <section class="prose reveal" aria-labelledby="what-title">
+                <h2 id="what-title">Okay, what is this thing?</h2>
+                <p>One of us is holding a bomb. The other two are elbow-deep in a spiral-bound manual we printed at Kinko&#039;s, arguing about whether a wire is &#039;red&#039; or &#039;burgundy&#039;. The bomb is beeping. Someone is describing a Simon Says pattern in three different words. This is a real thing that happened, on a Thursday, with a baby monitor going in the next room. We did not get to the Venn diagram module in time.</p><p>The genius is that the fun comes from the miscommunication, not from being good at the game. You&#039;ll get better with time, but you&#039;ll also invent new ways to be bad at English. It plays with or without VR, works with any number of manual-readers, and rounds are short enough to fit into a school-night window that closes at ten. It&#039;s the game we boot up when we want to remember why we&#039;re friends.</p>
+              </section>
+
+              <figure class="shots reveal">
+                <div class="shots__grid">
+                  <img src="../../assets/press/keep-talking-and-nobody-explodes/gallery-1.jpg" alt="Screenshot 2 from Keep Talking and Nobody Explodes" width="800" height="450" loading="lazy" decoding="async" /><img src="../../assets/press/keep-talking-and-nobody-explodes/gallery-2.jpg" alt="Screenshot 3 from Keep Talking and Nobody Explodes" width="800" height="450" loading="lazy" decoding="async" />
+                </div>
+                <figcaption>Press screenshots courtesy of Steel Crate Games.</figcaption>
+              </figure>
+
+              <section class="reveal" aria-labelledby="why-title">
+                <h2 class="h-rule" id="why-title">Why it escaped the group chat</h2>
+                <ul class="checklist">
+                  <li>One player defuses the bomb; everyone else reads a manual they cannot see.</li><li>Bomb modules include wires, keypads, memory games and a Morse code puzzle that briefly ruined a friendship of ours.</li><li>It works flat on a monitor or in VR, and rounds run only a few minutes each.</li>
+                </ul>
+              </section>
+
+              <section class="reveal" aria-labelledby="tribunal-title">
+                <h2 class="h-rule" id="tribunal-title">Three dads enter</h2>
+                <div class="tribunal">
+                  
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">01</p>
+                    <div>
+                      <p class="tribunal__who">Dad Who Skipped the Tutorial</p>
+                      <h3>I&#039;m the wire whisperer and Simon Says&#039; natural enemy.</h3>
+                      <p>For reasons none of us understand, I can call wire colours out at speed under pressure. The Simon Says module, however, appears to be my kryptonite. We now assign roles at the top of each round so we can defuse the bomb before we defuse our own friendship. It works about half the time. The other half we all just yell &#039;blue&#039;.</p>
+                    </div>
+                  </article>
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">02</p>
+                    <div>
+                      <p class="tribunal__who">The Descent Guy</p>
+                      <h3>I printed the manual and put it in a spiral binder.</h3>
+                      <p>I laminated the memory module page. Yes, laminated. I colour-coded the wire chart too. When I&#039;m on defuse duty we win about ninety percent of the time; when I&#039;m reading the manual we win as soon as I stop trying to skip pages. I&#039;m the reason we own the game and also, honestly, the reason we still play it.</p>
+                    </div>
+                  </article>
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">03</p>
+                    <div>
+                      <p class="tribunal__who">Normal-ish Dad</p>
+                      <h3>Under an hour, no cards, no board, no rules argument.</h3>
+                      <p>Sessions run under an hour, rounds run a few minutes, and everyone gets to play every role. I rate it against Codenames and Just One and it&#039;s the only video game I&#039;d say holds up in that company. My only complaint is that it doesn&#039;t scale up cleanly past four; but honestly, so what. It&#039;s meant for a couch.</p>
+                    </div>
+                  </article>
+                </div>
+              </section>
+
+              <section class="reveal" aria-labelledby="fit-title">
+                <h2 class="visually-hidden" id="fit-title">Who it is for and what to watch</h2>
+                <div class="fit">
+                  <div class="fit__col fit__col--yes">
+                    <h3>Invite these people</h3>
+                    <ul><li>Groups who like communication under pressure without the shame of Trivial Pursuit</li><li>Anyone with a printer and a strong marriage</li><li>People who own a spiral binder for some reason</li></ul>
+                  </div>
+                  <div class="fit__col fit__col--watch">
+                    <h3>Dad caveats</h3>
+                    <ul><li>The manual is the game and you must print it or accept doom</li><li>Late-game bombs will make you invent new swear words</li><li>Playing solo is technically possible and legally miserable</li></ul>
+                  </div>
+                </div>
+              </section>
+
+              <section class="receipts reveal" aria-labelledby="receipts-title">
+                <h2 class="kicker" id="receipts-title">Receipts</h2>
+                <p>Roughly a dozen game nights over the years on flat-screen PC, with a couple of VR sessions when one of us borrowed a headset from work.</p>
+                <ul>
+                  <li><a href="https://store.steampowered.com/app/341800/" target="_blank" rel="noreferrer">Keep Talking and Nobody Explodes on Steam</a></li>
+                </ul>
+              </section>
+            </div>
+          </div>
+
+          <nav class="wrap pager" aria-label="More reviews">
+            <a class="pager__link" href="../fallout-4/"><span>&larr; Newer</span><strong>Fallout 4</strong></a>
+            <a class="pager__link pager__link--next" href="../undertale/"><span>Older &rarr;</span><strong>Undertale</strong></a>
+          </nav>
+
+          <section class="wrap section" aria-labelledby="related-title">
+            
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">Keep going</p>
+      <h2><span id="related-title">More reviews</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="../">All 20 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+            <div class="grid">
+  <article class="card reveal"
+    data-card
+    data-title="beast of reincarnation"
+    data-studio="game freak inc."
+    data-genre="action"
+    data-year="2026"
+    data-tags="aa|action|adventure|rpg">
+    <a class="card__art" href="../../reviews/beast-of-reincarnation/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/beast-of-reincarnation/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.0</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-08-16">Aug 16</time></p>
+      <h3 class="card__title"><a href="../../reviews/beast-of-reincarnation/">Beast of Reincarnation</a></h3>
+      <p class="card__take">Every Pokémon game has been secretly asking for a dog. Now it&#039;s the whole game.</p>
+      <p class="card__foot"><span>GAME FREAK inc.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="big walk"
+    data-studio="house house"
+    data-genre="adventure"
+    data-year="2026"
+    data-tags="indie|adventure">
+    <a class="card__art" href="../../reviews/big-walk/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/big-walk/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.6</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2026-08-13">Aug 13</time></p>
+      <h3 class="card__title"><a href="../../reviews/big-walk/">Big Walk</a></h3>
+      <p class="card__take">Finally, a co-op game where nobody has a health bar to argue about.</p>
+      <p class="card__foot"><span>House House</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="mina the hollower"
+    data-studio="yacht club games"
+    data-genre="action"
+    data-year="2026"
+    data-tags="indie|action|adventure">
+    <a class="card__art" href="../../reviews/mina-the-hollower/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/mina-the-hollower/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.5</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-06-28">Jun 28</time></p>
+      <h3 class="card__title"><a href="../../reviews/mina-the-hollower/">Mina the Hollower</a></h3>
+      <p class="card__take">The main character has a whip. That&#039;s the pitch. That&#039;s a great pitch.</p>
+      <p class="card__foot"><span>Yacht Club Games</span></p>
+    </div>
+  </article></div>
+          </section>
+        </article>
+      </main>
+    
+  <footer class="foot">
+    <div class="wrap foot__grid">
+      <div class="foot__brandcol">
+        <a class="brand" href="../../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <p>Three dads in their forties reviewing games between school pickup and bedtime. One of us will not stop talking about Descent.</p>
+      </div>
+      <div class="foot__col">
+        <h2>Read</h2>
+        <a href="../../reviews/">All reviews</a>
+        <a href="../../years/">Browse by year</a>
+        <a href="../../tags/pax-west-2025/">PAX West 2025</a>
+      </div>
+      <div class="foot__col">
+        <h2>The boring bits</h2>
+        <a href="../../about/#crew">Meet the dads</a>
+        <a href="../../about/#standards">How we stay honest</a>
+        <a href="../../about/#press">Press &amp; partnerships</a>
+      </div>
+      <div class="foot__col">
+        <h2>Elsewhere</h2>
+        <a href="https://github.com/PsychoBrosGames" rel="noreferrer">GitHub</a>
+        <a href="../../about/#press">Get in touch</a>
+      </div>
+    </div>
+    <div class="wrap foot__bottom">
+      <p>&copy; <span data-year></span> PsychoBros. Built after the kids went to bed. Mostly.</p>
+      <p class="foot__rights">Game screenshots and key art are official press assets belonging to their respective developers and publishers, used editorially. <a href="../../about/#standards">Image policy</a>.</p>
+      <a class="totop" href="#top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </footer>
+    <script src="../../script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t-deeprockgalactic">
+  <title id="t-deeprockgalactic">Deep Rock Galactic artwork</title>
+  <defs>
+    <linearGradient id="bg-deeprockgalactic" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161c27"/>
+      <stop offset="1" stop-color="#0b0d12"/>
+    </linearGradient>
+    <radialGradient id="fade-deeprockgalactic" cx="0.5" cy="0.46" r="0.78">
+      <stop offset="0.45" stop-color="#0b0d12" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0b0d12" stop-opacity="0.82"/>
+    </radialGradient>
+    <pattern id="grid-deeprockgalactic" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#eef1f7" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg-deeprockgalactic)"/>
+  <rect width="1200" height="675" fill="url(#grid-deeprockgalactic)"/>
+  <g>
+    <path d="M283 0 L411 0 L187 675 L59 675 Z" fill="#4d9dff" opacity="0.85"/>
+    <path d="M379 0 L507 0 L283 675 L155 675 Z" fill="#3ddceb" opacity="0.28"/>
+    <path d="M475 0 L603 0 L379 675 L251 675 Z" fill="#4d9dff" opacity="0.85"/>
+    <path d="M571 0 L699 0 L475 675 L347 675 Z" fill="#3ddceb" opacity="0.28"/>
+    <path d="M667 0 L795 0 L571 675 L443 675 Z" fill="#4d9dff" opacity="0.85"/>
+    <path d="M763 0 L891 0 L667 675 L539 675 Z" fill="#3ddceb" opacity="0.28"/>
+    <path d="M859 0 L987 0 L763 675 L635 675 Z" fill="#4d9dff" opacity="0.85"/>
+    <path d="M955 0 L1083 0 L859 675 L731 675 Z" fill="#3ddceb" opacity="0.28"/>
+    <path d="M1051 0 L1179 0 L955 675 L827 675 Z" fill="#4d9dff" opacity="0.85"/>
+  </g>
+  <rect width="1200" height="675" fill="url(#fade-deeprockgalactic)"/>
+  <rect y="659" width="1200" height="16" fill="#4d9dff"/>
+  <rect x="64" y="54" width="140" height="34" fill="#4d9dff"/>
+  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 52</text>
+</svg>

@@ -76,11 +76,51 @@ const hypeBand = (hype) => {
 
 const hypeTone = (hype) => (hype >= 8.5 ? "hot" : hype >= 7.8 ? "warm" : "cool");
 
+const reviewYear = (review) => review.year || Number(String(review.date).slice(0, 4));
+
+const tagSlug = (tag) =>
+  String(tag)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+/** PAX write-ups score anticipation; everything else scores a game we finished.
+    The chip label has to tell the truth about which one you are looking at. */
+const isHype = (review) => review.scoreKind !== "verdict";
+const scoreWord = (review) => (isHype(review) ? "hype" : "score");
+
+const allYears = () => [...new Set(reviews.map(reviewYear))].sort((a, b) => b - a);
+
+const reviewsInYear = (year) => reviews.filter((r) => reviewYear(r) === year);
+
+/** Tags are free text in the data; this collects them for the browse pages. */
+const allTags = () => {
+  const counts = new Map();
+  for (const review of reviews) {
+    for (const tag of review.tags || []) {
+      const slug = tagSlug(tag);
+      const existing = counts.get(slug);
+      if (existing) existing.count += 1;
+      else counts.set(slug, { slug, label: tag, count: 1 });
+    }
+  }
+  return [...counts.values()].sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
+};
+
+/** A tag page holding one review is thin content nobody wants to land on, so
+    tags only earn a page once at least two reviews share them. */
+const TAG_PAGE_MIN = 2;
+const pagedTags = () => allTags().filter((t) => t.count >= TAG_PAGE_MIN);
+const tagHasPage = (slug) => pagedTags().some((t) => t.slug === slug);
+
+const reviewsWithTag = (slug) =>
+  reviews.filter((r) => (r.tags || []).some((t) => tagSlug(t) === slug));
+
 /* ---------------------------------------------------------------- chrome */
 
 const brandMark = `
   <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
-    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-flame)" />
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
     <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
     <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
     <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
@@ -99,7 +139,7 @@ const themeToggle = `
 
 const navLinks = (prefix) => [
   ["reviews", `${prefix}reviews/`, "Reviews"],
-  ["pax", `${prefix}pax-west-2025/`, "PAX West 2025"],
+  ["years", `${prefix}years/`, "By Year"],
   ["crew", `${prefix}about/#crew`, "The Dads"],
   ["about", `${prefix}about/`, "About &amp; Press"],
 ];
@@ -135,16 +175,20 @@ const header = (prefix, active) => {
     </header>`;
 };
 
-const ticker = `
+/** A function, not a constant, so it reads `reviews` after module init rather
+    than at declaration time. */
+const ticker = () => {
+  const years = allYears();
+  return `
   <div class="ticker">
     <div class="wrap ticker__inner">
-      <span><b>20</b> reviews</span>
-      <span><b>1</b> show floor</span>
       <span><b>3</b> dads</span>
       <span><b>0</b> media training</span>
-      <span class="ticker__live"><i></i> September 2025 time capsule</span>
+      <span><b>1</b> group chat that never sleeps</span>
+      <span class="ticker__live"><i></i> Playing together since ${years[years.length - 1]}</span>
     </div>
   </div>`;
+};
 
 const footer = (prefix) => `
   <footer class="foot">
@@ -159,7 +203,8 @@ const footer = (prefix) => `
       <div class="foot__col">
         <h2>Read</h2>
         <a href="${prefix}reviews/">All reviews</a>
-        <a href="${prefix}pax-west-2025/">PAX West 2025</a>
+        <a href="${prefix}years/">Browse by year</a>
+        <a href="${prefix}tags/pax-west-2025/">PAX West 2025</a>
       </div>
       <div class="foot__col">
         <h2>The boring bits</h2>
@@ -251,7 +296,7 @@ ${head}
 /* ------------------------------------------------------------ components */
 
 const scoreChip = (review, size = "") =>
-  `<span class="score${size ? ` score--${size}` : ""}" data-tone="${hypeTone(review.hype)}"><b>${review.hype.toFixed(1)}</b><i>hype</i></span>`;
+  `<span class="score${size ? ` score--${size}` : ""}" data-tone="${hypeTone(review.hype)}"><b>${review.hype.toFixed(1)}</b><i>${scoreWord(review)}</i></span>`;
 
 /** Card/thumb imagery. Prefers official press art, falls back to the generated
     SVG cover for any game without a manifest entry. Alt stays empty because in
@@ -270,7 +315,8 @@ const card = (review, prefix) => `
     data-title="${escapeHtml(review.title.toLowerCase())}"
     data-studio="${escapeHtml(review.studio.toLowerCase())}"
     data-genre="${escapeHtml(review.genre.toLowerCase())}"
-    data-group="${escapeHtml(review.groupKey)}">
+    data-year="${reviewYear(review)}"
+    data-tags="${escapeHtml((review.tags || []).map(tagSlug).join("|"))}">
     <a class="card__art" href="${prefix}reviews/${review.slug}/" tabindex="-1" aria-hidden="true">
       ${cardArt(review, prefix, "(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw")}
       ${scoreChip(review)}
@@ -328,7 +374,7 @@ const homePage = () => {
   const grid = rest.slice(7, 15);
   const more = rest.slice(15, 19);
   const description =
-    "Game reviews from three dads in their forties. Twenty games from PAX West 2025, scored by how loud the group chat got.";
+    "Game reviews from three dads in their forties. A decade of AAA blockbusters and tiny indies, scored by how loud the group chat got.";
 
   return pageShell({
     active: "",
@@ -351,7 +397,7 @@ const homePage = () => {
     body: `
       <main id="main">
         <span id="top"></span>
-        ${ticker}
+        ${ticker()}
 
         <section class="lead wrap" aria-label="Featured review">
           <article class="lead__main reveal">
@@ -361,7 +407,7 @@ const homePage = () => {
             </a>
             <div class="lead__copy">
               <p class="card__meta">
-                <span class="tag tag--flame">Featured</span>
+                <span class="tag tag--blue">Featured</span>
                 <span class="tag">${escapeHtml(featured.genre)}</span>
                 <time datetime="${featured.date}">${formatDate(featured.date)}</time>
               </p>
@@ -372,7 +418,7 @@ const homePage = () => {
                 <cite>The group chat, 11:40pm</cite>
               </blockquote>
               <p class="lead__foot">
-                <a class="btn btn--flame" href="reviews/${featured.slug}/">Read the review <span aria-hidden="true">&rarr;</span></a>
+                <a class="btn btn--blue" href="reviews/${featured.slug}/">Read the review <span aria-hidden="true">&rarr;</span></a>
                 <span class="byline">${escapeHtml(featured.studio)}</span>
               </p>
             </div>
@@ -381,7 +427,7 @@ const homePage = () => {
           <div class="rail">
             <p class="rail__head">Latest</p>
             ${rail.map((r) => railItem(r, "")).join("")}
-            <a class="rail__all" href="reviews/">All 20 reviews <span aria-hidden="true">&rarr;</span></a>
+            <a class="rail__all" href="reviews/">All ${reviews.length} reviews <span aria-hidden="true">&rarr;</span></a>
           </div>
         </section>
 
@@ -389,7 +435,7 @@ const homePage = () => {
           ${sectionHead({
             kicker: "The reviews",
             title: '<span id="latest-title">Games we could not stop texting about</span>',
-            note: "Every game here was at PAX West 2025. We wrote them up across September, mostly after bedtime.",
+            note: "Ten years of games, mostly written up after bedtime. Some of these are twelve-quid indies. Some cost more than our first cars.",
             link: ["reviews/", "See all"],
           })}
           <div class="grid">
@@ -400,9 +446,9 @@ const homePage = () => {
         <section class="band" aria-labelledby="hype-title">
           <div class="wrap band__inner">
             <div class="band__copy reveal">
-              <p class="kicker kicker--onflame">How the score works</p>
+              <p class="kicker kicker--onblue">How the score works</p>
               <h2 id="hype-title">The Dad Hype Meter</h2>
-              <p>It is not a play-tested review score, and we are not going to pretend otherwise. It is a number out of ten for how hard a game hijacked our group chat after PAX West 2025. Nine and up means somebody stopped loading the dishwasher mid-cycle.</p>
+              <p>It is a number out of ten for how hard a game hijacked our group chat. For the games we actually finished, that is our verdict and we will stand behind it. For the PAX West 2025 write-ups it is pure anticipation, and those are labelled so you know the difference. Nine and up means somebody stopped loading the dishwasher mid-cycle.</p>
               <a class="btn btn--ink" href="about/#standards">How we stay honest <span aria-hidden="true">&rarr;</span></a>
             </div>
             <ul class="scale reveal">
@@ -418,11 +464,28 @@ const homePage = () => {
         <section class="wrap section" aria-labelledby="more-title">
           ${sectionHead({
             kicker: "Keep scrolling",
-            title: '<span id="more-title">More from the show floor</span>',
-            link: ["pax-west-2025/", "Full PAX collection"],
+            title: '<span id="more-title">More from the back catalogue</span>',
+            link: ["reviews/", "The full archive"],
           })}
           <div class="rows">
             ${more.map((r, i) => listRow(r, "", i)).join("")}
+          </div>
+        </section>
+
+        <section class="wrap section" aria-labelledby="years-title">
+          ${sectionHead({
+            kicker: "Since 2015",
+            title: '<span id="years-title">We have been doing this a while</span>',
+            note: "Every year we have been playing together, and the games that survived the group chat.",
+            link: ["years/", "All years"],
+          })}
+          <div class="yearstrip">
+            ${allYears()
+              .map(
+                (y) =>
+                  `<a class="yearstrip__item reveal" href="years/${y}/"><b>${y}</b><span>${reviewsInYear(y).length} reviews</span></a>`,
+              )
+              .join("")}
           </div>
         </section>
 
@@ -458,8 +521,13 @@ const homePage = () => {
 /* --------------------------------------------------------------- reviews */
 
 const reviewsPage = () => {
-  const description =
-    "All twenty PsychoBros reviews from PAX West 2025, with a Dad Hype Meter score for each game.";
+  const years = allYears();
+  // Curated rather than top-N: the raw leaders are all broad genre tags, which
+  // makes for a duller filter row than tier + the show tag.
+  const chipOrder = ["AAA", "Indie", "RPG", "Strategy", "PAX West 2025"];
+  const tags = allTags();
+  const chipTags = chipOrder.map((label) => tags.find((t) => t.label === label)).filter(Boolean);
+  const description = `All ${reviews.length} PsychoBros reviews, ${years[years.length - 1]} to ${years[0]}, with a Dad Hype Meter score for each game.`;
 
   return pageShell({
     prefix: "../",
@@ -485,8 +553,8 @@ const reviewsPage = () => {
           <div class="wrap">
             <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><span>/</span><span aria-current="page">Reviews</span></nav>
             <p class="kicker">The archive</p>
-            <h1>All twenty reviews</h1>
-            <p class="pagehead__deck">Every game we covered from PAX West 2025, newest first. Search it, filter it, or just scroll until something looks weird enough to click.</p>
+            <h1>All ${reviews.length} reviews</h1>
+            <p class="pagehead__deck">Everything we have written up since ${years[years.length - 1]}, newest first. Search it, filter it, or just scroll until something looks weird enough to click.</p>
           </div>
         </section>
 
@@ -495,12 +563,16 @@ const reviewsPage = () => {
             <label class="field">
               <span class="visually-hidden">Search reviews</span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
-              <input type="search" data-search placeholder="Search by game, studio, or genre" autocomplete="off" />
+              <input type="search" data-search placeholder="Search by game, studio, genre, or year" autocomplete="off" />
             </label>
-            <div class="chips" role="group" aria-label="Filter by collection">
-              <button class="chip is-active" type="button" data-filter="all">All <b>20</b></button>
-              <button class="chip" type="button" data-filter="pax-rising">PAX Rising <b>12</b></button>
-              <button class="chip" type="button" data-filter="official-pax">Steam event <b>8</b></button>
+            <div class="chips" role="group" aria-label="Filter by tag">
+              <button class="chip is-active" type="button" data-filter="all">All <b>${reviews.length}</b></button>
+              ${chipTags
+                .map(
+                  (t) =>
+                    `<button class="chip" type="button" data-filter="${t.slug}">${escapeHtml(t.label)} <b>${t.count}</b></button>`,
+                )
+                .join("\n              ")}
             </div>
           </div>
           <p class="resultline" data-result aria-live="polite"></p>
@@ -515,26 +587,24 @@ const reviewsPage = () => {
 
 /* ------------------------------------------------------------------- pax */
 
-const paxPage = () => {
-  const rising = reviews.filter((r) => r.groupKey === "pax-rising");
-  const official = reviews.filter((r) => r.groupKey === "official-pax");
-  const description =
-    "The PsychoBros PAX West 2025 collection: twelve PAX Rising Showcase games and eight more from the official Steam event page.";
+const tagPage = (tag) => {
+  const list = reviewsWithTag(tag.slug);
+  const description = `Every PsychoBros review tagged ${tag.label} — ${list.length} game${list.length === 1 ? "" : "s"}.`;
 
   return pageShell({
-    prefix: "../",
-    active: "pax",
-    bodyClass: "page-pax",
+    prefix: "../../",
+    active: "reviews",
+    bodyClass: "page-archive",
     head: pageHead({
-      title: "PAX West 2025 — PsychoBros",
+      title: `${tag.label} — PsychoBros`,
       description,
-      canonical: `${siteUrl}pax-west-2025/`,
-      prefix: "../",
+      canonical: `${siteUrl}tags/${tag.slug}/`,
+      prefix: "../../",
       structuredData: {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
-        name: "PAX West 2025 collection",
-        url: `${siteUrl}pax-west-2025/`,
+        name: `${tag.label} reviews`,
+        url: `${siteUrl}tags/${tag.slug}/`,
         description,
       },
     }),
@@ -543,37 +613,135 @@ const paxPage = () => {
         <span id="top"></span>
         <section class="pagehead">
           <div class="wrap">
-            <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><span>/</span><span aria-current="page">PAX West 2025</span></nav>
-            <p class="kicker">Collection</p>
-            <h1>PAX West 2025</h1>
-            <p class="pagehead__deck">Twenty games, one show, three dads who each came home with a different favourite. We split the list the way the show did.</p>
+            <nav class="crumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span>/</span><a href="../../reviews/">Reviews</a><span>/</span><span aria-current="page">${escapeHtml(tag.label)}</span></nav>
+            <p class="kicker">Tag</p>
+            <h1>${escapeHtml(tag.label)}</h1>
+            <p class="pagehead__deck">${list.length} review${list.length === 1 ? "" : "s"} tagged ${escapeHtml(tag.label)}, newest first.</p>
           </div>
         </section>
 
         <div class="wrap section">
-          <div class="note">
-            <h2>Where this list comes from</h2>
-            <p>Twelve of these games are verified entries in the PAX Rising Showcase. The other eight are drawn from the official PAX West 2025 Steam event page. We have not claimed booth visits or hands-on time we did not have, and every review states exactly what it is based on.</p>
+          <div class="grid">${list.map((r) => card(r, "../../")).join("")}</div>
+        </div>
+      </main>`,
+  });
+};
+
+/* ----------------------------------------------------------------- years */
+
+const yearsPage = () => {
+  const years = allYears();
+  const first = years[years.length - 1];
+  const description = `Every PsychoBros review by year, ${first} to ${years[0]}.`;
+
+  return pageShell({
+    prefix: "../",
+    active: "years",
+    bodyClass: "page-archive",
+    head: pageHead({
+      title: "Reviews by year — PsychoBros",
+      description,
+      canonical: `${siteUrl}years/`,
+      prefix: "../",
+      structuredData: {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: "PsychoBros reviews by year",
+        url: `${siteUrl}years/`,
+        description,
+      },
+    }),
+    body: `
+      <main id="main">
+        <span id="top"></span>
+        <section class="pagehead">
+          <div class="wrap">
+            <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><span>/</span><span aria-current="page">By year</span></nav>
+            <p class="kicker">The back catalogue</p>
+            <h1>A decade of this</h1>
+            <p class="pagehead__deck">We started playing together in ${first} and somehow never stopped. Here is every year since, and what we made time for.</p>
+          </div>
+        </section>
+
+        <div class="wrap section">
+          <div class="yearstrip">
+            ${years
+              .map(
+                (y) =>
+                  `<a class="yearstrip__item reveal" href="${y}/"><b>${y}</b><span>${reviewsInYear(y).length} reviews</span></a>`,
+              )
+              .join("")}
           </div>
         </div>
 
-        <section class="wrap section" aria-labelledby="rising-title">
+        ${years
+          .map((year) => {
+            const list = reviewsInYear(year);
+            return `
+        <section class="wrap section" aria-labelledby="y-${year}">
           ${sectionHead({
-            kicker: `PAX Rising Showcase &middot; ${rising.length} games`,
-            title: '<span id="rising-title">The PAX Rising Showcase</span>',
-            note: "The official spotlight for smaller studios. This is where most of the arguing happened.",
+            kicker: `${list.length} review${list.length === 1 ? "" : "s"}`,
+            title: `<span id="y-${year}">${year}</span>`,
+            link: [`${year}/`, `All of ${year}`],
           })}
-          <div class="grid">${rising.map((r) => card(r, "../")).join("")}</div>
+          <div class="rows">
+            ${list.map((r, i) => listRow(r, "../", i)).join("")}
+          </div>
+        </section>`;
+          })
+          .join("")}
+      </main>`,
+  });
+};
+
+const yearPage = (year) => {
+  const list = reviewsInYear(year);
+  const years = allYears();
+  const at = years.indexOf(year);
+  const newer = years[at - 1];
+  const older = years[at + 1];
+  const description = `The ${list.length} game${list.length === 1 ? "" : "s"} PsychoBros reviewed in ${year}.`;
+
+  return pageShell({
+    prefix: "../../",
+    active: "years",
+    bodyClass: "page-archive",
+    head: pageHead({
+      title: `${year} reviews — PsychoBros`,
+      description,
+      canonical: `${siteUrl}years/${year}/`,
+      prefix: "../../",
+      structuredData: {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: `PsychoBros reviews from ${year}`,
+        url: `${siteUrl}years/${year}/`,
+        description,
+      },
+    }),
+    body: `
+      <main id="main">
+        <span id="top"></span>
+        <section class="pagehead">
+          <div class="wrap">
+            <nav class="crumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span>/</span><a href="../">By year</a><span>/</span><span aria-current="page">${year}</span></nav>
+            <p class="kicker">The year in games</p>
+            <h1>${year}</h1>
+            <p class="pagehead__deck">${list.length} review${list.length === 1 ? "" : "s"} from ${year}, newest first.</p>
+          </div>
         </section>
 
-        <section class="wrap section" aria-labelledby="official-title">
-          ${sectionHead({
-            kicker: `Official Steam event &middot; ${official.length} games`,
-            title: '<span id="official-title">Also on the official event page</span>',
-            note: "Listed on the official PAX West 2025 Steam event page, outside the Rising Showcase.",
-          })}
-          <div class="grid">${official.map((r) => card(r, "../")).join("")}</div>
-        </section>
+        <div class="wrap section">
+          <div class="grid">${list.map((r) => card(r, "../../")).join("")}</div>
+        </div>
+
+        <div class="wrap section">
+          <nav class="pager pager--three" aria-label="Other years">
+            ${older ? `<a class="pager__link" href="../${older}/"><span>Earlier</span><strong>${older}</strong></a>` : `<span class="pager__link pager__link--empty"></span>`}
+            <a class="pager__link pager__link--mid" href="../"><span>Browse</span><strong>All years</strong></a>
+            ${newer ? `<a class="pager__link pager__link--next" href="../${newer}/"><span>Later</span><strong>${newer}</strong></a>` : `<span class="pager__link pager__link--empty"></span>`}
+          </nav>
+        </div>
       </main>`,
   });
 };
@@ -614,8 +782,8 @@ const aboutPage = () => {
         </section>
 
         <div class="wrap section prose prose--intro">
-          <p>We started PsychoBros because our group chat had quietly turned into an unpaid, unedited games publication, and one of us finally said "we should probably put this somewhere." Between us we have three very different tolerances for tutorials and one ongoing argument about whether Descent peaked in 1995.</p>
-          <p>Our first project was PAX West 2025: twenty games from the show, written up across September, each one run past all three of us before it went live.</p>
+          <p>We started PsychoBros because our group chat had quietly turned into an unpaid, unedited games publication, and one of us finally said "we should probably put this somewhere." We have been playing together since 2015, back when two of us had no children and the third had one who could not yet operate a door handle. Between us we have three very different tolerances for tutorials and one ongoing argument about whether Descent peaked in 1995.</p>
+          <p>These days we write up whatever we are actually playing — hundred-million-dollar blockbusters, twelve-quid indies, and the occasional thing nobody else on earth reviewed. In September 2025 we covered PAX West, which is still the largest single batch of games we have written up in one month.</p>
         </div>
 
         <section class="wrap section" id="crew" aria-labelledby="crew-heading">
@@ -647,11 +815,11 @@ const aboutPage = () => {
           <ol class="standards">
             <li>
               <h3>We say what every review is based on</h3>
-              <p>Each review carries a plain-language basis note. Our PAX West 2025 write-ups are retrospective mini-reviews built from the official PAX West 2025 Steam event page, the PAX Rising Showcase listing, and each game's own published materials. They are not final-release reviews and they never claim hands-on time we did not have.</p>
+              <p>Each review carries a plain-language basis note. Most of our reviews are written after we have played the game, and they say so. Our PAX West 2025 write-ups are the exception: those are retrospective mini-reviews built from the official PAX West 2025 Steam event page, the PAX Rising Showcase listing, and each game's own published materials. They are not final-release reviews and they never claim hands-on time we did not have.</p>
             </li>
             <li>
-              <h3>The Dad Hype Meter is a hype score, not a verdict</h3>
-              <p>The number on each review measures how much a game took over our group chat. It is anticipation, clearly labelled as anticipation. We are not going to hand out review scores for games we have not played to completion.</p>
+              <h3>The Dad Hype Meter tells you which kind of score it is</h3>
+              <p>The number on each review measures how much a game took over our group chat. On a game we played, that is our verdict. On the PAX West 2025 entries it is anticipation, clearly labelled as anticipation. We are not going to hand out review scores for games we have not played.</p>
             </li>
             <li>
               <h3>Three perspectives, no forced consensus</h3>
@@ -677,7 +845,7 @@ const aboutPage = () => {
           <div class="presskit">
             <article class="presskit__card">
               <h3>What we cover</h3>
-              <p>Indie and mid-size games across PC and console, with a bias toward interesting mechanical ideas and anything a busy adult can pick up in short sessions. Strategy, tactics, roguelites, immersive sims and well-made weird stuff.</p>
+              <p>Everything, honestly. Big-budget releases, indies, and mid-size games across PC and console, with a bias toward interesting mechanical ideas and anything a busy adult can pick up in short sessions. Strategy, tactics, roguelites, immersive sims and well-made weird stuff.</p>
             </article>
             <article class="presskit__card">
               <h3>What we produce</h3>
@@ -692,15 +860,15 @@ const aboutPage = () => {
               <p>The fastest route is <a href="https://github.com/PsychoBrosGames" rel="noreferrer">github.com/PsychoBrosGames</a>. Publicists and event organisers: mention the show or title in the first line and one of us will reply, usually after bedtime.</p>
             </article>
           </div>
-          <div class="note note--flame">
+          <div class="note note--blue">
             <h2>Quick facts for your media list</h2>
             <ul class="facts">
               <li><b>Outlet</b> PsychoBros</li>
-              <li><b>Founded</b> 2025</li>
+              <li><b>Founded</b> 2015</li>
               <li><b>Team</b> Three writers</li>
-              <li><b>Focus</b> Indie &amp; mid-size games</li>
+              <li><b>Focus</b> AAA, indie &amp; everything between</li>
               <li><b>Format</b> Reviews, collections, commentary</li>
-              <li><b>Published</b> 20 reviews to date</li>
+              <li><b>Published</b> ${reviews.length} reviews to date</li>
             </ul>
           </div>
         </section>
@@ -761,7 +929,7 @@ const reviewPage = (review, index) => {
               <nav class="crumbs" aria-label="Breadcrumb">
                 <a href="../../">Home</a><span>/</span><a href="../">Reviews</a><span>/</span><span aria-current="page">${escapeHtml(review.title)}</span>
               </nav>
-              <p class="kicker">${escapeHtml(review.group)}</p>
+              <p class="kicker">${escapeHtml((review.tags && review.tags[0]) || review.genre)}</p>
               <h1>${escapeHtml(review.title)}</h1>
               <p class="pagehead__deck">${escapeHtml(review.deck)}</p>
               <div class="byline byline--article">
@@ -786,7 +954,11 @@ const reviewPage = (review, index) => {
                 <p class="kicker">Dad Hype Meter</p>
                 <p class="article__score" data-tone="${hypeTone(review.hype)}">${review.hype.toFixed(1)}<i>/10</i></p>
                 <p class="article__band">${hypeBand(review.hype)}</p>
-                <p class="article__scorenote">An anticipation score, not a play-tested verdict. <a href="../../about/#standards">How this works</a></p>
+                <p class="article__scorenote">${
+                  isHype(review)
+                    ? "An anticipation score, not a play-tested verdict."
+                    : "Our verdict, after we actually played the thing."
+                } <a href="../../about/#standards">How this works</a></p>
               </div>
               ${
                 art(review)?.keyArt
@@ -808,9 +980,24 @@ const reviewPage = (review, index) => {
                   <div><dt>Developer</dt><dd>${escapeHtml(review.studio)}</dd></div>
                   <div><dt>Genre</dt><dd>${escapeHtml(review.genre)}</dd></div>
                   <div><dt>Platforms</dt><dd>${escapeHtml(review.platforms)}</dd></div>
-                  <div><dt>At the show</dt><dd>${escapeHtml(review.statusAtShow)}</dd></div>
+                  ${review.statusAtShow ? `<div><dt>At the show</dt><dd>${escapeHtml(review.statusAtShow)}</dd></div>` : ""}
+                  <div><dt>Reviewed</dt><dd><a href="../../years/${reviewYear(review)}/">${reviewYear(review)}</a></dd></div>
                 </dl>
               </div>
+              ${
+                (review.tags || []).length
+                  ? `<div class="specs">
+                <h2 class="kicker">Tagged</h2>
+                <p class="taglist">${review.tags
+                  .map((t) =>
+                    tagHasPage(tagSlug(t))
+                      ? `<a class="tag" href="../../tags/${tagSlug(t)}/">${escapeHtml(t)}</a>`
+                      : `<span class="tag">${escapeHtml(t)}</span>`,
+                  )
+                  .join("")}</p>
+              </div>`
+                  : ""
+              }
               <div class="specs">
                 <h2 class="kicker">Dad consensus</h2>
                 <dl>
@@ -936,7 +1123,7 @@ const reviewPage = (review, index) => {
 
 /* ------------------------------------------------------------- cover art */
 
-const FLAME = "#ff4b1f";
+const BLUE = "#4d9dff";
 const CYAN = "#3ddceb";
 const INK = "#0b0d12";
 const INK_2 = "#161c27";
@@ -946,8 +1133,8 @@ const reviewCover = (review, index) => {
   const seed = [...review.slug].reduce((total, character) => total + character.charCodeAt(0), 0);
   const variant = seed % 6;
   const cyanLed = Math.floor(seed / 6) % 2 === 0;
-  const hero = cyanLed ? CYAN : FLAME;
-  const support = cyanLed ? FLAME : CYAN;
+  const hero = cyanLed ? CYAN : BLUE;
+  const support = cyanLed ? BLUE : CYAN;
   const id = review.slug.replace(/[^a-z0-9]/g, "");
   // Small deterministic jitter so no two covers line up pixel for pixel.
   const jitter = (seed % 7) * 9 - 27;
@@ -1042,10 +1229,43 @@ const writeFile = (relativePath, contents) => {
   fs.writeFileSync(target, contents);
 };
 
+/** The PAX collection had its own published URL before it became a tag. Old
+    links stay alive rather than 404ing. */
+const redirectPage = (target, label, canonical) => `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>${escapeHtml(label)} — PsychoBros</title>
+    <link rel="canonical" href="${canonical}" />
+    <meta name="robots" content="noindex, follow" />
+    <meta http-equiv="refresh" content="0; url=${target}" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <main id="main" class="wrap section">
+      <p>This collection is a tag now. <a href="${target}">Continue to ${escapeHtml(label)}</a>.</p>
+    </main>
+  </body>
+</html>
+`;
+
 writeFile("index.html", homePage());
 writeFile("reviews/index.html", reviewsPage());
-writeFile("pax-west-2025/index.html", paxPage());
 writeFile("about/index.html", aboutPage());
+writeFile("years/index.html", yearsPage());
+
+allYears().forEach((year) => {
+  writeFile(`years/${year}/index.html`, yearPage(year));
+});
+
+pagedTags().forEach((tag) => {
+  writeFile(`tags/${tag.slug}/index.html`, tagPage(tag));
+});
+writeFile(
+  "pax-west-2025/index.html",
+  redirectPage("../tags/pax-west-2025/", "PAX West 2025", `${siteUrl}tags/pax-west-2025/`),
+);
 
 reviews.forEach((review, index) => {
   writeFile(`reviews/${review.slug}/index.html`, reviewPage(review, index));
@@ -1055,8 +1275,16 @@ reviews.forEach((review, index) => {
 const urls = [
   { loc: siteUrl, priority: "1.0" },
   { loc: `${siteUrl}reviews/`, priority: "0.9" },
-  { loc: `${siteUrl}pax-west-2025/`, priority: "0.8" },
+  { loc: `${siteUrl}years/`, priority: "0.8" },
   { loc: `${siteUrl}about/`, priority: "0.7" },
+  ...allYears().map((year) => ({
+    loc: `${siteUrl}years/${year}/`,
+    priority: "0.6",
+  })),
+  ...pagedTags().map((tag) => ({
+    loc: `${siteUrl}tags/${tag.slug}/`,
+    priority: "0.5",
+  })),
   ...reviews.map((review) => ({
     loc: `${siteUrl}reviews/${review.slug}/`,
     priority: "0.6",

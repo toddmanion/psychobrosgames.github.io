@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t-blackmythwukong">
+  <title id="t-blackmythwukong">Black Myth: Wukong artwork</title>
+  <defs>
+    <linearGradient id="bg-blackmythwukong" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161c27"/>
+      <stop offset="1" stop-color="#0b0d12"/>
+    </linearGradient>
+    <radialGradient id="fade-blackmythwukong" cx="0.5" cy="0.46" r="0.78">
+      <stop offset="0.45" stop-color="#0b0d12" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0b0d12" stop-opacity="0.82"/>
+    </radialGradient>
+    <pattern id="grid-blackmythwukong" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#eef1f7" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg-blackmythwukong)"/>
+  <rect width="1200" height="675" fill="url(#grid-blackmythwukong)"/>
+  <g>
+    
+    <circle cx="582" cy="300" r="214" fill="none" stroke="#3ddceb" stroke-width="18"/>
+    <circle cx="582" cy="300" r="140" fill="none" stroke="#3ddceb" stroke-width="11" opacity="0.5"/>
+    <circle cx="582" cy="300" r="68" fill="#3ddceb"/>
+    <path d="M150 512h900" stroke="#4d9dff" stroke-width="9"/>
+    <circle cx="906" cy="126" r="24" fill="#4d9dff"/>
+    <circle cx="288" cy="150" r="12" fill="#4d9dff" opacity="0.6"/>
+  </g>
+  <rect width="1200" height="675" fill="url(#fade-blackmythwukong)"/>
+  <rect y="659" width="1200" height="16" fill="#3ddceb"/>
+  <rect x="64" y="54" width="140" height="34" fill="#3ddceb"/>
+  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 32</text>
+</svg>

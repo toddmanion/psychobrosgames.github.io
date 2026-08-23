@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (() => {
+        document.documentElement.classList.add("js");
+        const ok = new Set(["light", "dark"]);
+        const saved = localStorage.getItem("psychobros-theme");
+        const theme = (ok.has(saved) && saved) ||
+          (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The best-looking rain-slicked police station in games, plus a seven-foot man in a fedora who wants to have a word with you specifically. A PsychoBros review of Resident Evil 2 by CAPCOM Co., Ltd.." />
+    <meta name="theme-color" content="#0b0d12" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="PsychoBros" />
+    <meta property="og:title" content="Resident Evil 2 review — PsychoBros" />
+    <meta property="og:description" content="The best-looking rain-slicked police station in games, plus a seven-foot man in a fedora who wants to have a word with you specifically. A PsychoBros review of Resident Evil 2 by CAPCOM Co., Ltd.." />
+    <meta property="og:url" content="https://psychobrosgames.github.io/reviews/resident-evil-2/" />
+    <meta property="og:image" content="https://psychobrosgames.github.io/assets/press/resident-evil-2/cover.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta property="og:image:alt" content="Screenshot from Resident Evil 2" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://psychobrosgames.github.io/assets/press/resident-evil-2/cover.jpg" />
+    <title>Resident Evil 2 review — PsychoBros</title>
+    <link rel="canonical" href="https://psychobrosgames.github.io/reviews/resident-evil-2/" />
+    <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Resident Evil 2 review","description":"The best-looking rain-slicked police station in games, plus a seven-foot man in a fedora who wants to have a word with you specifically. A PsychoBros review of Resident Evil 2 by CAPCOM Co., Ltd..","datePublished":"2019-02-06","dateModified":"2019-02-06","url":"https://psychobrosgames.github.io/reviews/resident-evil-2/","image":"https://psychobrosgames.github.io/assets/press/resident-evil-2/cover.jpg","author":{"@type":"Organization","name":"PsychoBros"},"publisher":{"@type":"Organization","name":"PsychoBros","logo":{"@type":"ImageObject","url":"https://psychobrosgames.github.io/assets/favicon.svg"}},"about":{"@type":"VideoGame","name":"Resident Evil 2","genre":"Action"}}</script>
+  </head>
+  <body class="page-review">
+    <a class="skip" href="#main">Skip to content</a>
+    
+    <header class="masthead" data-masthead>
+      <div class="wrap masthead__inner">
+        <a class="brand" href="../../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <nav class="masthead__nav" aria-label="Main navigation">
+          <a href="../../reviews/" aria-current="page">Reviews</a>
+          <a href="../../years/">By Year</a>
+          <a href="../../about/#crew">The Dads</a>
+          <a href="../../about/">About &amp; Press</a>
+        </nav>
+        <div class="masthead__actions">
+          
+  <button class="iconbtn" type="button" data-theme-toggle aria-label="Switch color theme">
+    <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="4.2" />
+      <path d="M12 2.4v2.4M12 19.2v2.4M4.4 4.4l1.7 1.7M17.9 17.9l1.7 1.7M2.4 12h2.4M19.2 12h2.4M4.4 19.6l1.7-1.7M17.9 6.1l1.7-1.7" />
+    </svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20.7 14.1A8 8 0 0 1 9.9 3.3 8.5 8.5 0 1 0 20.7 14.1Z" />
+    </svg>
+  </button>
+          <button class="iconbtn burger" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <nav class="mobilenav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true" inert>
+        <a href="../../reviews/" aria-current="page">Reviews</a>
+          <a href="../../years/">By Year</a>
+          <a href="../../about/#crew">The Dads</a>
+          <a href="../../about/">About &amp; Press</a>
+      </nav>
+    </header>
+    
+      <main id="main">
+        <span id="top"></span>
+        <article class="article">
+          <header class="pagehead pagehead--article">
+            <div class="wrap">
+              <nav class="crumbs" aria-label="Breadcrumb">
+                <a href="../../">Home</a><span>/</span><a href="../">Reviews</a><span>/</span><span aria-current="page">Resident Evil 2</span>
+              </nav>
+              <p class="kicker">AAA</p>
+              <h1>Resident Evil 2</h1>
+              <p class="pagehead__deck">The best-looking rain-slicked police station in games, plus a seven-foot man in a fedora who wants to have a word with you specifically.</p>
+              <div class="byline byline--article">
+                <span>By <b>PsychoBros</b></span>
+                <time datetime="2019-02-06">February 6, 2019</time>
+                <span>CAPCOM Co., Ltd.</span>
+              </div>
+            </div>
+          </header>
+
+          <div class="wrap article__hero reveal">
+            <figure class="article__figure">
+              <img class="article__cover" src="../../assets/press/resident-evil-2/cover.jpg" alt="Screenshot from Resident Evil 2" width="1200" height="675" fetchpriority="high" />
+              <figcaption class="article__credit">Press image courtesy of CAPCOM Co., Ltd.. Sourced from the game's <a href="https://store.steampowered.com/app/883710/" rel="noopener">official Steam listing</a>.</figcaption>
+            </figure>
+            <div class="article__aside">
+              <div class="article__scorecard">
+                <p class="kicker">Dad Hype Meter</p>
+                <p class="article__score" data-tone="hot">9.1<i>/10</i></p>
+                <p class="article__band">Group chat meltdown</p>
+                <p class="article__scorenote">Our verdict, after we actually played the thing. <a href="../../about/#standards">How this works</a></p>
+              </div>
+              <figure class="keyart">
+                <h2 class="kicker">Official key art</h2>
+                <img src="../../assets/press/resident-evil-2/key-art.jpg" alt="Official key art for Resident Evil 2" width="460" height="215" loading="lazy" decoding="async" />
+                <figcaption>&copy; CAPCOM Co., Ltd.</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="wrap article__grid">
+            <aside class="article__side">
+              <div class="specs">
+                <h2 class="kicker">The basics</h2>
+                <dl>
+                  <div><dt>Developer</dt><dd>CAPCOM Co., Ltd.</dd></div>
+                  <div><dt>Genre</dt><dd>Action</dd></div>
+                  <div><dt>Platforms</dt><dd>Windows</dd></div>
+                  
+                  <div><dt>Reviewed</dt><dd><a href="../../years/2019/">2019</a></dd></div>
+                </dl>
+              </div>
+              <div class="specs">
+                <h2 class="kicker">Tagged</h2>
+                <p class="taglist"><a class="tag" href="../../tags/aaa/">AAA</a><a class="tag" href="../../tags/action/">Action</a></p>
+              </div>
+              <div class="specs">
+                <h2 class="kicker">Dad consensus</h2>
+                <dl>
+                  <div><dt>Dad Who Skipped the Tutorial</dt><dd>I hid in a save room for an hour.</dd></div><div><dt>The Descent Guy</dt><dd>Inventory as combat system.</dd></div><div><dt>Normal-ish Dad</dt><dd>Two campaigns, one week.</dd></div>
+                </dl>
+              </div>
+            </aside>
+
+            <div class="article__body">
+              <div class="verdict reveal">
+                <p class="kicker">The thirty-second version</p>
+                <h2>Yes. Still. Buy it now.</h2>
+                <p class="verdict__joke">Turns out the scariest thing at 45 is the footsteps of a very tall man in a hat.</p>
+                <p>Capcom took a 1998 tank-controls classic and rebuilt it into one of the best horror games any of us has finished. It&#039;s tight, it&#039;s mean, and it uses its budget like every dollar had a name. Two campaigns, both worth doing, and the second time through it&#039;s a different game because you know where the herbs live.</p>
+              </div>
+
+              <section class="prose reveal" aria-labelledby="what-title">
+                <h2 id="what-title">Okay, what is this thing?</h2>
+                <p>You walk into a police station that is somehow also a mansion designed by a man who really liked chess pieces. The lights buzz. There&#039;s a body in the lobby that will absolutely stand back up. Somewhere upstairs a very quiet, very heavy man in a hat has just started walking, and he does not need to run, because you are the one with the ammo problem.</p><p>What makes this remake sing is that everything in your inventory is a decision. Grenades, boards, herbs, keys, the pistol you probably shouldn&#039;t have used, all fighting for the same handful of slots. Enemies don&#039;t stay dead unless you actually kill them, which for a zombie takes more shots than you have. Save rooms feel like coming up for air. It&#039;s horror as spreadsheet, and we mean that as a compliment.</p>
+              </section>
+
+              <figure class="shots reveal">
+                <div class="shots__grid">
+                  <img src="../../assets/press/resident-evil-2/gallery-1.jpg" alt="Screenshot 2 from Resident Evil 2" width="800" height="450" loading="lazy" decoding="async" /><img src="../../assets/press/resident-evil-2/gallery-2.jpg" alt="Screenshot 3 from Resident Evil 2" width="800" height="450" loading="lazy" decoding="async" />
+                </div>
+                <figcaption>Press screenshots courtesy of CAPCOM Co., Ltd..</figcaption>
+              </figure>
+
+              <section class="reveal" aria-labelledby="why-title">
+                <h2 class="h-rule" id="why-title">Why it escaped the group chat</h2>
+                <ul class="checklist">
+                  <li>Both Leon and Claire have their own campaigns, and yes, you should play both.</li><li>It runs on the RE Engine, which is why the fog looks like fog and the shirts look like shirts.</li><li>Mr. X shows up partway through the police station and does not care about your item box logic.</li>
+                </ul>
+              </section>
+
+              <section class="reveal" aria-labelledby="tribunal-title">
+                <h2 class="h-rule" id="tribunal-title">Three dads enter</h2>
+                <div class="tribunal">
+                  
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">01</p>
+                    <div>
+                      <p class="tribunal__who">Dad Who Skipped the Tutorial</p>
+                      <h3>The scariest game I&#039;ve finished since our twenties.</h3>
+                      <p>I got about ninety minutes in, met Mr. X for the first time, and quit until the other two peer-pressured me back a week later. To my credit, I did finish it. I also spent the entire police station holding my breath, and every save room typewriter felt like a small win I was allowed to celebrate out loud.</p>
+                    </div>
+                  </article>
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">02</p>
+                    <div>
+                      <p class="tribunal__who">The Descent Guy</p>
+                      <h3>Small inventory, a hundred decisions, no wrong answers, plenty of wrong answers.</h3>
+                      <p>I treated it like a resource puzzle from minute one. Grenades saved for the sewers, gunpowder combos worked out on paper, the shotgun kept in the box until it earned a slot. Then Mr. X kicked the door down and none of it mattered for about eleven minutes. I said, out loud, &#039;this is good design.&#039;</p>
+                    </div>
+                  </article>
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">03</p>
+                    <div>
+                      <p class="tribunal__who">Normal-ish Dad</p>
+                      <h3>The kind of horror game we actually finish.</h3>
+                      <p>Eight to ten hours per campaign, roughly. I can knock out Leon over three evenings if the kids cooperate, then do Claire the next weekend and get a slightly different story for my trouble. It doesn&#039;t drag. It doesn&#039;t pad. It&#039;s the rare AAA game that respects that we have work in the morning.</p>
+                    </div>
+                  </article>
+                </div>
+              </section>
+
+              <section class="reveal" aria-labelledby="fit-title">
+                <h2 class="visually-hidden" id="fit-title">Who it is for and what to watch</h2>
+                <div class="fit">
+                  <div class="fit__col fit__col--yes">
+                    <h3>Invite these people</h3>
+                    <ul><li>Anyone who wanted to feel this scared but forgot horror was allowed to be this scared</li><li>Fans of the 1998 original who are willing to admit the tank controls were rough</li><li>Dads who want a horror game that finishes in a week, not a season</li></ul>
+                  </div>
+                  <div class="fit__col fit__col--watch">
+                    <h3>Dad caveats</h3>
+                    <ul><li>Mr. X is a real presence and he does not respect your podcast schedule</li><li>You will absolutely die because you tried to conserve shotgun shells</li><li>Some of the puzzles are still the same medallion nonsense as 1998, which we love, but</li></ul>
+                  </div>
+                </div>
+              </section>
+
+              <section class="receipts reveal" aria-labelledby="receipts-title">
+                <h2 class="kicker" id="receipts-title">Receipts</h2>
+                <p>Two of us finished both Leon and Claire on PC across a few weeks; the third bailed after the sewers and has been threatening to come back for a year. Details checked against the game&#039;s official Steam listing.</p>
+                <ul>
+                  <li><a href="https://store.steampowered.com/app/883710/" target="_blank" rel="noreferrer">Resident Evil 2 on Steam</a></li>
+                </ul>
+              </section>
+            </div>
+          </div>
+
+          <nav class="wrap pager" aria-label="More reviews">
+            <a class="pager__link" href="../slay-the-spire/"><span>&larr; Newer</span><strong>Slay the Spire</strong></a>
+            <a class="pager__link pager__link--next" href="../return-of-the-obra-dinn/"><span>Older &rarr;</span><strong>Return of the Obra Dinn</strong></a>
+          </nav>
+
+          <section class="wrap section" aria-labelledby="related-title">
+            
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">Keep going</p>
+      <h2><span id="related-title">More reviews</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="../">All 20 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+            <div class="grid">
+  <article class="card reveal"
+    data-card
+    data-title="beast of reincarnation"
+    data-studio="game freak inc."
+    data-genre="action"
+    data-year="2026"
+    data-tags="aa|action|adventure|rpg">
+    <a class="card__art" href="../../reviews/beast-of-reincarnation/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/beast-of-reincarnation/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.0</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-08-16">Aug 16</time></p>
+      <h3 class="card__title"><a href="../../reviews/beast-of-reincarnation/">Beast of Reincarnation</a></h3>
+      <p class="card__take">Every Pokémon game has been secretly asking for a dog. Now it&#039;s the whole game.</p>
+      <p class="card__foot"><span>GAME FREAK inc.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="big walk"
+    data-studio="house house"
+    data-genre="adventure"
+    data-year="2026"
+    data-tags="indie|adventure">
+    <a class="card__art" href="../../reviews/big-walk/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/big-walk/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.6</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2026-08-13">Aug 13</time></p>
+      <h3 class="card__title"><a href="../../reviews/big-walk/">Big Walk</a></h3>
+      <p class="card__take">Finally, a co-op game where nobody has a health bar to argue about.</p>
+      <p class="card__foot"><span>House House</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="mina the hollower"
+    data-studio="yacht club games"
+    data-genre="action"
+    data-year="2026"
+    data-tags="indie|action|adventure">
+    <a class="card__art" href="../../reviews/mina-the-hollower/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/mina-the-hollower/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.5</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-06-28">Jun 28</time></p>
+      <h3 class="card__title"><a href="../../reviews/mina-the-hollower/">Mina the Hollower</a></h3>
+      <p class="card__take">The main character has a whip. That&#039;s the pitch. That&#039;s a great pitch.</p>
+      <p class="card__foot"><span>Yacht Club Games</span></p>
+    </div>
+  </article></div>
+          </section>
+        </article>
+      </main>
+    
+  <footer class="foot">
+    <div class="wrap foot__grid">
+      <div class="foot__brandcol">
+        <a class="brand" href="../../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <p>Three dads in their forties reviewing games between school pickup and bedtime. One of us will not stop talking about Descent.</p>
+      </div>
+      <div class="foot__col">
+        <h2>Read</h2>
+        <a href="../../reviews/">All reviews</a>
+        <a href="../../years/">Browse by year</a>
+        <a href="../../tags/pax-west-2025/">PAX West 2025</a>
+      </div>
+      <div class="foot__col">
+        <h2>The boring bits</h2>
+        <a href="../../about/#crew">Meet the dads</a>
+        <a href="../../about/#standards">How we stay honest</a>
+        <a href="../../about/#press">Press &amp; partnerships</a>
+      </div>
+      <div class="foot__col">
+        <h2>Elsewhere</h2>
+        <a href="https://github.com/PsychoBrosGames" rel="noreferrer">GitHub</a>
+        <a href="../../about/#press">Get in touch</a>
+      </div>
+    </div>
+    <div class="wrap foot__bottom">
+      <p>&copy; <span data-year></span> PsychoBros. Built after the kids went to bed. Mostly.</p>
+      <p class="foot__rights">Game screenshots and key art are official press assets belonging to their respective developers and publishers, used editorially. <a href="../../about/#standards">Image policy</a>.</p>
+      <a class="totop" href="#top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </footer>
+    <script src="../../script.js"></script>
+  </body>
+</html>

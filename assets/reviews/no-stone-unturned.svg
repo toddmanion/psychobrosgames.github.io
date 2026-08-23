@@ -17,13 +17,13 @@
   <rect width="1200" height="675" fill="url(#grid-nostoneunturned)"/>
   <g>
     
-    <path d="M0 0 L742 0 L0 470 Z" fill="#ff4b1f" opacity="0.9"/>
+    <path d="M0 0 L742 0 L0 470 Z" fill="#4d9dff" opacity="0.9"/>
     <path d="M1200 675 L1200 214 L560 675 Z" fill="#3ddceb" opacity="0.42"/>
-    <path d="M497 236 L933 236 L715 552 Z" fill="none" stroke="#ff4b1f" stroke-width="16"/>
+    <path d="M497 236 L933 236 L715 552 Z" fill="none" stroke="#4d9dff" stroke-width="16"/>
     <circle cx="1020" cy="150" r="34" fill="#3ddceb"/>
   </g>
   <rect width="1200" height="675" fill="url(#fade-nostoneunturned)"/>
-  <rect y="659" width="1200" height="16" fill="#ff4b1f"/>
-  <rect x="64" y="54" width="140" height="34" fill="#ff4b1f"/>
-  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 10</text>
+  <rect y="659" width="1200" height="16" fill="#4d9dff"/>
+  <rect x="64" y="54" width="140" height="34" fill="#4d9dff"/>
+  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 17</text>
 </svg>

@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (() => {
+        document.documentElement.classList.add("js");
+        const ok = new Set(["light", "dark"]);
+        const saved = localStorage.getItem("psychobros-theme");
+        const theme = (ok.has(saved) && saved) ||
+          (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Turn-based RPG where every dodge is a reflex check, which is a lot to ask of men our age and yet. A PsychoBros review of Clair Obscur: Expedition 33 by Sandfall Interactive." />
+    <meta name="theme-color" content="#0b0d12" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="PsychoBros" />
+    <meta property="og:title" content="Clair Obscur: Expedition 33 review — PsychoBros" />
+    <meta property="og:description" content="Turn-based RPG where every dodge is a reflex check, which is a lot to ask of men our age and yet. A PsychoBros review of Clair Obscur: Expedition 33 by Sandfall Interactive." />
+    <meta property="og:url" content="https://psychobrosgames.github.io/reviews/clair-obscur-expedition-33/" />
+    <meta property="og:image" content="https://psychobrosgames.github.io/assets/press/clair-obscur-expedition-33/cover.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta property="og:image:alt" content="Screenshot from Clair Obscur: Expedition 33" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://psychobrosgames.github.io/assets/press/clair-obscur-expedition-33/cover.jpg" />
+    <title>Clair Obscur: Expedition 33 review — PsychoBros</title>
+    <link rel="canonical" href="https://psychobrosgames.github.io/reviews/clair-obscur-expedition-33/" />
+    <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Clair Obscur: Expedition 33 review","description":"Turn-based RPG where every dodge is a reflex check, which is a lot to ask of men our age and yet. A PsychoBros review of Clair Obscur: Expedition 33 by Sandfall Interactive.","datePublished":"2025-05-14","dateModified":"2025-05-14","url":"https://psychobrosgames.github.io/reviews/clair-obscur-expedition-33/","image":"https://psychobrosgames.github.io/assets/press/clair-obscur-expedition-33/cover.jpg","author":{"@type":"Organization","name":"PsychoBros"},"publisher":{"@type":"Organization","name":"PsychoBros","logo":{"@type":"ImageObject","url":"https://psychobrosgames.github.io/assets/favicon.svg"}},"about":{"@type":"VideoGame","name":"Clair Obscur: Expedition 33","genre":"Action"}}</script>
+  </head>
+  <body class="page-review">
+    <a class="skip" href="#main">Skip to content</a>
+    
+    <header class="masthead" data-masthead>
+      <div class="wrap masthead__inner">
+        <a class="brand" href="../../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <nav class="masthead__nav" aria-label="Main navigation">
+          <a href="../../reviews/" aria-current="page">Reviews</a>
+          <a href="../../years/">By Year</a>
+          <a href="../../about/#crew">The Dads</a>
+          <a href="../../about/">About &amp; Press</a>
+        </nav>
+        <div class="masthead__actions">
+          
+  <button class="iconbtn" type="button" data-theme-toggle aria-label="Switch color theme">
+    <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="4.2" />
+      <path d="M12 2.4v2.4M12 19.2v2.4M4.4 4.4l1.7 1.7M17.9 17.9l1.7 1.7M2.4 12h2.4M19.2 12h2.4M4.4 19.6l1.7-1.7M17.9 6.1l1.7-1.7" />
+    </svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20.7 14.1A8 8 0 0 1 9.9 3.3 8.5 8.5 0 1 0 20.7 14.1Z" />
+    </svg>
+  </button>
+          <button class="iconbtn burger" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <nav class="mobilenav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true" inert>
+        <a href="../../reviews/" aria-current="page">Reviews</a>
+          <a href="../../years/">By Year</a>
+          <a href="../../about/#crew">The Dads</a>
+          <a href="../../about/">About &amp; Press</a>
+      </nav>
+    </header>
+    
+      <main id="main">
+        <span id="top"></span>
+        <article class="article">
+          <header class="pagehead pagehead--article">
+            <div class="wrap">
+              <nav class="crumbs" aria-label="Breadcrumb">
+                <a href="../../">Home</a><span>/</span><a href="../">Reviews</a><span>/</span><span aria-current="page">Clair Obscur: Expedition 33</span>
+              </nav>
+              <p class="kicker">AA</p>
+              <h1>Clair Obscur: Expedition 33</h1>
+              <p class="pagehead__deck">Turn-based RPG where every dodge is a reflex check, which is a lot to ask of men our age and yet.</p>
+              <div class="byline byline--article">
+                <span>By <b>PsychoBros</b></span>
+                <time datetime="2025-05-14">May 14, 2025</time>
+                <span>Sandfall Interactive</span>
+              </div>
+            </div>
+          </header>
+
+          <div class="wrap article__hero reveal">
+            <figure class="article__figure">
+              <img class="article__cover" src="../../assets/press/clair-obscur-expedition-33/cover.jpg" alt="Screenshot from Clair Obscur: Expedition 33" width="1200" height="675" fetchpriority="high" />
+              <figcaption class="article__credit">Press image courtesy of Sandfall Interactive / Kepler Interactive. Sourced from the game's <a href="https://store.steampowered.com/app/1903340/" rel="noopener">official Steam listing</a>.</figcaption>
+            </figure>
+            <div class="article__aside">
+              <div class="article__scorecard">
+                <p class="kicker">Dad Hype Meter</p>
+                <p class="article__score" data-tone="hot">9.7<i>/10</i></p>
+                <p class="article__band">Group chat meltdown</p>
+                <p class="article__scorenote">Our verdict, after we actually played the thing. <a href="../../about/#standards">How this works</a></p>
+              </div>
+              <figure class="keyart">
+                <h2 class="kicker">Official key art</h2>
+                <img src="../../assets/press/clair-obscur-expedition-33/key-art.jpg" alt="Official key art for Clair Obscur: Expedition 33" width="460" height="215" loading="lazy" decoding="async" />
+                <figcaption>&copy; Sandfall Interactive / Kepler Interactive</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="wrap article__grid">
+            <aside class="article__side">
+              <div class="specs">
+                <h2 class="kicker">The basics</h2>
+                <dl>
+                  <div><dt>Developer</dt><dd>Sandfall Interactive</dd></div>
+                  <div><dt>Genre</dt><dd>Action</dd></div>
+                  <div><dt>Platforms</dt><dd>Windows</dd></div>
+                  
+                  <div><dt>Reviewed</dt><dd><a href="../../years/2025/">2025</a></dd></div>
+                </dl>
+              </div>
+              <div class="specs">
+                <h2 class="kicker">Tagged</h2>
+                <p class="taglist"><a class="tag" href="../../tags/aa/">AA</a><a class="tag" href="../../tags/action/">Action</a><a class="tag" href="../../tags/rpg/">RPG</a></p>
+              </div>
+              <div class="specs">
+                <h2 class="kicker">Dad consensus</h2>
+                <dl>
+                  <div><dt>Dad Who Skipped the Tutorial</dt><dd>I clicked with the dodge</dd></div><div><dt>The Descent Guy</dt><dd>I want a spreadsheet</dd></div><div><dt>Normal-ish Dad</dt><dd>The realistic take</dd></div>
+                </dl>
+              </div>
+            </aside>
+
+            <div class="article__body">
+              <div class="verdict reveal">
+                <p class="kicker">The thirty-second version</p>
+                <h2>The best surprise of 2025.</h2>
+                <p class="verdict__joke">Finally, a JRPG that also wants you to have Souls reflexes. Great.</p>
+                <p>Clair Obscur is the best RPG surprise we&#039;ve had in years. It looks like a painting, it plays like a rhythm game hiding inside a turn-based one, and it commits to a real story with real stakes. If we&#039;d known a small French studio was cooking this we&#039;d have cleared April ahead of time. Just play it.</p>
+              </div>
+
+              <section class="prose reveal" aria-labelledby="what-title">
+                <h2 id="what-title">Okay, what is this thing?</h2>
+                <p>Expedition 33 opens on a doomed city, a big number, and a small crew of people volunteering to fix it, and inside fifteen minutes it&#039;s very clear this isn&#039;t going to be a gentle Saturday afternoon. The world is Belle Époque France run through a pastel filter and then set on fire, and every fight asks you to sit still and pick a move and then, treacherously, dodge in real time. We were not ready for that in Chapter One and we were less ready by Chapter Three.</p><p>The trick that makes this work is that turn-based combat gets a live-action layer bolted on top. You queue your action like any RPG, then you have to actually parry or dodge whatever the enemy throws back. It&#039;s beautiful and mean and it lands, because the animations are so precise you can read them. Bring reading glasses.</p>
+              </section>
+
+              <figure class="shots reveal">
+                <div class="shots__grid">
+                  <img src="../../assets/press/clair-obscur-expedition-33/gallery-1.jpg" alt="Screenshot 2 from Clair Obscur: Expedition 33" width="800" height="450" loading="lazy" decoding="async" /><img src="../../assets/press/clair-obscur-expedition-33/gallery-2.jpg" alt="Screenshot 3 from Clair Obscur: Expedition 33" width="800" height="450" loading="lazy" decoding="async" />
+                </div>
+                <figcaption>Press screenshots courtesy of Sandfall Interactive / Kepler Interactive.</figcaption>
+              </figure>
+
+              <section class="reveal" aria-labelledby="why-title">
+                <h2 class="h-rule" id="why-title">Why it escaped the group chat</h2>
+                <ul class="checklist">
+                  <li>Turn-based combat that adds real-time parry and dodge checks to every round.</li><li>The world is inspired by Belle Époque France, which means striking clothes and worse politics.</li><li>First game from Sandfall Interactive, which we&#039;re pretending to have known about all along.</li>
+                </ul>
+              </section>
+
+              <section class="reveal" aria-labelledby="tribunal-title">
+                <h2 class="h-rule" id="tribunal-title">Three dads enter</h2>
+                <div class="tribunal">
+                  
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">01</p>
+                    <div>
+                      <p class="tribunal__who">Dad Who Skipped the Tutorial</p>
+                      <h3>I liked the parry rhythm more than the party menu.</h3>
+                      <p>I normally hard-pass on any game with a stat screen. Clair Obscur got me because the fights themselves are basically a two-note rhythm game, and I can do a two-note rhythm game. I let one of the other two build the party and just showed up to press the dodge button on time. I was suspiciously good at it.</p>
+                    </div>
+                  </article>
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">02</p>
+                    <div>
+                      <p class="tribunal__who">The Descent Guy</p>
+                      <h3>A turn-based system with real-time enforcement is my happy place.</h3>
+                      <p>I clocked that every character&#039;s kit is a small optimisation puzzle and immediately made a chart. Enemies telegraph their windups so precisely that I can plan three turns ahead and still parry the counter. I said the word &#039;clean&#039; out loud. From me that&#039;s a five-star review, and I don&#039;t hand those out.</p>
+                    </div>
+                  </article>
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">03</p>
+                    <div>
+                      <p class="tribunal__who">Normal-ish Dad</p>
+                      <h3>It&#039;s a proper long RPG, and it earns every hour.</h3>
+                      <p>I was worried it&#039;d be all vibes and no game. It isn&#039;t. There&#039;s a real story with a real ending and characters I actually cared about by the mid-game, which isn&#039;t something I say lightly. Save often, dodge always, and don&#039;t try to rush this one. It&#039;s better when you let it breathe.</p>
+                    </div>
+                  </article>
+                </div>
+              </section>
+
+              <section class="reveal" aria-labelledby="fit-title">
+                <h2 class="visually-hidden" id="fit-title">Who it is for and what to watch</h2>
+                <div class="fit">
+                  <div class="fit__col fit__col--yes">
+                    <h3>Invite these people</h3>
+                    <ul><li>RPG folks who wish combat wasn&#039;t a menu you fell asleep in</li><li>Anyone who loved Persona but wanted more Bloodborne in their turn order</li><li>Dads who need proof a debut studio can still ambush the year</li></ul>
+                  </div>
+                  <div class="fit__col fit__col--watch">
+                    <h3>Dad caveats</h3>
+                    <ul><li>The parry timing is unforgiving until you learn to read a windup</li><li>There is real story here and real death; it isn&#039;t a cosy hangout</li><li>You will spend one late night arguing about your favourite party member</li></ul>
+                  </div>
+                </div>
+              </section>
+
+              <section class="receipts reveal" aria-labelledby="receipts-title">
+                <h2 class="kicker" id="receipts-title">Receipts</h2>
+                <p>Played to the credits on PC by two of us across several weeks, mostly on school nights when the kids were asleep and the parry timing was mostly not.</p>
+                <ul>
+                  <li><a href="https://store.steampowered.com/app/1903340/" target="_blank" rel="noreferrer">Clair Obscur: Expedition 33 on Steam</a></li>
+                </ul>
+              </section>
+            </div>
+          </div>
+
+          <nav class="wrap pager" aria-label="More reviews">
+            <a class="pager__link" href="../nevers-end/"><span>&larr; Newer</span><strong>Never&#039;s End</strong></a>
+            <a class="pager__link pager__link--next" href="../blue-prince/"><span>Older &rarr;</span><strong>Blue Prince</strong></a>
+          </nav>
+
+          <section class="wrap section" aria-labelledby="related-title">
+            
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">Keep going</p>
+      <h2><span id="related-title">More reviews</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="../">All 20 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+            <div class="grid">
+  <article class="card reveal"
+    data-card
+    data-title="beast of reincarnation"
+    data-studio="game freak inc."
+    data-genre="action"
+    data-year="2026"
+    data-tags="aa|action|adventure|rpg">
+    <a class="card__art" href="../../reviews/beast-of-reincarnation/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/beast-of-reincarnation/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.0</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-08-16">Aug 16</time></p>
+      <h3 class="card__title"><a href="../../reviews/beast-of-reincarnation/">Beast of Reincarnation</a></h3>
+      <p class="card__take">Every Pokémon game has been secretly asking for a dog. Now it&#039;s the whole game.</p>
+      <p class="card__foot"><span>GAME FREAK inc.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="big walk"
+    data-studio="house house"
+    data-genre="adventure"
+    data-year="2026"
+    data-tags="indie|adventure">
+    <a class="card__art" href="../../reviews/big-walk/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/big-walk/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.6</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2026-08-13">Aug 13</time></p>
+      <h3 class="card__title"><a href="../../reviews/big-walk/">Big Walk</a></h3>
+      <p class="card__take">Finally, a co-op game where nobody has a health bar to argue about.</p>
+      <p class="card__foot"><span>House House</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="mina the hollower"
+    data-studio="yacht club games"
+    data-genre="action"
+    data-year="2026"
+    data-tags="indie|action|adventure">
+    <a class="card__art" href="../../reviews/mina-the-hollower/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/mina-the-hollower/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.5</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-06-28">Jun 28</time></p>
+      <h3 class="card__title"><a href="../../reviews/mina-the-hollower/">Mina the Hollower</a></h3>
+      <p class="card__take">The main character has a whip. That&#039;s the pitch. That&#039;s a great pitch.</p>
+      <p class="card__foot"><span>Yacht Club Games</span></p>
+    </div>
+  </article></div>
+          </section>
+        </article>
+      </main>
+    
+  <footer class="foot">
+    <div class="wrap foot__grid">
+      <div class="foot__brandcol">
+        <a class="brand" href="../../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <p>Three dads in their forties reviewing games between school pickup and bedtime. One of us will not stop talking about Descent.</p>
+      </div>
+      <div class="foot__col">
+        <h2>Read</h2>
+        <a href="../../reviews/">All reviews</a>
+        <a href="../../years/">Browse by year</a>
+        <a href="../../tags/pax-west-2025/">PAX West 2025</a>
+      </div>
+      <div class="foot__col">
+        <h2>The boring bits</h2>
+        <a href="../../about/#crew">Meet the dads</a>
+        <a href="../../about/#standards">How we stay honest</a>
+        <a href="../../about/#press">Press &amp; partnerships</a>
+      </div>
+      <div class="foot__col">
+        <h2>Elsewhere</h2>
+        <a href="https://github.com/PsychoBrosGames" rel="noreferrer">GitHub</a>
+        <a href="../../about/#press">Get in touch</a>
+      </div>
+    </div>
+    <div class="wrap foot__bottom">
+      <p>&copy; <span data-year></span> PsychoBros. Built after the kids went to bed. Mostly.</p>
+      <p class="foot__rights">Game screenshots and key art are official press assets belonging to their respective developers and publishers, used editorially. <a href="../../about/#standards">Image policy</a>.</p>
+      <a class="totop" href="#top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </footer>
+    <script src="../../script.js"></script>
+  </body>
+</html>

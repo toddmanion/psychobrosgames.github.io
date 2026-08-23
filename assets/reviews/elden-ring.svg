@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t-eldenring">
+  <title id="t-eldenring">ELDEN RING artwork</title>
+  <defs>
+    <linearGradient id="bg-eldenring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161c27"/>
+      <stop offset="1" stop-color="#0b0d12"/>
+    </linearGradient>
+    <radialGradient id="fade-eldenring" cx="0.5" cy="0.46" r="0.78">
+      <stop offset="0.45" stop-color="#0b0d12" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0b0d12" stop-opacity="0.82"/>
+    </radialGradient>
+    <pattern id="grid-eldenring" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#eef1f7" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg-eldenring)"/>
+  <rect width="1200" height="675" fill="url(#grid-eldenring)"/>
+  <g>
+    <path d="M292 0 L420 0 L196 675 L68 675 Z" fill="#3ddceb" opacity="0.85"/>
+    <path d="M388 0 L516 0 L292 675 L164 675 Z" fill="#4d9dff" opacity="0.28"/>
+    <path d="M484 0 L612 0 L388 675 L260 675 Z" fill="#3ddceb" opacity="0.85"/>
+    <path d="M580 0 L708 0 L484 675 L356 675 Z" fill="#4d9dff" opacity="0.28"/>
+    <path d="M676 0 L804 0 L580 675 L452 675 Z" fill="#3ddceb" opacity="0.85"/>
+    <path d="M772 0 L900 0 L676 675 L548 675 Z" fill="#4d9dff" opacity="0.28"/>
+    <path d="M868 0 L996 0 L772 675 L644 675 Z" fill="#3ddceb" opacity="0.85"/>
+    <path d="M964 0 L1092 0 L868 675 L740 675 Z" fill="#4d9dff" opacity="0.28"/>
+    <path d="M1060 0 L1188 0 L964 675 L836 675 Z" fill="#3ddceb" opacity="0.85"/>
+  </g>
+  <rect width="1200" height="675" fill="url(#fade-eldenring)"/>
+  <rect y="659" width="1200" height="16" fill="#3ddceb"/>
+  <rect x="64" y="54" width="140" height="34" fill="#3ddceb"/>
+  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 45</text>
+</svg>

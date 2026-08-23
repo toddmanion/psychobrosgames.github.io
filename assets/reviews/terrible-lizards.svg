@@ -16,18 +16,18 @@
   <rect width="1200" height="675" fill="url(#bg-terriblelizards)"/>
   <rect width="1200" height="675" fill="url(#grid-terriblelizards)"/>
   <g>
-    <path d="M301 0 L429 0 L205 675 L77 675 Z" fill="#ff4b1f" opacity="0.85"/>
+    <path d="M301 0 L429 0 L205 675 L77 675 Z" fill="#4d9dff" opacity="0.85"/>
     <path d="M397 0 L525 0 L301 675 L173 675 Z" fill="#3ddceb" opacity="0.28"/>
-    <path d="M493 0 L621 0 L397 675 L269 675 Z" fill="#ff4b1f" opacity="0.85"/>
+    <path d="M493 0 L621 0 L397 675 L269 675 Z" fill="#4d9dff" opacity="0.85"/>
     <path d="M589 0 L717 0 L493 675 L365 675 Z" fill="#3ddceb" opacity="0.28"/>
-    <path d="M685 0 L813 0 L589 675 L461 675 Z" fill="#ff4b1f" opacity="0.85"/>
+    <path d="M685 0 L813 0 L589 675 L461 675 Z" fill="#4d9dff" opacity="0.85"/>
     <path d="M781 0 L909 0 L685 675 L557 675 Z" fill="#3ddceb" opacity="0.28"/>
-    <path d="M877 0 L1005 0 L781 675 L653 675 Z" fill="#ff4b1f" opacity="0.85"/>
+    <path d="M877 0 L1005 0 L781 675 L653 675 Z" fill="#4d9dff" opacity="0.85"/>
     <path d="M973 0 L1101 0 L877 675 L749 675 Z" fill="#3ddceb" opacity="0.28"/>
-    <path d="M1069 0 L1197 0 L973 675 L845 675 Z" fill="#ff4b1f" opacity="0.85"/>
+    <path d="M1069 0 L1197 0 L973 675 L845 675 Z" fill="#4d9dff" opacity="0.85"/>
   </g>
   <rect width="1200" height="675" fill="url(#fade-terriblelizards)"/>
-  <rect y="659" width="1200" height="16" fill="#ff4b1f"/>
-  <rect x="64" y="54" width="140" height="34" fill="#ff4b1f"/>
-  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 16</text>
+  <rect y="659" width="1200" height="16" fill="#4d9dff"/>
+  <rect x="64" y="54" width="140" height="34" fill="#4d9dff"/>
+  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 23</text>
 </svg>

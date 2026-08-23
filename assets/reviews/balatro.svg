@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t-balatro">
+  <title id="t-balatro">Balatro artwork</title>
+  <defs>
+    <linearGradient id="bg-balatro" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161c27"/>
+      <stop offset="1" stop-color="#0b0d12"/>
+    </linearGradient>
+    <radialGradient id="fade-balatro" cx="0.5" cy="0.46" r="0.78">
+      <stop offset="0.45" stop-color="#0b0d12" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0b0d12" stop-opacity="0.82"/>
+    </radialGradient>
+    <pattern id="grid-balatro" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#eef1f7" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg-balatro)"/>
+  <rect width="1200" height="675" fill="url(#grid-balatro)"/>
+  <g>
+    
+    <path d="M0 0 L742 0 L0 470 Z" fill="#4d9dff" opacity="0.9"/>
+    <path d="M1200 675 L1200 214 L560 675 Z" fill="#3ddceb" opacity="0.42"/>
+    <path d="M497 236 L933 236 L715 552 Z" fill="none" stroke="#4d9dff" stroke-width="16"/>
+    <circle cx="1020" cy="150" r="34" fill="#3ddceb"/>
+  </g>
+  <rect width="1200" height="675" fill="url(#fade-balatro)"/>
+  <rect y="659" width="1200" height="16" fill="#4d9dff"/>
+  <rect x="64" y="54" width="140" height="34" fill="#4d9dff"/>
+  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 34</text>
+</svg>

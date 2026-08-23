@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (() => {
+        document.documentElement.classList.add("js");
+        const ok = new Set(["light", "dark"]);
+        const saved = localStorage.getItem("psychobros-theme");
+        const theme = (ok.has(saved) && saved) ||
+          (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FromSoftware&#039;s open world detour, complete with a horse called Torrent and a boss who&#039;s had four columns written about her. A PsychoBros review of ELDEN RING by FromSoftware, Inc.." />
+    <meta name="theme-color" content="#0b0d12" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="PsychoBros" />
+    <meta property="og:title" content="ELDEN RING review — PsychoBros" />
+    <meta property="og:description" content="FromSoftware&#039;s open world detour, complete with a horse called Torrent and a boss who&#039;s had four columns written about her. A PsychoBros review of ELDEN RING by FromSoftware, Inc.." />
+    <meta property="og:url" content="https://psychobrosgames.github.io/reviews/elden-ring/" />
+    <meta property="og:image" content="https://psychobrosgames.github.io/assets/press/elden-ring/cover.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta property="og:image:alt" content="Screenshot from ELDEN RING" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://psychobrosgames.github.io/assets/press/elden-ring/cover.jpg" />
+    <title>ELDEN RING review — PsychoBros</title>
+    <link rel="canonical" href="https://psychobrosgames.github.io/reviews/elden-ring/" />
+    <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"ELDEN RING review","description":"FromSoftware's open world detour, complete with a horse called Torrent and a boss who's had four columns written about her. A PsychoBros review of ELDEN RING by FromSoftware, Inc..","datePublished":"2022-03-05","dateModified":"2022-03-05","url":"https://psychobrosgames.github.io/reviews/elden-ring/","image":"https://psychobrosgames.github.io/assets/press/elden-ring/cover.jpg","author":{"@type":"Organization","name":"PsychoBros"},"publisher":{"@type":"Organization","name":"PsychoBros","logo":{"@type":"ImageObject","url":"https://psychobrosgames.github.io/assets/favicon.svg"}},"about":{"@type":"VideoGame","name":"ELDEN RING","genre":"Action"}}</script>
+  </head>
+  <body class="page-review">
+    <a class="skip" href="#main">Skip to content</a>
+    
+    <header class="masthead" data-masthead>
+      <div class="wrap masthead__inner">
+        <a class="brand" href="../../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <nav class="masthead__nav" aria-label="Main navigation">
+          <a href="../../reviews/" aria-current="page">Reviews</a>
+          <a href="../../years/">By Year</a>
+          <a href="../../about/#crew">The Dads</a>
+          <a href="../../about/">About &amp; Press</a>
+        </nav>
+        <div class="masthead__actions">
+          
+  <button class="iconbtn" type="button" data-theme-toggle aria-label="Switch color theme">
+    <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="4.2" />
+      <path d="M12 2.4v2.4M12 19.2v2.4M4.4 4.4l1.7 1.7M17.9 17.9l1.7 1.7M2.4 12h2.4M19.2 12h2.4M4.4 19.6l1.7-1.7M17.9 6.1l1.7-1.7" />
+    </svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20.7 14.1A8 8 0 0 1 9.9 3.3 8.5 8.5 0 1 0 20.7 14.1Z" />
+    </svg>
+  </button>
+          <button class="iconbtn burger" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <nav class="mobilenav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true" inert>
+        <a href="../../reviews/" aria-current="page">Reviews</a>
+          <a href="../../years/">By Year</a>
+          <a href="../../about/#crew">The Dads</a>
+          <a href="../../about/">About &amp; Press</a>
+      </nav>
+    </header>
+    
+      <main id="main">
+        <span id="top"></span>
+        <article class="article">
+          <header class="pagehead pagehead--article">
+            <div class="wrap">
+              <nav class="crumbs" aria-label="Breadcrumb">
+                <a href="../../">Home</a><span>/</span><a href="../">Reviews</a><span>/</span><span aria-current="page">ELDEN RING</span>
+              </nav>
+              <p class="kicker">AAA</p>
+              <h1>ELDEN RING</h1>
+              <p class="pagehead__deck">FromSoftware&#039;s open world detour, complete with a horse called Torrent and a boss who&#039;s had four columns written about her.</p>
+              <div class="byline byline--article">
+                <span>By <b>PsychoBros</b></span>
+                <time datetime="2022-03-05">March 5, 2022</time>
+                <span>FromSoftware, Inc.</span>
+              </div>
+            </div>
+          </header>
+
+          <div class="wrap article__hero reveal">
+            <figure class="article__figure">
+              <img class="article__cover" src="../../assets/press/elden-ring/cover.jpg" alt="Screenshot from ELDEN RING" width="1200" height="675" fetchpriority="high" />
+              <figcaption class="article__credit">Press image courtesy of FromSoftware, Inc. / FromSoftware, Inc., Bandai Namco Entertainment. Sourced from the game's <a href="https://store.steampowered.com/app/1245620/" rel="noopener">official Steam listing</a>.</figcaption>
+            </figure>
+            <div class="article__aside">
+              <div class="article__scorecard">
+                <p class="kicker">Dad Hype Meter</p>
+                <p class="article__score" data-tone="hot">9.5<i>/10</i></p>
+                <p class="article__band">Group chat meltdown</p>
+                <p class="article__scorenote">Our verdict, after we actually played the thing. <a href="../../about/#standards">How this works</a></p>
+              </div>
+              <figure class="keyart">
+                <h2 class="kicker">Official key art</h2>
+                <img src="../../assets/press/elden-ring/key-art.jpg" alt="Official key art for ELDEN RING" width="460" height="215" loading="lazy" decoding="async" />
+                <figcaption>&copy; FromSoftware, Inc. / FromSoftware, Inc., Bandai Namco Entertainment</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="wrap article__grid">
+            <aside class="article__side">
+              <div class="specs">
+                <h2 class="kicker">The basics</h2>
+                <dl>
+                  <div><dt>Developer</dt><dd>FromSoftware, Inc.</dd></div>
+                  <div><dt>Genre</dt><dd>Action</dd></div>
+                  <div><dt>Platforms</dt><dd>Windows</dd></div>
+                  
+                  <div><dt>Reviewed</dt><dd><a href="../../years/2022/">2022</a></dd></div>
+                </dl>
+              </div>
+              <div class="specs">
+                <h2 class="kicker">Tagged</h2>
+                <p class="taglist"><a class="tag" href="../../tags/aaa/">AAA</a><a class="tag" href="../../tags/action/">Action</a><a class="tag" href="../../tags/rpg/">RPG</a></p>
+              </div>
+              <div class="specs">
+                <h2 class="kicker">Dad consensus</h2>
+                <dl>
+                  <div><dt>Dad Who Skipped the Tutorial</dt><dd>I died six times to Tree Sentinel and put it down for eight months</dd></div><div><dt>The Descent Guy</dt><dd>Six-degrees-of-freedom, on a horse</dd></div><div><dt>Normal-ish Dad</dt><dd>The one the group chat lived in for three months</dd></div>
+                </dl>
+              </div>
+            </aside>
+
+            <div class="article__body">
+              <div class="verdict reveal">
+                <p class="kicker">The thirty-second version</p>
+                <h2>The one that got the dads back into FromSoft.</h2>
+                <p class="verdict__joke">First time we paused a boss fight for maths homework and came back to the same problem.</p>
+                <p>ELDEN RING is the game FromSoftware make when they finally have the time. Every corner has a boss, every corner has a lie, every corner has one more copper-plated statue with something better than it inside. It runs the risk of asking for too much of a life. It&#039;s still the most alive open world any of us has been in, and the co-op summoning is the best thing FromSoft have done for people over forty.</p>
+              </div>
+
+              <section class="prose reveal" aria-labelledby="what-title">
+                <h2 id="what-title">Okay, what is this thing?</h2>
+                <p>You wake up in a place called the Chapel of Anticipation. Roughly ninety seconds later, a large gentleman on a large horse takes your head clean off. You wake up again, this time in a proper level, and someone gives you a horse of your own who can double-jump on gusts of wind. From that moment on, ELDEN RING is a game about riding towards a big thing on the horizon and finding out whether the big thing is a windmill or a dragon. Usually a dragon.</p><p>What makes it stick is that FromSoft&#039;s boss design finally has an escape hatch. Stuck on a wall? Ride past it. Do a legacy dungeon instead. Come back at level sixty with a bigger sword. The open world is a difficulty valve, and it turns twenty years of &#039;git gud&#039; into something two working parents can actually finish. The bosses are still the point. But now the point respects your bedtime.</p>
+              </section>
+
+              <figure class="shots reveal">
+                <div class="shots__grid">
+                  <img src="../../assets/press/elden-ring/gallery-1.jpg" alt="Screenshot 2 from ELDEN RING" width="800" height="450" loading="lazy" decoding="async" /><img src="../../assets/press/elden-ring/gallery-2.jpg" alt="Screenshot 3 from ELDEN RING" width="800" height="450" loading="lazy" decoding="async" />
+                </div>
+                <figcaption>Press screenshots courtesy of FromSoftware, Inc. / FromSoftware, Inc., Bandai Namco Entertainment.</figcaption>
+              </figure>
+
+              <section class="reveal" aria-labelledby="why-title">
+                <h2 class="h-rule" id="why-title">Why it escaped the group chat</h2>
+                <ul class="checklist">
+                  <li>An open world Souls-like from FromSoftware with the writing directed by George R.R. Martin.</li><li>Torrent, your horse, can double-jump on updrafts and eat spirit food.</li><li>Cooperative play via summoning signs. Yes, you can help each other with the horseback knight.</li>
+                </ul>
+              </section>
+
+              <section class="reveal" aria-labelledby="tribunal-title">
+                <h2 class="h-rule" id="tribunal-title">Three dads enter</h2>
+                <div class="tribunal">
+                  
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">01</p>
+                    <div>
+                      <p class="tribunal__who">Dad Who Skipped the Tutorial</p>
+                      <h3>Then I came back and became a Rivers of Blood merchant.</h3>
+                      <p>I&#039;m the guy who has never finished a Souls game. This time I did. I respec&#039;d into bleed, summoned any friendly ghost the game offered me, and didn&#039;t once feel bad about it. The &#039;ride around it&#039; escape hatch saved me. So did the other two, three times, using the tarnished summoning ring. Apparently the best part was watching me talk about Godrick like he&#039;s a co-worker I&#039;m still mad at.</p>
+                    </div>
+                  </article>
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">02</p>
+                    <div>
+                      <p class="tribunal__who">The Descent Guy</p>
+                      <h3>Level design that gives me the shivers, and yes, I compared it to Descent.</h3>
+                      <p>I mapped every rune farm before the first legacy dungeon fell. I beat Malenia solo without Mimic Tear and posted the video in the group chat. I call Torrent &#039;Descent for people who can&#039;t fly&#039; and the other two cannot make me stop. I&#039;m insufferable when I&#039;m right, and about ELDEN RING I&#039;m right constantly.</p>
+                    </div>
+                  </article>
+                  <article class="tribunal__item">
+                    <p class="tribunal__n">03</p>
+                    <div>
+                      <p class="tribunal__who">Normal-ish Dad</p>
+                      <h3>Two hundred hours across three of us, no complaints.</h3>
+                      <p>The genius bit is co-op. Bring in a mate for a boss you&#039;re stuck on, pay them back the following weekend. The game doesn&#039;t punish you for playing with your friends, and that&#039;s such a novelty. I do wish UI navigation on controller wasn&#039;t from 2011, and I&#039;d appreciate more waypoints. Otherwise, one of the best three months of gaming our group chat has had.</p>
+                    </div>
+                  </article>
+                </div>
+              </section>
+
+              <section class="reveal" aria-labelledby="fit-title">
+                <h2 class="visually-hidden" id="fit-title">Who it is for and what to watch</h2>
+                <div class="fit">
+                  <div class="fit__col fit__col--yes">
+                    <h3>Invite these people</h3>
+                    <ul><li>Souls veterans who wanted more room to breathe between the beatings</li><li>Souls tourists who bounced off Dark Souls and want an on-ramp</li><li>Anyone with a group chat that will summon them at 10pm</li></ul>
+                  </div>
+                  <div class="fit__col fit__col--watch">
+                    <h3>Dad caveats</h3>
+                    <ul><li>Late game does repeat some earlier bosses in dungeons. It&#039;s fine, until it isn&#039;t.</li><li>UI on a controller is FromSoft-ancient. You&#039;ll learn to love it.</li><li>You may lose an entire spring to it, and possibly a summer too</li></ul>
+                  </div>
+                </div>
+              </section>
+
+              <section class="receipts reveal" aria-labelledby="receipts-title">
+                <h2 class="kicker" id="receipts-title">Receipts</h2>
+                <p>Roughly two hundred hours across three of us on PC, mostly co-op weeknights and solo cleanup on weekends; two of us finished the main campaign, the third is still in the Consecrated Snowfield.</p>
+                <ul>
+                  <li><a href="https://store.steampowered.com/app/1245620/" target="_blank" rel="noreferrer">ELDEN RING on Steam</a></li>
+                </ul>
+              </section>
+            </div>
+          </div>
+
+          <nav class="wrap pager" aria-label="More reviews">
+            <a class="pager__link" href="../neon-white/"><span>&larr; Newer</span><strong>Neon White</strong></a>
+            <a class="pager__link pager__link--next" href="../inscryption/"><span>Older &rarr;</span><strong>Inscryption</strong></a>
+          </nav>
+
+          <section class="wrap section" aria-labelledby="related-title">
+            
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">Keep going</p>
+      <h2><span id="related-title">More reviews</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="../">All 20 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+            <div class="grid">
+  <article class="card reveal"
+    data-card
+    data-title="beast of reincarnation"
+    data-studio="game freak inc."
+    data-genre="action"
+    data-year="2026"
+    data-tags="aa|action|adventure|rpg">
+    <a class="card__art" href="../../reviews/beast-of-reincarnation/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/beast-of-reincarnation/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.0</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-08-16">Aug 16</time></p>
+      <h3 class="card__title"><a href="../../reviews/beast-of-reincarnation/">Beast of Reincarnation</a></h3>
+      <p class="card__take">Every Pokémon game has been secretly asking for a dog. Now it&#039;s the whole game.</p>
+      <p class="card__foot"><span>GAME FREAK inc.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="big walk"
+    data-studio="house house"
+    data-genre="adventure"
+    data-year="2026"
+    data-tags="indie|adventure">
+    <a class="card__art" href="../../reviews/big-walk/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/big-walk/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.6</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2026-08-13">Aug 13</time></p>
+      <h3 class="card__title"><a href="../../reviews/big-walk/">Big Walk</a></h3>
+      <p class="card__take">Finally, a co-op game where nobody has a health bar to argue about.</p>
+      <p class="card__foot"><span>House House</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="mina the hollower"
+    data-studio="yacht club games"
+    data-genre="action"
+    data-year="2026"
+    data-tags="indie|action|adventure">
+    <a class="card__art" href="../../reviews/mina-the-hollower/" tabindex="-1" aria-hidden="true">
+      <img src="../../assets/press/mina-the-hollower/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.5</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-06-28">Jun 28</time></p>
+      <h3 class="card__title"><a href="../../reviews/mina-the-hollower/">Mina the Hollower</a></h3>
+      <p class="card__take">The main character has a whip. That&#039;s the pitch. That&#039;s a great pitch.</p>
+      <p class="card__foot"><span>Yacht Club Games</span></p>
+    </div>
+  </article></div>
+          </section>
+        </article>
+      </main>
+    
+  <footer class="foot">
+    <div class="wrap foot__grid">
+      <div class="foot__brandcol">
+        <a class="brand" href="../../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <p>Three dads in their forties reviewing games between school pickup and bedtime. One of us will not stop talking about Descent.</p>
+      </div>
+      <div class="foot__col">
+        <h2>Read</h2>
+        <a href="../../reviews/">All reviews</a>
+        <a href="../../years/">Browse by year</a>
+        <a href="../../tags/pax-west-2025/">PAX West 2025</a>
+      </div>
+      <div class="foot__col">
+        <h2>The boring bits</h2>
+        <a href="../../about/#crew">Meet the dads</a>
+        <a href="../../about/#standards">How we stay honest</a>
+        <a href="../../about/#press">Press &amp; partnerships</a>
+      </div>
+      <div class="foot__col">
+        <h2>Elsewhere</h2>
+        <a href="https://github.com/PsychoBrosGames" rel="noreferrer">GitHub</a>
+        <a href="../../about/#press">Get in touch</a>
+      </div>
+    </div>
+    <div class="wrap foot__bottom">
+      <p>&copy; <span data-year></span> PsychoBros. Built after the kids went to bed. Mostly.</p>
+      <p class="foot__rights">Game screenshots and key art are official press assets belonging to their respective developers and publishers, used editorially. <a href="../../about/#standards">Image policy</a>.</p>
+      <a class="totop" href="#top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </footer>
+    <script src="../../script.js"></script>
+  </body>
+</html>

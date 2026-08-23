@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t-ufo50">
+  <title id="t-ufo50">UFO 50 artwork</title>
+  <defs>
+    <linearGradient id="bg-ufo50" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161c27"/>
+      <stop offset="1" stop-color="#0b0d12"/>
+    </linearGradient>
+    <radialGradient id="fade-ufo50" cx="0.5" cy="0.46" r="0.78">
+      <stop offset="0.45" stop-color="#0b0d12" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0b0d12" stop-opacity="0.82"/>
+    </radialGradient>
+    <pattern id="grid-ufo50" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#eef1f7" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg-ufo50)"/>
+  <rect width="1200" height="675" fill="url(#grid-ufo50)"/>
+  <g>
+    
+    <path d="M304 596 A 296 296 0 0 1 896 596" fill="none" stroke="#4d9dff" stroke-width="26"/>
+    <path d="M396 596 A 204 204 0 0 1 804 596" fill="none" stroke="#3ddceb" stroke-width="13" opacity="0.72"/>
+    <g fill="#4d9dff" opacity="0.5"><circle cx="168" cy="104" r="8"/><circle cx="276" cy="104" r="8"/><circle cx="384" cy="104" r="8"/><circle cx="492" cy="104" r="8"/><circle cx="600" cy="104" r="8"/><circle cx="708" cy="104" r="8"/><circle cx="816" cy="104" r="8"/><circle cx="924" cy="104" r="8"/><circle cx="1032" cy="104" r="8"/><circle cx="168" cy="166" r="8"/><circle cx="276" cy="166" r="8"/><circle cx="384" cy="166" r="8"/><circle cx="492" cy="166" r="8"/><circle cx="600" cy="166" r="8"/><circle cx="708" cy="166" r="8"/><circle cx="816" cy="166" r="8"/><circle cx="924" cy="166" r="8"/><circle cx="1032" cy="166" r="8"/><circle cx="168" cy="228" r="8"/><circle cx="276" cy="228" r="8"/><circle cx="384" cy="228" r="8"/><circle cx="492" cy="228" r="8"/><circle cx="600" cy="228" r="8"/><circle cx="708" cy="228" r="8"/><circle cx="816" cy="228" r="8"/><circle cx="924" cy="228" r="8"/><circle cx="1032" cy="228" r="8"/><circle cx="168" cy="290" r="8"/><circle cx="276" cy="290" r="8"/><circle cx="384" cy="290" r="8"/><circle cx="492" cy="290" r="8"/><circle cx="600" cy="290" r="8"/><circle cx="708" cy="290" r="8"/><circle cx="816" cy="290" r="8"/><circle cx="924" cy="290" r="8"/><circle cx="1032" cy="290" r="8"/></g>
+  </g>
+  <rect width="1200" height="675" fill="url(#fade-ufo50)"/>
+  <rect y="659" width="1200" height="16" fill="#4d9dff"/>
+  <rect x="64" y="54" width="140" height="34" fill="#4d9dff"/>
+  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 31</text>
+</svg>

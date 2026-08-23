@@ -105,8 +105,9 @@
       let visible = 0;
 
       cards.forEach((card) => {
-        const matchesGroup = activeGroup === "all" || card.dataset.group === activeGroup;
-        const haystack = `${card.dataset.title} ${card.dataset.studio} ${card.dataset.genre}`;
+        const tags = (card.dataset.tags || "").split("|");
+        const matchesGroup = activeGroup === "all" || tags.includes(activeGroup);
+        const haystack = `${card.dataset.title} ${card.dataset.studio} ${card.dataset.genre} ${card.dataset.year}`;
         const matchesTerm = !term || haystack.includes(term);
         const show = matchesGroup && matchesTerm;
         card.hidden = !show;

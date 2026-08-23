@@ -1,385 +1,143 @@
 {
-  "nevers-end": {
-    "appid": "1999930",
-    "steamName": "Never's End",
+  "beast-of-reincarnation": {
+    "appid": "2001760",
+    "steamName": "Beast of Reincarnation",
     "developers": [
-      "Hypersect"
+      "GAME FREAK inc."
     ],
     "publishers": [
-      "Hypersect"
+      "Fictions"
     ],
-    "storeUrl": "https://store.steampowered.com/app/1999930/",
-    "fetchedAt": "2026-08-23T00:27:09.943Z",
-    "cover": "assets/press/nevers-end/cover.jpg",
-    "thumb": "assets/press/nevers-end/thumb.jpg",
+    "storeUrl": "https://store.steampowered.com/app/2001760/",
+    "fetchedAt": "2026-08-23T03:21:33.006Z",
+    "cover": "assets/press/beast-of-reincarnation/cover.jpg",
+    "thumb": "assets/press/beast-of-reincarnation/thumb.jpg",
     "gallery": [
-      "assets/press/nevers-end/gallery-1.jpg",
-      "assets/press/nevers-end/gallery-2.jpg"
+      "assets/press/beast-of-reincarnation/gallery-1.jpg",
+      "assets/press/beast-of-reincarnation/gallery-2.jpg"
     ],
-    "keyArt": "assets/press/nevers-end/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1999930/27a71960fc770a88dbe99f6f695d1eb39693714d/header.jpg"
+    "keyArt": "assets/press/beast-of-reincarnation/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg"
   },
-  "blocks-for-babies": {
-    "appid": "2776770",
-    "steamName": "Blocks for Babies",
+  "big-walk": {
+    "appid": "1478500",
+    "steamName": "Big Walk",
     "developers": [
-      "BunkSoft Interactive LLC"
+      "House House"
     ],
     "publishers": [
-      "BunkSoft Interactive LLC"
+      "Panic"
     ],
-    "storeUrl": "https://store.steampowered.com/app/2776770/",
-    "fetchedAt": "2026-08-23T00:27:11.296Z",
-    "cover": "assets/press/blocks-for-babies/cover.jpg",
-    "thumb": "assets/press/blocks-for-babies/thumb.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1478500/",
+    "fetchedAt": "2026-08-23T03:21:34.621Z",
+    "cover": "assets/press/big-walk/cover.jpg",
+    "thumb": "assets/press/big-walk/thumb.jpg",
     "gallery": [
-      "assets/press/blocks-for-babies/gallery-1.jpg",
-      "assets/press/blocks-for-babies/gallery-2.jpg"
+      "assets/press/big-walk/gallery-1.jpg",
+      "assets/press/big-walk/gallery-2.jpg"
     ],
-    "keyArt": "assets/press/blocks-for-babies/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2776770/df88822351965c2f29b2c3978d74e2cf40899768/header.jpg"
+    "keyArt": "assets/press/big-walk/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/62eeee1507dbac905e128a62f2ce690550238db0/header.jpg"
   },
-  "rollergirl": {
-    "appid": "2828540",
-    "steamName": "RollerGirl",
+  "mina-the-hollower": {
+    "appid": "1875580",
+    "steamName": "Mina the Hollower",
     "developers": [
-      "Pushing Vertices"
+      "Yacht Club Games"
     ],
     "publishers": [
-      "Pushing Vertices"
+      "Yacht Club Games"
     ],
-    "storeUrl": "https://store.steampowered.com/app/2828540/",
-    "fetchedAt": "2026-08-23T00:27:12.252Z",
-    "cover": "assets/press/rollergirl/cover.jpg",
-    "thumb": "assets/press/rollergirl/thumb.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1875580/",
+    "fetchedAt": "2026-08-23T03:21:35.459Z",
+    "cover": "assets/press/mina-the-hollower/cover.jpg",
+    "thumb": "assets/press/mina-the-hollower/thumb.jpg",
     "gallery": [
-      "assets/press/rollergirl/gallery-1.jpg",
-      "assets/press/rollergirl/gallery-2.jpg"
+      "assets/press/mina-the-hollower/gallery-1.jpg",
+      "assets/press/mina-the-hollower/gallery-2.jpg"
     ],
-    "keyArt": "assets/press/rollergirl/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828540/25dcef21eaa2d73eaddde1820287f4806a89a13d/header.jpg"
+    "keyArt": "assets/press/mina-the-hollower/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/368fcff2cd8f5ef01c5a89060a49f9a333076a87/header.jpg"
   },
-  "rogue-eclipse": {
-    "appid": "782260",
-    "steamName": "Rogue Eclipse",
+  "forza-horizon-6": {
+    "appid": "2483190",
+    "steamName": "Forza Horizon 6",
     "developers": [
-      "HUSKRAFTS"
+      "Playground Games"
     ],
     "publishers": [
-      "HUSKRAFTS",
-      "Outersloth"
+      "Xbox Game Studios"
     ],
-    "storeUrl": "https://store.steampowered.com/app/782260/",
-    "fetchedAt": "2026-08-23T00:27:13.338Z",
-    "cover": "assets/press/rogue-eclipse/cover.jpg",
-    "thumb": "assets/press/rogue-eclipse/thumb.jpg",
+    "storeUrl": "https://store.steampowered.com/app/2483190/",
+    "fetchedAt": "2026-08-23T03:21:36.420Z",
+    "cover": "assets/press/forza-horizon-6/cover.jpg",
+    "thumb": "assets/press/forza-horizon-6/thumb.jpg",
     "gallery": [
-      "assets/press/rogue-eclipse/gallery-1.jpg",
-      "assets/press/rogue-eclipse/gallery-2.jpg"
+      "assets/press/forza-horizon-6/gallery-1.jpg",
+      "assets/press/forza-horizon-6/gallery-2.jpg"
     ],
-    "keyArt": "assets/press/rogue-eclipse/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782260/f800a6801a41b78a68ff9a5d36bd6599f6523d4e/header.jpg"
+    "keyArt": "assets/press/forza-horizon-6/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/aec13616ef2adf9908ab2bf185f6e0557d6603ef/header_alt_assets_3.jpg"
   },
-  "terrible-lizards": {
-    "appid": "2920220",
-    "steamName": "Terrible Lizards",
+  "cairn": {
+    "appid": "1588550",
+    "steamName": "Cairn",
     "developers": [
-      "WDR Studios LLC"
+      "The Game Bakers"
     ],
     "publishers": [
-      "Digital Pajamas",
-      "Behaviour Interactive Inc."
+      "The Game Bakers"
     ],
-    "storeUrl": "https://store.steampowered.com/app/2920220/",
-    "fetchedAt": "2026-08-23T00:27:14.140Z",
-    "cover": "assets/press/terrible-lizards/cover.jpg",
-    "thumb": "assets/press/terrible-lizards/thumb.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1588550/",
+    "fetchedAt": "2026-08-23T03:21:37.365Z",
+    "cover": "assets/press/cairn/cover.jpg",
+    "thumb": "assets/press/cairn/thumb.jpg",
     "gallery": [
-      "assets/press/terrible-lizards/gallery-1.jpg",
-      "assets/press/terrible-lizards/gallery-2.jpg"
+      "assets/press/cairn/gallery-1.jpg",
+      "assets/press/cairn/gallery-2.jpg"
     ],
-    "keyArt": "assets/press/terrible-lizards/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2920220/4b19bf2cbb1c1ef26cc0e898fc6e727776845b73/header.jpg"
+    "keyArt": "assets/press/cairn/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/header.jpg"
   },
-  "beatdown-city-survivors": {
-    "appid": "3383040",
-    "steamName": "Beatdown City Survivors",
+  "hollow-knight-silksong": {
+    "appid": "1030300",
+    "steamName": "Hollow Knight: Silksong",
     "developers": [
-      "NuChallenger"
+      "Team Cherry"
     ],
     "publishers": [
-      "NuChallenger"
+      "Team Cherry"
     ],
-    "storeUrl": "https://store.steampowered.com/app/3383040/",
-    "fetchedAt": "2026-08-23T00:27:15.131Z",
-    "cover": "assets/press/beatdown-city-survivors/cover.jpg",
-    "thumb": "assets/press/beatdown-city-survivors/thumb.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1030300/",
+    "fetchedAt": "2026-08-23T03:21:38.472Z",
+    "cover": "assets/press/hollow-knight-silksong/cover.jpg",
+    "thumb": "assets/press/hollow-knight-silksong/thumb.jpg",
     "gallery": [
-      "assets/press/beatdown-city-survivors/gallery-1.jpg",
-      "assets/press/beatdown-city-survivors/gallery-2.jpg"
+      "assets/press/hollow-knight-silksong/gallery-1.jpg",
+      "assets/press/hollow-knight-silksong/gallery-2.jpg"
     ],
-    "keyArt": "assets/press/beatdown-city-survivors/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3383040/097d1fdcd7d85d6f4a43922f228c151186bd77ae/header.jpg"
+    "keyArt": "assets/press/hollow-knight-silksong/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/7983574d464e6559ac7e24275727f73a8bcca1f3/header.jpg"
   },
-  "draco-and-the-seven-scales": {
-    "appid": "2559690",
-    "steamName": "Draco and the Seven Scales",
+  "hades-ii": {
+    "appid": "1145350",
+    "steamName": "Hades II",
     "developers": [
-      "Ice Goat Games"
+      "Supergiant Games"
     ],
     "publishers": [
-      "Ice Goat Games"
+      "Supergiant Games"
     ],
-    "storeUrl": "https://store.steampowered.com/app/2559690/",
-    "fetchedAt": "2026-08-23T00:27:16.926Z",
-    "cover": "assets/press/draco-and-the-seven-scales/cover.jpg",
-    "thumb": "assets/press/draco-and-the-seven-scales/thumb.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1145350/",
+    "fetchedAt": "2026-08-23T03:21:39.293Z",
+    "cover": "assets/press/hades-ii/cover.jpg",
+    "thumb": "assets/press/hades-ii/thumb.jpg",
     "gallery": [
-      "assets/press/draco-and-the-seven-scales/gallery-1.jpg",
-      "assets/press/draco-and-the-seven-scales/gallery-2.jpg"
+      "assets/press/hades-ii/gallery-1.jpg",
+      "assets/press/hades-ii/gallery-2.jpg"
     ],
-    "keyArt": "assets/press/draco-and-the-seven-scales/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2559690/cc78180fa243778368190026dbbaace5cbafa62a/header.jpg"
-  },
-  "arcane-eats": {
-    "appid": "2640090",
-    "steamName": "Arcane Eats",
-    "developers": [
-      "Wonderbelly Games"
-    ],
-    "publishers": [
-      "Skystone Games"
-    ],
-    "storeUrl": "https://store.steampowered.com/app/2640090/",
-    "fetchedAt": "2026-08-23T00:27:17.997Z",
-    "cover": "assets/press/arcane-eats/cover.jpg",
-    "thumb": "assets/press/arcane-eats/thumb.jpg",
-    "gallery": [
-      "assets/press/arcane-eats/gallery-1.jpg",
-      "assets/press/arcane-eats/gallery-2.jpg"
-    ],
-    "keyArt": "assets/press/arcane-eats/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2640090/f937551b44ac1c5f957912ebfab421b3ab194ef3/header.jpg"
-  },
-  "table-tactics": {
-    "appid": "3730680",
-    "steamName": "Table Tactics: physics-driven tabletop battles",
-    "developers": [
-      "Unbound Creations"
-    ],
-    "publishers": [
-      "Unbound Creations"
-    ],
-    "storeUrl": "https://store.steampowered.com/app/3730680/",
-    "fetchedAt": "2026-08-23T00:27:18.823Z",
-    "cover": "assets/press/table-tactics/cover.jpg",
-    "thumb": "assets/press/table-tactics/thumb.jpg",
-    "gallery": [
-      "assets/press/table-tactics/gallery-1.jpg",
-      "assets/press/table-tactics/gallery-2.jpg"
-    ],
-    "keyArt": "assets/press/table-tactics/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3730680/db7cf31f05f6c56bf75336a37aeefee0aad918ee/header.jpg"
-  },
-  "hank-drowning-on-dry-land": {
-    "appid": "1937880",
-    "steamName": "Hank: Drowning On Dry Land",
-    "developers": [
-      "My Next Games"
-    ],
-    "publishers": [
-      "My Next Games"
-    ],
-    "storeUrl": "https://store.steampowered.com/app/1937880/",
-    "fetchedAt": "2026-08-23T00:27:20.663Z",
-    "cover": "assets/press/hank-drowning-on-dry-land/cover.jpg",
-    "thumb": "assets/press/hank-drowning-on-dry-land/thumb.jpg",
-    "gallery": [
-      "assets/press/hank-drowning-on-dry-land/gallery-1.jpg",
-      "assets/press/hank-drowning-on-dry-land/gallery-2.jpg"
-    ],
-    "keyArt": "assets/press/hank-drowning-on-dry-land/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1937880/4bac97941a3769122f2eda8686eb955de8f6d6d9/header.jpg"
-  },
-  "no-stone-unturned": {
-    "appid": "2453640",
-    "steamName": "No Stone Unturned",
-    "developers": [
-      "Wise Monkey Entertainment Ltd."
-    ],
-    "publishers": [
-      "Wise Monkey Entertainment Ltd."
-    ],
-    "storeUrl": "https://store.steampowered.com/app/2453640/",
-    "fetchedAt": "2026-08-23T00:27:21.491Z",
-    "cover": "assets/press/no-stone-unturned/cover.jpg",
-    "thumb": "assets/press/no-stone-unturned/thumb.jpg",
-    "gallery": [
-      "assets/press/no-stone-unturned/gallery-1.jpg",
-      "assets/press/no-stone-unturned/gallery-2.jpg"
-    ],
-    "keyArt": "assets/press/no-stone-unturned/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg"
-  },
-  "sashimi-slayer": {
-    "appid": "3671910",
-    "steamName": "Sashimi Slayer",
-    "developers": [
-      "Shrimp Fried Rice Games"
-    ],
-    "publishers": [
-      "Shrimp Fried Rice Games"
-    ],
-    "storeUrl": "https://store.steampowered.com/app/3671910/",
-    "fetchedAt": "2026-08-23T00:27:24.079Z",
-    "cover": "assets/press/sashimi-slayer/cover.jpg",
-    "thumb": "assets/press/sashimi-slayer/thumb.jpg",
-    "gallery": [
-      "assets/press/sashimi-slayer/gallery-1.jpg",
-      "assets/press/sashimi-slayer/gallery-2.jpg"
-    ],
-    "keyArt": "assets/press/sashimi-slayer/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3671910/f951c67202929a5439ec00ea9778034e02002fd4/header.jpg"
-  },
-  "adaptory": {
-    "appid": "2201620",
-    "steamName": "Adaptory",
-    "developers": [
-      "Stormcloak Games"
-    ],
-    "publishers": [
-      "indie.io"
-    ],
-    "storeUrl": "https://store.steampowered.com/app/2201620/",
-    "fetchedAt": "2026-08-23T00:27:24.819Z",
-    "cover": "assets/press/adaptory/cover.jpg",
-    "thumb": "assets/press/adaptory/thumb.jpg",
-    "gallery": [
-      "assets/press/adaptory/gallery-1.jpg",
-      "assets/press/adaptory/gallery-2.jpg"
-    ],
-    "keyArt": "assets/press/adaptory/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2201620/0f1fbf32161e2b479dc2da0a2b49a1b3ad6e36a6/header_alt_assets_1.jpg"
-  },
-  "sky-of-tides": {
-    "appid": "1120330",
-    "steamName": "Sky of Tides",
-    "developers": [
-      "Lofty Sky Entertainment Inc."
-    ],
-    "publishers": [
-      "ESDigital Games"
-    ],
-    "storeUrl": "https://store.steampowered.com/app/1120330/",
-    "fetchedAt": "2026-08-23T00:27:25.994Z",
-    "cover": "assets/press/sky-of-tides/cover.jpg",
-    "thumb": "assets/press/sky-of-tides/thumb.jpg",
-    "gallery": [
-      "assets/press/sky-of-tides/gallery-1.jpg",
-      "assets/press/sky-of-tides/gallery-2.jpg"
-    ],
-    "keyArt": "assets/press/sky-of-tides/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1120330/ce320f58cee1697765b1e9f0a3b73aa7c291c215/header.jpg"
-  },
-  "letter-lost": {
-    "appid": "3624790",
-    "steamName": "Letter Lost",
-    "developers": [
-      "FlatNine Games"
-    ],
-    "publishers": [
-      "FlatNine Games"
-    ],
-    "storeUrl": "https://store.steampowered.com/app/3624790/",
-    "fetchedAt": "2026-08-23T00:27:26.977Z",
-    "cover": "assets/press/letter-lost/cover.jpg",
-    "thumb": "assets/press/letter-lost/thumb.jpg",
-    "gallery": [
-      "assets/press/letter-lost/gallery-1.jpg",
-      "assets/press/letter-lost/gallery-2.jpg"
-    ],
-    "keyArt": "assets/press/letter-lost/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624790/2de174ee50522df03f702604207716de25a3652f/header.jpg"
-  },
-  "voidsayer": {
-    "appid": "2754370",
-    "steamName": "Voidsayer",
-    "developers": [
-      "Pavel Auseitasau"
-    ],
-    "publishers": [
-      "indie.io"
-    ],
-    "storeUrl": "https://store.steampowered.com/app/2754370/",
-    "fetchedAt": "2026-08-23T00:27:27.790Z",
-    "cover": "assets/press/voidsayer/cover.jpg",
-    "thumb": "assets/press/voidsayer/thumb.jpg",
-    "gallery": [
-      "assets/press/voidsayer/gallery-1.jpg",
-      "assets/press/voidsayer/gallery-2.jpg"
-    ],
-    "keyArt": "assets/press/voidsayer/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2754370/07c9811c55e1463e1f7d5b18c8f941b778dbd16d/header.jpg"
-  },
-  "moros-protocol": {
-    "appid": "1605250",
-    "steamName": "Moros Protocol",
-    "developers": [
-      "Pixel Reign"
-    ],
-    "publishers": [
-      "Super Rare Originals"
-    ],
-    "storeUrl": "https://store.steampowered.com/app/1605250/",
-    "fetchedAt": "2026-08-23T00:27:28.695Z",
-    "cover": "assets/press/moros-protocol/cover.jpg",
-    "thumb": "assets/press/moros-protocol/thumb.jpg",
-    "gallery": [
-      "assets/press/moros-protocol/gallery-1.jpg",
-      "assets/press/moros-protocol/gallery-2.jpg"
-    ],
-    "keyArt": "assets/press/moros-protocol/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605250/header.jpg"
-  },
-  "fractured-blooms": {
-    "appid": "3730310",
-    "steamName": "Fractured Blooms",
-    "developers": [
-      "Serenity Forge"
-    ],
-    "publishers": [
-      "Serenity Forge"
-    ],
-    "storeUrl": "https://store.steampowered.com/app/3730310/",
-    "fetchedAt": "2026-08-23T00:27:30.167Z",
-    "cover": "assets/press/fractured-blooms/cover.jpg",
-    "thumb": "assets/press/fractured-blooms/thumb.jpg",
-    "gallery": [
-      "assets/press/fractured-blooms/gallery-1.jpg",
-      "assets/press/fractured-blooms/gallery-2.jpg"
-    ],
-    "keyArt": "assets/press/fractured-blooms/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3730310/54aae5b714777d4bdd1316d3df1f487e4688f703/header.jpg"
-  },
-  "akiiwan-relaxing-survival": {
-    "appid": "3673960",
-    "steamName": "Akiiwan: Relaxing Survival",
-    "developers": [
-      "Little Buffalo Studios"
-    ],
-    "publishers": [
-      "Little Buffalo Studios"
-    ],
-    "storeUrl": "https://store.steampowered.com/app/3673960/",
-    "fetchedAt": "2026-08-23T00:27:31.006Z",
-    "cover": "assets/press/akiiwan-relaxing-survival/cover.jpg",
-    "thumb": "assets/press/akiiwan-relaxing-survival/thumb.jpg",
-    "gallery": [
-      "assets/press/akiiwan-relaxing-survival/gallery-1.jpg",
-      "assets/press/akiiwan-relaxing-survival/gallery-2.jpg"
-    ],
-    "keyArt": "assets/press/akiiwan-relaxing-survival/key-art.jpg",
-    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3673960/a680050a911f5e9c4ee1062348bec02f8ae09526/header.jpg"
+    "keyArt": "assets/press/hades-ii/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/91ac334a2c137d08968ccc0bc474a02579602100/header.jpg"
   },
   "exovia": {
     "appid": "3144430",
@@ -392,7 +150,7 @@
       "Gamersky Games"
     ],
     "storeUrl": "https://store.steampowered.com/app/3144430/",
-    "fetchedAt": "2026-08-23T00:27:32.432Z",
+    "fetchedAt": "2026-08-23T03:21:40.258Z",
     "cover": "assets/press/exovia/cover.jpg",
     "thumb": "assets/press/exovia/thumb.jpg",
     "gallery": [
@@ -401,5 +159,1458 @@
     ],
     "keyArt": "assets/press/exovia/key-art.jpg",
     "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3144430/d44de100246a3329bbc232655f367acea70371cd/header.jpg"
+  },
+  "akiiwan-relaxing-survival": {
+    "appid": "3673960",
+    "steamName": "Akiiwan: Relaxing Survival",
+    "developers": [
+      "Little Buffalo Studios"
+    ],
+    "publishers": [
+      "Little Buffalo Studios"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3673960/",
+    "fetchedAt": "2026-08-23T03:21:41.233Z",
+    "cover": "assets/press/akiiwan-relaxing-survival/cover.jpg",
+    "thumb": "assets/press/akiiwan-relaxing-survival/thumb.jpg",
+    "gallery": [
+      "assets/press/akiiwan-relaxing-survival/gallery-1.jpg",
+      "assets/press/akiiwan-relaxing-survival/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/akiiwan-relaxing-survival/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3673960/a680050a911f5e9c4ee1062348bec02f8ae09526/header.jpg"
+  },
+  "fractured-blooms": {
+    "appid": "3730310",
+    "steamName": "Fractured Blooms",
+    "developers": [
+      "Serenity Forge"
+    ],
+    "publishers": [
+      "Serenity Forge"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3730310/",
+    "fetchedAt": "2026-08-23T03:21:42.790Z",
+    "cover": "assets/press/fractured-blooms/cover.jpg",
+    "thumb": "assets/press/fractured-blooms/thumb.jpg",
+    "gallery": [
+      "assets/press/fractured-blooms/gallery-1.jpg",
+      "assets/press/fractured-blooms/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/fractured-blooms/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3730310/54aae5b714777d4bdd1316d3df1f487e4688f703/header.jpg"
+  },
+  "moros-protocol": {
+    "appid": "1605250",
+    "steamName": "Moros Protocol",
+    "developers": [
+      "Pixel Reign"
+    ],
+    "publishers": [
+      "Super Rare Originals"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1605250/",
+    "fetchedAt": "2026-08-23T03:21:43.642Z",
+    "cover": "assets/press/moros-protocol/cover.jpg",
+    "thumb": "assets/press/moros-protocol/thumb.jpg",
+    "gallery": [
+      "assets/press/moros-protocol/gallery-1.jpg",
+      "assets/press/moros-protocol/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/moros-protocol/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605250/header.jpg"
+  },
+  "voidsayer": {
+    "appid": "2754370",
+    "steamName": "Voidsayer",
+    "developers": [
+      "Pavel Auseitasau"
+    ],
+    "publishers": [
+      "indie.io"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2754370/",
+    "fetchedAt": "2026-08-23T03:21:44.473Z",
+    "cover": "assets/press/voidsayer/cover.jpg",
+    "thumb": "assets/press/voidsayer/thumb.jpg",
+    "gallery": [
+      "assets/press/voidsayer/gallery-1.jpg",
+      "assets/press/voidsayer/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/voidsayer/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2754370/07c9811c55e1463e1f7d5b18c8f941b778dbd16d/header.jpg"
+  },
+  "letter-lost": {
+    "appid": "3624790",
+    "steamName": "Letter Lost",
+    "developers": [
+      "FlatNine Games"
+    ],
+    "publishers": [
+      "FlatNine Games"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3624790/",
+    "fetchedAt": "2026-08-23T03:21:45.365Z",
+    "cover": "assets/press/letter-lost/cover.jpg",
+    "thumb": "assets/press/letter-lost/thumb.jpg",
+    "gallery": [
+      "assets/press/letter-lost/gallery-1.jpg",
+      "assets/press/letter-lost/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/letter-lost/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624790/2de174ee50522df03f702604207716de25a3652f/header.jpg"
+  },
+  "sky-of-tides": {
+    "appid": "1120330",
+    "steamName": "Sky of Tides",
+    "developers": [
+      "Lofty Sky Entertainment Inc."
+    ],
+    "publishers": [
+      "ESDigital Games"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1120330/",
+    "fetchedAt": "2026-08-23T03:21:46.149Z",
+    "cover": "assets/press/sky-of-tides/cover.jpg",
+    "thumb": "assets/press/sky-of-tides/thumb.jpg",
+    "gallery": [
+      "assets/press/sky-of-tides/gallery-1.jpg",
+      "assets/press/sky-of-tides/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/sky-of-tides/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1120330/ce320f58cee1697765b1e9f0a3b73aa7c291c215/header.jpg"
+  },
+  "adaptory": {
+    "appid": "2201620",
+    "steamName": "Adaptory",
+    "developers": [
+      "Stormcloak Games"
+    ],
+    "publishers": [
+      "indie.io"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2201620/",
+    "fetchedAt": "2026-08-23T03:21:49.169Z",
+    "cover": "assets/press/adaptory/cover.jpg",
+    "thumb": "assets/press/adaptory/thumb.jpg",
+    "gallery": [
+      "assets/press/adaptory/gallery-1.jpg",
+      "assets/press/adaptory/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/adaptory/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2201620/0f1fbf32161e2b479dc2da0a2b49a1b3ad6e36a6/header_alt_assets_1.jpg"
+  },
+  "sashimi-slayer": {
+    "appid": "3671910",
+    "steamName": "Sashimi Slayer",
+    "developers": [
+      "Shrimp Fried Rice Games"
+    ],
+    "publishers": [
+      "Shrimp Fried Rice Games"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3671910/",
+    "fetchedAt": "2026-08-23T03:21:50.218Z",
+    "cover": "assets/press/sashimi-slayer/cover.jpg",
+    "thumb": "assets/press/sashimi-slayer/thumb.jpg",
+    "gallery": [
+      "assets/press/sashimi-slayer/gallery-1.jpg",
+      "assets/press/sashimi-slayer/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/sashimi-slayer/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3671910/f951c67202929a5439ec00ea9778034e02002fd4/header.jpg"
+  },
+  "no-stone-unturned": {
+    "appid": "2453640",
+    "steamName": "No Stone Unturned",
+    "developers": [
+      "Wise Monkey Entertainment Ltd."
+    ],
+    "publishers": [
+      "Wise Monkey Entertainment Ltd."
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2453640/",
+    "fetchedAt": "2026-08-23T03:21:52.041Z",
+    "cover": "assets/press/no-stone-unturned/cover.jpg",
+    "thumb": "assets/press/no-stone-unturned/thumb.jpg",
+    "gallery": [
+      "assets/press/no-stone-unturned/gallery-1.jpg",
+      "assets/press/no-stone-unturned/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/no-stone-unturned/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg"
+  },
+  "hank-drowning-on-dry-land": {
+    "appid": "1937880",
+    "steamName": "Hank: Drowning On Dry Land",
+    "developers": [
+      "My Next Games"
+    ],
+    "publishers": [
+      "My Next Games"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1937880/",
+    "fetchedAt": "2026-08-23T03:21:52.889Z",
+    "cover": "assets/press/hank-drowning-on-dry-land/cover.jpg",
+    "thumb": "assets/press/hank-drowning-on-dry-land/thumb.jpg",
+    "gallery": [
+      "assets/press/hank-drowning-on-dry-land/gallery-1.jpg",
+      "assets/press/hank-drowning-on-dry-land/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/hank-drowning-on-dry-land/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1937880/4bac97941a3769122f2eda8686eb955de8f6d6d9/header.jpg"
+  },
+  "table-tactics": {
+    "appid": "3730680",
+    "steamName": "Table Tactics: physics-driven tabletop battles",
+    "developers": [
+      "Unbound Creations"
+    ],
+    "publishers": [
+      "Unbound Creations"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3730680/",
+    "fetchedAt": "2026-08-23T03:21:54.889Z",
+    "cover": "assets/press/table-tactics/cover.jpg",
+    "thumb": "assets/press/table-tactics/thumb.jpg",
+    "gallery": [
+      "assets/press/table-tactics/gallery-1.jpg",
+      "assets/press/table-tactics/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/table-tactics/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3730680/db7cf31f05f6c56bf75336a37aeefee0aad918ee/header.jpg"
+  },
+  "arcane-eats": {
+    "appid": "2640090",
+    "steamName": "Arcane Eats",
+    "developers": [
+      "Wonderbelly Games"
+    ],
+    "publishers": [
+      "Skystone Games"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2640090/",
+    "fetchedAt": "2026-08-23T03:21:57.120Z",
+    "cover": "assets/press/arcane-eats/cover.jpg",
+    "thumb": "assets/press/arcane-eats/thumb.jpg",
+    "gallery": [
+      "assets/press/arcane-eats/gallery-1.jpg",
+      "assets/press/arcane-eats/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/arcane-eats/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2640090/f937551b44ac1c5f957912ebfab421b3ab194ef3/header.jpg"
+  },
+  "draco-and-the-seven-scales": {
+    "appid": "2559690",
+    "steamName": "Draco and the Seven Scales",
+    "developers": [
+      "Ice Goat Games"
+    ],
+    "publishers": [
+      "Ice Goat Games"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2559690/",
+    "fetchedAt": "2026-08-23T03:21:58.500Z",
+    "cover": "assets/press/draco-and-the-seven-scales/cover.jpg",
+    "thumb": "assets/press/draco-and-the-seven-scales/thumb.jpg",
+    "gallery": [
+      "assets/press/draco-and-the-seven-scales/gallery-1.jpg",
+      "assets/press/draco-and-the-seven-scales/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/draco-and-the-seven-scales/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2559690/cc78180fa243778368190026dbbaace5cbafa62a/header.jpg"
+  },
+  "beatdown-city-survivors": {
+    "appid": "3383040",
+    "steamName": "Beatdown City Survivors",
+    "developers": [
+      "NuChallenger"
+    ],
+    "publishers": [
+      "NuChallenger"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3383040/",
+    "fetchedAt": "2026-08-23T03:21:59.960Z",
+    "cover": "assets/press/beatdown-city-survivors/cover.jpg",
+    "thumb": "assets/press/beatdown-city-survivors/thumb.jpg",
+    "gallery": [
+      "assets/press/beatdown-city-survivors/gallery-1.jpg",
+      "assets/press/beatdown-city-survivors/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/beatdown-city-survivors/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3383040/097d1fdcd7d85d6f4a43922f228c151186bd77ae/header.jpg"
+  },
+  "terrible-lizards": {
+    "appid": "2920220",
+    "steamName": "Terrible Lizards",
+    "developers": [
+      "WDR Studios LLC"
+    ],
+    "publishers": [
+      "Digital Pajamas",
+      "Behaviour Interactive Inc."
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2920220/",
+    "fetchedAt": "2026-08-23T03:22:01.551Z",
+    "cover": "assets/press/terrible-lizards/cover.jpg",
+    "thumb": "assets/press/terrible-lizards/thumb.jpg",
+    "gallery": [
+      "assets/press/terrible-lizards/gallery-1.jpg",
+      "assets/press/terrible-lizards/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/terrible-lizards/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2920220/4b19bf2cbb1c1ef26cc0e898fc6e727776845b73/header.jpg"
+  },
+  "rogue-eclipse": {
+    "appid": "782260",
+    "steamName": "Rogue Eclipse",
+    "developers": [
+      "HUSKRAFTS"
+    ],
+    "publishers": [
+      "HUSKRAFTS",
+      "Outersloth"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/782260/",
+    "fetchedAt": "2026-08-23T03:22:04.569Z",
+    "cover": "assets/press/rogue-eclipse/cover.jpg",
+    "thumb": "assets/press/rogue-eclipse/thumb.jpg",
+    "gallery": [
+      "assets/press/rogue-eclipse/gallery-1.jpg",
+      "assets/press/rogue-eclipse/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/rogue-eclipse/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782260/f800a6801a41b78a68ff9a5d36bd6599f6523d4e/header.jpg"
+  },
+  "rollergirl": {
+    "appid": "2828540",
+    "steamName": "RollerGirl",
+    "developers": [
+      "Pushing Vertices"
+    ],
+    "publishers": [
+      "Pushing Vertices"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2828540/",
+    "fetchedAt": "2026-08-23T03:22:05.465Z",
+    "cover": "assets/press/rollergirl/cover.jpg",
+    "thumb": "assets/press/rollergirl/thumb.jpg",
+    "gallery": [
+      "assets/press/rollergirl/gallery-1.jpg",
+      "assets/press/rollergirl/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/rollergirl/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828540/25dcef21eaa2d73eaddde1820287f4806a89a13d/header.jpg"
+  },
+  "blocks-for-babies": {
+    "appid": "2776770",
+    "steamName": "Blocks for Babies",
+    "developers": [
+      "BunkSoft Interactive LLC"
+    ],
+    "publishers": [
+      "BunkSoft Interactive LLC"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2776770/",
+    "fetchedAt": "2026-08-23T03:22:07.503Z",
+    "cover": "assets/press/blocks-for-babies/cover.jpg",
+    "thumb": "assets/press/blocks-for-babies/thumb.jpg",
+    "gallery": [
+      "assets/press/blocks-for-babies/gallery-1.jpg",
+      "assets/press/blocks-for-babies/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/blocks-for-babies/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2776770/df88822351965c2f29b2c3978d74e2cf40899768/header.jpg"
+  },
+  "nevers-end": {
+    "appid": "1999930",
+    "steamName": "Never's End",
+    "developers": [
+      "Hypersect"
+    ],
+    "publishers": [
+      "Hypersect"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1999930/",
+    "fetchedAt": "2026-08-23T03:22:08.840Z",
+    "cover": "assets/press/nevers-end/cover.jpg",
+    "thumb": "assets/press/nevers-end/thumb.jpg",
+    "gallery": [
+      "assets/press/nevers-end/gallery-1.jpg",
+      "assets/press/nevers-end/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/nevers-end/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1999930/27a71960fc770a88dbe99f6f695d1eb39693714d/header.jpg"
+  },
+  "clair-obscur-expedition-33": {
+    "appid": "1903340",
+    "steamName": "Clair Obscur: Expedition 33",
+    "developers": [
+      "Sandfall Interactive"
+    ],
+    "publishers": [
+      "Kepler Interactive"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1903340/",
+    "fetchedAt": "2026-08-23T03:22:10.520Z",
+    "cover": "assets/press/clair-obscur-expedition-33/cover.jpg",
+    "thumb": "assets/press/clair-obscur-expedition-33/thumb.jpg",
+    "gallery": [
+      "assets/press/clair-obscur-expedition-33/gallery-1.jpg",
+      "assets/press/clair-obscur-expedition-33/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/clair-obscur-expedition-33/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/be3305b02d4db0dffa3458537118423bf2792d7e/header.jpg"
+  },
+  "blue-prince": {
+    "appid": "1569580",
+    "steamName": "Blue Prince",
+    "developers": [
+      "Dogubomb"
+    ],
+    "publishers": [
+      "Raw Fury"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1569580/",
+    "fetchedAt": "2026-08-23T03:22:11.722Z",
+    "cover": "assets/press/blue-prince/cover.jpg",
+    "thumb": "assets/press/blue-prince/thumb.jpg",
+    "gallery": [
+      "assets/press/blue-prince/gallery-1.jpg",
+      "assets/press/blue-prince/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/blue-prince/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/879ac248a3b548a6bbc32771b950756378e7e922/header.jpg"
+  },
+  "split-fiction": {
+    "appid": "2001120",
+    "steamName": "Split Fiction",
+    "developers": [
+      "Hazelight Studios"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2001120/",
+    "fetchedAt": "2026-08-23T03:22:12.706Z",
+    "cover": "assets/press/split-fiction/cover.jpg",
+    "thumb": "assets/press/split-fiction/thumb.jpg",
+    "gallery": [
+      "assets/press/split-fiction/gallery-1.jpg",
+      "assets/press/split-fiction/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/split-fiction/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg"
+  },
+  "ufo-50": {
+    "appid": "1147860",
+    "steamName": "UFO 50",
+    "developers": [
+      "Mossmouth"
+    ],
+    "publishers": [
+      "Mossmouth"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1147860/",
+    "fetchedAt": "2026-08-23T03:22:13.525Z",
+    "cover": "assets/press/ufo-50/cover.jpg",
+    "thumb": "assets/press/ufo-50/thumb.jpg",
+    "gallery": [
+      "assets/press/ufo-50/gallery-1.jpg",
+      "assets/press/ufo-50/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/ufo-50/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147860/header.jpg"
+  },
+  "black-myth-wukong": {
+    "appid": "2358720",
+    "steamName": "Black Myth: Wukong",
+    "developers": [
+      "Game Science"
+    ],
+    "publishers": [
+      "Game Science"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2358720/",
+    "fetchedAt": "2026-08-23T03:22:14.178Z",
+    "cover": "assets/press/black-myth-wukong/cover.jpg",
+    "thumb": "assets/press/black-myth-wukong/thumb.jpg",
+    "gallery": [
+      "assets/press/black-myth-wukong/gallery-1.jpg",
+      "assets/press/black-myth-wukong/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/black-myth-wukong/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg"
+  },
+  "animal-well": {
+    "appid": "813230",
+    "steamName": "ANIMAL WELL",
+    "developers": [
+      "Billy Basso"
+    ],
+    "publishers": [
+      "Bigmode"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/813230/",
+    "fetchedAt": "2026-08-23T03:22:15.063Z",
+    "cover": "assets/press/animal-well/cover.jpg",
+    "thumb": "assets/press/animal-well/thumb.jpg",
+    "gallery": [
+      "assets/press/animal-well/gallery-1.jpg",
+      "assets/press/animal-well/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/animal-well/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813230/header.jpg"
+  },
+  "balatro": {
+    "appid": "2379780",
+    "steamName": "Balatro",
+    "developers": [
+      "LocalThunk"
+    ],
+    "publishers": [
+      "Playstack"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2379780/",
+    "fetchedAt": "2026-08-23T03:22:15.892Z",
+    "cover": "assets/press/balatro/cover.jpg",
+    "thumb": "assets/press/balatro/thumb.jpg",
+    "gallery": [
+      "assets/press/balatro/gallery-1.jpg",
+      "assets/press/balatro/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/balatro/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/7a85430784e4d613cdb0547414d8cf16ffa45747/header.jpg"
+  },
+  "helldivers-2": {
+    "appid": "553850",
+    "steamName": "HELLDIVERS\u2122 2",
+    "developers": [
+      "Arrowhead Game Studios"
+    ],
+    "publishers": [
+      "PlayStation Publishing LLC"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/553850/",
+    "fetchedAt": "2026-08-23T03:22:16.600Z",
+    "cover": "assets/press/helldivers-2/cover.jpg",
+    "thumb": "assets/press/helldivers-2/thumb.jpg",
+    "gallery": [
+      "assets/press/helldivers-2/gallery-1.jpg",
+      "assets/press/helldivers-2/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/helldivers-2/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/850e2f9e5bb15c5706bb9a1edc832f4f782e8be5/header.jpg"
+  },
+  "cocoon": {
+    "appid": "1497440",
+    "steamName": "COCOON",
+    "developers": [
+      "Geometric Interactive"
+    ],
+    "publishers": [
+      "Annapurna Interactive"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1497440/",
+    "fetchedAt": "2026-08-23T03:22:17.266Z",
+    "cover": "assets/press/cocoon/cover.jpg",
+    "thumb": "assets/press/cocoon/thumb.jpg",
+    "gallery": [
+      "assets/press/cocoon/gallery-1.jpg",
+      "assets/press/cocoon/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/cocoon/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1497440/header.jpg"
+  },
+  "baldurs-gate-3": {
+    "appid": "1086940",
+    "steamName": "Baldur's Gate 3",
+    "developers": [
+      "Larian Studios"
+    ],
+    "publishers": [
+      "Larian Studios"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1086940/",
+    "fetchedAt": "2026-08-23T03:22:17.918Z",
+    "cover": "assets/press/baldurs-gate-3/cover.jpg",
+    "thumb": "assets/press/baldurs-gate-3/thumb.jpg",
+    "gallery": [
+      "assets/press/baldurs-gate-3/gallery-1.jpg",
+      "assets/press/baldurs-gate-3/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/baldurs-gate-3/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg"
+  },
+  "dave-the-diver": {
+    "appid": "1868140",
+    "steamName": "DAVE THE DIVER",
+    "developers": [
+      "MINTROCKET"
+    ],
+    "publishers": [
+      "MINTROCKET"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1868140/",
+    "fetchedAt": "2026-08-23T03:22:18.878Z",
+    "cover": "assets/press/dave-the-diver/cover.jpg",
+    "thumb": "assets/press/dave-the-diver/thumb.jpg",
+    "gallery": [
+      "assets/press/dave-the-diver/gallery-1.jpg",
+      "assets/press/dave-the-diver/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/dave-the-diver/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/81bdb3bce15d27ca1b4554a642d91096e89be229/header.jpg"
+  },
+  "resident-evil-4": {
+    "appid": "2050650",
+    "steamName": "Resident Evil 4",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2050650/",
+    "fetchedAt": "2026-08-23T03:22:19.587Z",
+    "cover": "assets/press/resident-evil-4/cover.jpg",
+    "thumb": "assets/press/resident-evil-4/thumb.jpg",
+    "gallery": [
+      "assets/press/resident-evil-4/gallery-1.jpg",
+      "assets/press/resident-evil-4/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/resident-evil-4/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg"
+  },
+  "pizza-tower": {
+    "appid": "2231450",
+    "steamName": "Pizza Tower",
+    "developers": [
+      "Tour De Pizza"
+    ],
+    "publishers": [
+      "Tour De Pizza"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2231450/",
+    "fetchedAt": "2026-08-23T03:22:20.275Z",
+    "cover": "assets/press/pizza-tower/cover.jpg",
+    "thumb": "assets/press/pizza-tower/thumb.jpg",
+    "gallery": [
+      "assets/press/pizza-tower/gallery-1.jpg",
+      "assets/press/pizza-tower/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/pizza-tower/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231450/header.jpg"
+  },
+  "vampire-survivors": {
+    "appid": "1794680",
+    "steamName": "Vampire Survivors",
+    "developers": [
+      "poncle"
+    ],
+    "publishers": [
+      "poncle"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1794680/",
+    "fetchedAt": "2026-08-23T03:22:21.015Z",
+    "cover": "assets/press/vampire-survivors/cover.jpg",
+    "thumb": "assets/press/vampire-survivors/thumb.jpg",
+    "gallery": [
+      "assets/press/vampire-survivors/gallery-1.jpg",
+      "assets/press/vampire-survivors/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/vampire-survivors/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794680/2ca07b690dde645771125ed9d9206c4c5fde4dd4/header.jpg"
+  },
+  "cult-of-the-lamb": {
+    "appid": "1313140",
+    "steamName": "Cult of the Lamb",
+    "developers": [
+      "Massive Monster"
+    ],
+    "publishers": [
+      "Devolver Digital"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1313140/",
+    "fetchedAt": "2026-08-23T03:22:21.710Z",
+    "cover": "assets/press/cult-of-the-lamb/cover.jpg",
+    "thumb": "assets/press/cult-of-the-lamb/thumb.jpg",
+    "gallery": [
+      "assets/press/cult-of-the-lamb/gallery-1.jpg",
+      "assets/press/cult-of-the-lamb/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/cult-of-the-lamb/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/19f32bb477a6e9d058e05193b4e282149bd70644/header.jpg"
+  },
+  "stray": {
+    "appid": "1332010",
+    "steamName": "Stray",
+    "developers": [
+      "BlueTwelve Studio"
+    ],
+    "publishers": [
+      "Annapurna Interactive"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1332010/",
+    "fetchedAt": "2026-08-23T03:22:22.363Z",
+    "cover": "assets/press/stray/cover.jpg",
+    "thumb": "assets/press/stray/thumb.jpg",
+    "gallery": [
+      "assets/press/stray/gallery-1.jpg",
+      "assets/press/stray/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/stray/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg"
+  },
+  "neon-white": {
+    "appid": "1533420",
+    "steamName": "Neon White",
+    "developers": [
+      "Angel Matrix"
+    ],
+    "publishers": [
+      "Annapurna Interactive"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1533420/",
+    "fetchedAt": "2026-08-23T03:22:23.178Z",
+    "cover": "assets/press/neon-white/cover.jpg",
+    "thumb": "assets/press/neon-white/thumb.jpg",
+    "gallery": [
+      "assets/press/neon-white/gallery-1.jpg",
+      "assets/press/neon-white/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/neon-white/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1533420/header.jpg"
+  },
+  "elden-ring": {
+    "appid": "1245620",
+    "steamName": "ELDEN RING",
+    "developers": [
+      "FromSoftware, Inc."
+    ],
+    "publishers": [
+      "FromSoftware, Inc.",
+      "Bandai Namco Entertainment"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1245620/",
+    "fetchedAt": "2026-08-23T03:22:23.921Z",
+    "cover": "assets/press/elden-ring/cover.jpg",
+    "thumb": "assets/press/elden-ring/thumb.jpg",
+    "gallery": [
+      "assets/press/elden-ring/gallery-1.jpg",
+      "assets/press/elden-ring/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/elden-ring/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg"
+  },
+  "inscryption": {
+    "appid": "1092790",
+    "steamName": "Inscryption",
+    "developers": [
+      "Daniel Mullins Games"
+    ],
+    "publishers": [
+      "Devolver Digital"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1092790/",
+    "fetchedAt": "2026-08-23T03:22:24.686Z",
+    "cover": "assets/press/inscryption/cover.jpg",
+    "thumb": "assets/press/inscryption/thumb.jpg",
+    "gallery": [
+      "assets/press/inscryption/gallery-1.jpg",
+      "assets/press/inscryption/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/inscryption/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/header.jpg"
+  },
+  "deathloop": {
+    "appid": "1252330",
+    "steamName": "DEATHLOOP",
+    "developers": [
+      "Arkane Studios"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1252330/",
+    "fetchedAt": "2026-08-23T03:22:25.389Z",
+    "cover": "assets/press/deathloop/cover.jpg",
+    "thumb": "assets/press/deathloop/thumb.jpg",
+    "gallery": [
+      "assets/press/deathloop/gallery-1.jpg",
+      "assets/press/deathloop/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/deathloop/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1252330/header.jpg"
+  },
+  "resident-evil-village": {
+    "appid": "1196590",
+    "steamName": "Resident Evil Village",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1196590/",
+    "fetchedAt": "2026-08-23T03:22:26.118Z",
+    "cover": "assets/press/resident-evil-village/cover.jpg",
+    "thumb": "assets/press/resident-evil-village/thumb.jpg",
+    "gallery": [
+      "assets/press/resident-evil-village/gallery-1.jpg",
+      "assets/press/resident-evil-village/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/resident-evil-village/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg"
+  },
+  "it-takes-two": {
+    "appid": "1426210",
+    "steamName": "It Takes Two",
+    "developers": [
+      "Hazelight Studios"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1426210/",
+    "fetchedAt": "2026-08-23T03:22:26.820Z",
+    "cover": "assets/press/it-takes-two/cover.jpg",
+    "thumb": "assets/press/it-takes-two/thumb.jpg",
+    "gallery": [
+      "assets/press/it-takes-two/gallery-1.jpg",
+      "assets/press/it-takes-two/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/it-takes-two/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg"
+  },
+  "valheim": {
+    "appid": "892970",
+    "steamName": "Valheim",
+    "developers": [
+      "Iron Gate AB"
+    ],
+    "publishers": [
+      "Coffee Stain Publishing"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/892970/",
+    "fetchedAt": "2026-08-23T03:22:27.663Z",
+    "cover": "assets/press/valheim/cover.jpg",
+    "thumb": "assets/press/valheim/thumb.jpg",
+    "gallery": [
+      "assets/press/valheim/gallery-1.jpg",
+      "assets/press/valheim/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/valheim/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/de0bdcf6c008c508a79d8e75eb91fc67f4bebd5d/header.jpg"
+  },
+  "hades": {
+    "appid": "1145360",
+    "steamName": "Hades",
+    "developers": [
+      "Supergiant Games"
+    ],
+    "publishers": [
+      "Supergiant Games"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1145360/",
+    "fetchedAt": "2026-08-23T03:22:28.416Z",
+    "cover": "assets/press/hades/cover.jpg",
+    "thumb": "assets/press/hades/thumb.jpg",
+    "gallery": [
+      "assets/press/hades/gallery-1.jpg",
+      "assets/press/hades/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/hades/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg"
+  },
+  "deep-rock-galactic": {
+    "appid": "548430",
+    "steamName": "Deep Rock Galactic",
+    "developers": [
+      "Ghost Ship Games"
+    ],
+    "publishers": [
+      "Coffee Stain Publishing"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/548430/",
+    "fetchedAt": "2026-08-23T03:22:29.207Z",
+    "cover": "assets/press/deep-rock-galactic/cover.jpg",
+    "thumb": "assets/press/deep-rock-galactic/thumb.jpg",
+    "gallery": [
+      "assets/press/deep-rock-galactic/gallery-1.jpg",
+      "assets/press/deep-rock-galactic/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/deep-rock-galactic/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/37b58a6c4816ee60b0ca97cb6724d6e904c58c41/header.jpg"
+  },
+  "doom-eternal": {
+    "appid": "782330",
+    "steamName": "DOOM Eternal",
+    "developers": [
+      "id Software"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/782330/",
+    "fetchedAt": "2026-08-23T03:22:30.000Z",
+    "cover": "assets/press/doom-eternal/cover.jpg",
+    "thumb": "assets/press/doom-eternal/thumb.jpg",
+    "gallery": [
+      "assets/press/doom-eternal/gallery-1.jpg",
+      "assets/press/doom-eternal/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/doom-eternal/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/feaf8293bcd2d078422faa547bc0d707c08f606e/header.jpg"
+  },
+  "half-life-alyx": {
+    "appid": "546560",
+    "steamName": "Half-Life: Alyx",
+    "developers": [
+      "Valve"
+    ],
+    "publishers": [
+      "Valve"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/546560/",
+    "fetchedAt": "2026-08-23T03:22:30.887Z",
+    "cover": "assets/press/half-life-alyx/cover.jpg",
+    "thumb": "assets/press/half-life-alyx/thumb.jpg",
+    "gallery": [
+      "assets/press/half-life-alyx/gallery-1.jpg",
+      "assets/press/half-life-alyx/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/half-life-alyx/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/546560/header.jpg"
+  },
+  "ori-and-the-will-of-the-wisps": {
+    "appid": "1057090",
+    "steamName": "Ori and the Will of the Wisps",
+    "developers": [
+      "Moon Studios GmbH"
+    ],
+    "publishers": [
+      "Xbox Game Studios"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1057090/",
+    "fetchedAt": "2026-08-23T03:22:31.816Z",
+    "cover": "assets/press/ori-and-the-will-of-the-wisps/cover.jpg",
+    "thumb": "assets/press/ori-and-the-will-of-the-wisps/thumb.jpg",
+    "gallery": [
+      "assets/press/ori-and-the-will-of-the-wisps/gallery-1.jpg",
+      "assets/press/ori-and-the-will-of-the-wisps/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/ori-and-the-will-of-the-wisps/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg"
+  },
+  "disco-elysium": {
+    "appid": "632470",
+    "steamName": "Disco Elysium - The Final Cut",
+    "developers": [
+      "ZA/UM"
+    ],
+    "publishers": [
+      "ZA/UM"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/632470/",
+    "fetchedAt": "2026-08-23T03:22:32.520Z",
+    "cover": "assets/press/disco-elysium/cover.jpg",
+    "thumb": "assets/press/disco-elysium/thumb.jpg",
+    "gallery": [
+      "assets/press/disco-elysium/gallery-1.jpg",
+      "assets/press/disco-elysium/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/disco-elysium/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/816ea59d6d8ac525f79a07c3a7afa94eddb3437c/header.jpg"
+  },
+  "sekiro-shadows-die-twice": {
+    "appid": "814380",
+    "steamName": "Sekiro\u2122: Shadows Die Twice - GOTY Edition",
+    "developers": [
+      "FromSoftware, Inc."
+    ],
+    "publishers": [
+      "Activision (Excluding Japan and Asia)",
+      "FromSoftware, Inc. (Japan)",
+      "\u65b9\u5757\u6e38\u620f (Asia)"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/814380/",
+    "fetchedAt": "2026-08-23T03:22:33.372Z",
+    "cover": "assets/press/sekiro-shadows-die-twice/cover.jpg",
+    "thumb": "assets/press/sekiro-shadows-die-twice/thumb.jpg",
+    "gallery": [
+      "assets/press/sekiro-shadows-die-twice/gallery-1.jpg",
+      "assets/press/sekiro-shadows-die-twice/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/sekiro-shadows-die-twice/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg"
+  },
+  "devil-may-cry-5": {
+    "appid": "601150",
+    "steamName": "Devil May Cry 5",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "storeUrl": "https://store.steampowered.com/app/601150/",
+    "fetchedAt": "2026-08-23T03:22:34.193Z",
+    "cover": "assets/press/devil-may-cry-5/cover.jpg",
+    "thumb": "assets/press/devil-may-cry-5/thumb.jpg",
+    "gallery": [
+      "assets/press/devil-may-cry-5/gallery-1.jpg",
+      "assets/press/devil-may-cry-5/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/devil-may-cry-5/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/header.jpg"
+  },
+  "slay-the-spire": {
+    "appid": "646570",
+    "steamName": "Slay the Spire",
+    "developers": [
+      "Mega Crit"
+    ],
+    "publishers": [
+      "Mega Crit"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/646570/",
+    "fetchedAt": "2026-08-23T03:22:35.289Z",
+    "cover": "assets/press/slay-the-spire/cover.jpg",
+    "thumb": "assets/press/slay-the-spire/thumb.jpg",
+    "gallery": [
+      "assets/press/slay-the-spire/gallery-1.jpg",
+      "assets/press/slay-the-spire/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/slay-the-spire/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg"
+  },
+  "resident-evil-2": {
+    "appid": "883710",
+    "steamName": "Resident Evil 2",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "storeUrl": "https://store.steampowered.com/app/883710/",
+    "fetchedAt": "2026-08-23T03:22:36.193Z",
+    "cover": "assets/press/resident-evil-2/cover.jpg",
+    "thumb": "assets/press/resident-evil-2/thumb.jpg",
+    "gallery": [
+      "assets/press/resident-evil-2/gallery-1.jpg",
+      "assets/press/resident-evil-2/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/resident-evil-2/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/header.jpg"
+  },
+  "return-of-the-obra-dinn": {
+    "appid": "653530",
+    "steamName": "Return of the Obra Dinn",
+    "developers": [
+      "Lucas Pope"
+    ],
+    "publishers": [
+      "3909"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/653530/",
+    "fetchedAt": "2026-08-23T03:22:37.367Z",
+    "cover": "assets/press/return-of-the-obra-dinn/cover.jpg",
+    "thumb": "assets/press/return-of-the-obra-dinn/thumb.jpg",
+    "gallery": [
+      "assets/press/return-of-the-obra-dinn/gallery-1.jpg",
+      "assets/press/return-of-the-obra-dinn/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/return-of-the-obra-dinn/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/653530/header.jpg"
+  },
+  "dead-cells": {
+    "appid": "588650",
+    "steamName": "Dead Cells",
+    "developers": [
+      "Motion Twin"
+    ],
+    "publishers": [
+      "Motion Twin"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/588650/",
+    "fetchedAt": "2026-08-23T03:22:38.377Z",
+    "cover": "assets/press/dead-cells/cover.jpg",
+    "thumb": "assets/press/dead-cells/thumb.jpg",
+    "gallery": [
+      "assets/press/dead-cells/gallery-1.jpg",
+      "assets/press/dead-cells/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/dead-cells/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg"
+  },
+  "monster-hunter-world": {
+    "appid": "582010",
+    "steamName": "Monster Hunter: World",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "storeUrl": "https://store.steampowered.com/app/582010/",
+    "fetchedAt": "2026-08-23T03:22:39.392Z",
+    "cover": "assets/press/monster-hunter-world/cover.jpg",
+    "thumb": "assets/press/monster-hunter-world/thumb.jpg",
+    "gallery": [
+      "assets/press/monster-hunter-world/gallery-1.jpg",
+      "assets/press/monster-hunter-world/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/monster-hunter-world/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg"
+  },
+  "subnautica": {
+    "appid": "264710",
+    "steamName": "Subnautica",
+    "developers": [
+      "Unknown Worlds Entertainment"
+    ],
+    "publishers": [
+      "Unknown Worlds Entertainment"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/264710/",
+    "fetchedAt": "2026-08-23T03:22:40.568Z",
+    "cover": "assets/press/subnautica/cover.jpg",
+    "thumb": "assets/press/subnautica/thumb.jpg",
+    "gallery": [
+      "assets/press/subnautica/gallery-1.jpg",
+      "assets/press/subnautica/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/subnautica/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg"
+  },
+  "celeste": {
+    "appid": "504230",
+    "steamName": "Celeste",
+    "developers": [
+      "Maddy Makes Games Inc.",
+      "Extremely OK Games, Ltd."
+    ],
+    "publishers": [
+      "Maddy Makes Games Inc."
+    ],
+    "storeUrl": "https://store.steampowered.com/app/504230/",
+    "fetchedAt": "2026-08-23T03:22:41.421Z",
+    "cover": "assets/press/celeste/cover.jpg",
+    "thumb": "assets/press/celeste/thumb.jpg",
+    "gallery": [
+      "assets/press/celeste/gallery-1.jpg",
+      "assets/press/celeste/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/celeste/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg"
+  },
+  "cuphead": {
+    "appid": "268910",
+    "steamName": "Cuphead",
+    "developers": [
+      "Studio MDHR Entertainment Inc."
+    ],
+    "publishers": [
+      "Studio MDHR Entertainment Inc."
+    ],
+    "storeUrl": "https://store.steampowered.com/app/268910/",
+    "fetchedAt": "2026-08-23T03:22:42.345Z",
+    "cover": "assets/press/cuphead/cover.jpg",
+    "thumb": "assets/press/cuphead/thumb.jpg",
+    "gallery": [
+      "assets/press/cuphead/gallery-1.jpg",
+      "assets/press/cuphead/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/cuphead/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg"
+  },
+  "divinity-original-sin-2": {
+    "appid": "435150",
+    "steamName": "Divinity: Original Sin 2 - Definitive Edition",
+    "developers": [
+      "Larian Studios"
+    ],
+    "publishers": [
+      "Larian Studios"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/435150/",
+    "fetchedAt": "2026-08-23T03:22:43.261Z",
+    "cover": "assets/press/divinity-original-sin-2/cover.jpg",
+    "thumb": "assets/press/divinity-original-sin-2/thumb.jpg",
+    "gallery": [
+      "assets/press/divinity-original-sin-2/gallery-1.jpg",
+      "assets/press/divinity-original-sin-2/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/divinity-original-sin-2/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435150/3f6ee788cb01bd65097c52399d536eb424b4876f/header.jpg"
+  },
+  "prey": {
+    "appid": "480490",
+    "steamName": "Prey",
+    "developers": [
+      "Arkane Studios"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/480490/",
+    "fetchedAt": "2026-08-23T03:22:44.257Z",
+    "cover": "assets/press/prey/cover.jpg",
+    "thumb": "assets/press/prey/thumb.jpg",
+    "gallery": [
+      "assets/press/prey/gallery-1.jpg",
+      "assets/press/prey/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/prey/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/480490/9ed715575a2205350e937e5e6d25b3e8a494605e/header.jpg"
+  },
+  "nier-automata": {
+    "appid": "524220",
+    "steamName": "NieR:Automata\u2122",
+    "developers": [
+      "Square Enix",
+      "PlatinumGames Inc."
+    ],
+    "publishers": [
+      "Square Enix"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/524220/",
+    "fetchedAt": "2026-08-23T03:22:45.316Z",
+    "cover": "assets/press/nier-automata/cover.jpg",
+    "thumb": "assets/press/nier-automata/thumb.jpg",
+    "gallery": [
+      "assets/press/nier-automata/gallery-1.jpg",
+      "assets/press/nier-automata/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/nier-automata/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524220/header.jpg"
+  },
+  "hollow-knight": {
+    "appid": "367520",
+    "steamName": "Hollow Knight",
+    "developers": [
+      "Team Cherry"
+    ],
+    "publishers": [
+      "Team Cherry"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/367520/",
+    "fetchedAt": "2026-08-23T03:22:46.068Z",
+    "cover": "assets/press/hollow-knight/cover.jpg",
+    "thumb": "assets/press/hollow-knight/thumb.jpg",
+    "gallery": [
+      "assets/press/hollow-knight/gallery-1.jpg",
+      "assets/press/hollow-knight/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/hollow-knight/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg"
+  },
+  "doom": {
+    "appid": "379720",
+    "steamName": "DOOM",
+    "developers": [
+      "id Software"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/379720/",
+    "fetchedAt": "2026-08-23T03:22:47.117Z",
+    "cover": "assets/press/doom/cover.jpg",
+    "thumb": "assets/press/doom/thumb.jpg",
+    "gallery": [
+      "assets/press/doom/gallery-1.jpg",
+      "assets/press/doom/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/doom/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/header.jpg"
+  },
+  "dark-souls-iii": {
+    "appid": "374320",
+    "steamName": "DARK SOULS\u2122 III",
+    "developers": [
+      "FromSoftware, Inc."
+    ],
+    "publishers": [
+      "FromSoftware, Inc.",
+      "Bandai Namco Entertainment"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/374320/",
+    "fetchedAt": "2026-08-23T03:22:48.096Z",
+    "cover": "assets/press/dark-souls-iii/cover.jpg",
+    "thumb": "assets/press/dark-souls-iii/thumb.jpg",
+    "gallery": [
+      "assets/press/dark-souls-iii/gallery-1.jpg",
+      "assets/press/dark-souls-iii/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/dark-souls-iii/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg"
+  },
+  "firewatch": {
+    "appid": "383870",
+    "steamName": "Firewatch",
+    "developers": [
+      "Campo Santo"
+    ],
+    "publishers": [
+      "Panic",
+      "Campo Santo"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/383870/",
+    "fetchedAt": "2026-08-23T03:22:49.048Z",
+    "cover": "assets/press/firewatch/cover.jpg",
+    "thumb": "assets/press/firewatch/thumb.jpg",
+    "gallery": [
+      "assets/press/firewatch/gallery-1.jpg",
+      "assets/press/firewatch/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/firewatch/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/383870/41a7d0ff4c2dab4ed69c53c9a29c931e6f62948d/header.jpg"
+  },
+  "stardew-valley": {
+    "appid": "413150",
+    "steamName": "Stardew Valley",
+    "developers": [
+      "ConcernedApe"
+    ],
+    "publishers": [
+      "ConcernedApe"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/413150/",
+    "fetchedAt": "2026-08-23T03:22:49.952Z",
+    "cover": "assets/press/stardew-valley/cover.jpg",
+    "thumb": "assets/press/stardew-valley/thumb.jpg",
+    "gallery": [
+      "assets/press/stardew-valley/gallery-1.jpg",
+      "assets/press/stardew-valley/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/stardew-valley/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg"
+  },
+  "xcom-2": {
+    "appid": "268500",
+    "steamName": "XCOM\u00ae 2",
+    "developers": [
+      "Firaxis Games",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "publishers": [
+      "2K",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/268500/",
+    "fetchedAt": "2026-08-23T03:22:50.721Z",
+    "cover": "assets/press/xcom-2/cover.jpg",
+    "thumb": "assets/press/xcom-2/thumb.jpg",
+    "gallery": [
+      "assets/press/xcom-2/gallery-1.jpg",
+      "assets/press/xcom-2/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/xcom-2/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg"
+  },
+  "fallout-4": {
+    "appid": "377160",
+    "steamName": "Fallout 4",
+    "developers": [
+      "Bethesda Game Studios"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/377160/",
+    "fetchedAt": "2026-08-23T03:22:51.652Z",
+    "cover": "assets/press/fallout-4/cover.jpg",
+    "thumb": "assets/press/fallout-4/thumb.jpg",
+    "gallery": [
+      "assets/press/fallout-4/gallery-1.jpg",
+      "assets/press/fallout-4/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/fallout-4/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg"
+  },
+  "keep-talking-and-nobody-explodes": {
+    "appid": "341800",
+    "steamName": "Keep Talking and Nobody Explodes",
+    "developers": [
+      "Steel Crate Games"
+    ],
+    "publishers": [
+      "Steel Crate Games"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/341800/",
+    "fetchedAt": "2026-08-23T03:22:52.372Z",
+    "cover": "assets/press/keep-talking-and-nobody-explodes/cover.jpg",
+    "thumb": "assets/press/keep-talking-and-nobody-explodes/thumb.jpg",
+    "gallery": [
+      "assets/press/keep-talking-and-nobody-explodes/gallery-1.jpg",
+      "assets/press/keep-talking-and-nobody-explodes/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/keep-talking-and-nobody-explodes/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/341800/header.jpg"
+  },
+  "undertale": {
+    "appid": "391540",
+    "steamName": "Undertale",
+    "developers": [
+      "tobyfox"
+    ],
+    "publishers": [
+      "tobyfox"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/391540/",
+    "fetchedAt": "2026-08-23T03:22:53.156Z",
+    "cover": "assets/press/undertale/cover.jpg",
+    "thumb": "assets/press/undertale/thumb.jpg",
+    "gallery": [
+      "assets/press/undertale/gallery-1.jpg",
+      "assets/press/undertale/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/undertale/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg"
+  },
+  "the-witcher-3-wild-hunt": {
+    "appid": "292030",
+    "steamName": "The Witcher 3: Wild Hunt",
+    "developers": [
+      "CD PROJEKT RED"
+    ],
+    "publishers": [
+      "CD PROJEKT RED"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/292030/",
+    "fetchedAt": "2026-08-23T03:22:53.737Z",
+    "cover": "assets/press/the-witcher-3-wild-hunt/cover.jpg",
+    "thumb": "assets/press/the-witcher-3-wild-hunt/thumb.jpg",
+    "gallery": [
+      "assets/press/the-witcher-3-wild-hunt/gallery-1.jpg",
+      "assets/press/the-witcher-3-wild-hunt/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/the-witcher-3-wild-hunt/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ad9240e088f953a84aee814034c50a6a92bf4516/header.jpg"
+  },
+  "cities-skylines": {
+    "appid": "255710",
+    "steamName": "Cities: Skylines",
+    "developers": [
+      "Colossal Order"
+    ],
+    "publishers": [
+      "Paradox Interactive"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/255710/",
+    "fetchedAt": "2026-08-23T03:22:54.697Z",
+    "cover": "assets/press/cities-skylines/cover.jpg",
+    "thumb": "assets/press/cities-skylines/thumb.jpg",
+    "gallery": [
+      "assets/press/cities-skylines/gallery-1.jpg",
+      "assets/press/cities-skylines/gallery-2.jpg"
+    ],
+    "keyArt": "assets/press/cities-skylines/key-art.jpg",
+    "keyArtOrigin": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg"
   }
 }

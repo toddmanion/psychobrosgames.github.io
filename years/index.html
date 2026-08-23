@@ -1,0 +1,1193 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (() => {
+        document.documentElement.classList.add("js");
+        const ok = new Set(["light", "dark"]);
+        const saved = localStorage.getItem("psychobros-theme");
+        const theme = (ok.has(saved) && saved) ||
+          (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Every PsychoBros review by year, 2015 to 2026." />
+    <meta name="theme-color" content="#0b0d12" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="PsychoBros" />
+    <meta property="og:title" content="Reviews by year — PsychoBros" />
+    <meta property="og:description" content="Every PsychoBros review by year, 2015 to 2026." />
+    <meta property="og:url" content="https://psychobrosgames.github.io/years/" />
+    <meta property="og:image" content="https://psychobrosgames.github.io/assets/psychobros-social-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="PsychoBros: game reviews from three dads" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://psychobrosgames.github.io/assets/psychobros-social-card.png" />
+    <title>Reviews by year — PsychoBros</title>
+    <link rel="canonical" href="https://psychobrosgames.github.io/years/" />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"PsychoBros reviews by year","url":"https://psychobrosgames.github.io/years/","description":"Every PsychoBros review by year, 2015 to 2026."}</script>
+  </head>
+  <body class="page-archive">
+    <a class="skip" href="#main">Skip to content</a>
+    
+    <header class="masthead" data-masthead>
+      <div class="wrap masthead__inner">
+        <a class="brand" href="../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <nav class="masthead__nav" aria-label="Main navigation">
+          <a href="../reviews/">Reviews</a>
+          <a href="../years/" aria-current="page">By Year</a>
+          <a href="../about/#crew">The Dads</a>
+          <a href="../about/">About &amp; Press</a>
+        </nav>
+        <div class="masthead__actions">
+          
+  <button class="iconbtn" type="button" data-theme-toggle aria-label="Switch color theme">
+    <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="4.2" />
+      <path d="M12 2.4v2.4M12 19.2v2.4M4.4 4.4l1.7 1.7M17.9 17.9l1.7 1.7M2.4 12h2.4M19.2 12h2.4M4.4 19.6l1.7-1.7M17.9 6.1l1.7-1.7" />
+    </svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20.7 14.1A8 8 0 0 1 9.9 3.3 8.5 8.5 0 1 0 20.7 14.1Z" />
+    </svg>
+  </button>
+          <button class="iconbtn burger" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <nav class="mobilenav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true" inert>
+        <a href="../reviews/">Reviews</a>
+          <a href="../years/" aria-current="page">By Year</a>
+          <a href="../about/#crew">The Dads</a>
+          <a href="../about/">About &amp; Press</a>
+      </nav>
+    </header>
+    
+      <main id="main">
+        <span id="top"></span>
+        <section class="pagehead">
+          <div class="wrap">
+            <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><span>/</span><span aria-current="page">By year</span></nav>
+            <p class="kicker">The back catalogue</p>
+            <h1>A decade of this</h1>
+            <p class="pagehead__deck">We started playing together in 2015 and somehow never stopped. Here is every year since, and what we made time for.</p>
+          </div>
+        </section>
+
+        <div class="wrap section">
+          <div class="yearstrip">
+            <a class="yearstrip__item reveal" href="2026/"><b>2026</b><span>5 reviews</span></a><a class="yearstrip__item reveal" href="2025/"><b>2025</b><span>25 reviews</span></a><a class="yearstrip__item reveal" href="2024/"><b>2024</b><span>5 reviews</span></a><a class="yearstrip__item reveal" href="2023/"><b>2023</b><span>5 reviews</span></a><a class="yearstrip__item reveal" href="2022/"><b>2022</b><span>5 reviews</span></a><a class="yearstrip__item reveal" href="2021/"><b>2021</b><span>5 reviews</span></a><a class="yearstrip__item reveal" href="2020/"><b>2020</b><span>5 reviews</span></a><a class="yearstrip__item reveal" href="2019/"><b>2019</b><span>5 reviews</span></a><a class="yearstrip__item reveal" href="2018/"><b>2018</b><span>5 reviews</span></a><a class="yearstrip__item reveal" href="2017/"><b>2017</b><span>5 reviews</span></a><a class="yearstrip__item reveal" href="2016/"><b>2016</b><span>5 reviews</span></a><a class="yearstrip__item reveal" href="2015/"><b>2015</b><span>5 reviews</span></a>
+          </div>
+        </div>
+
+        
+        <section class="wrap section" aria-labelledby="y-2026">
+          
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">5 reviews</p>
+      <h2><span id="y-2026">2026</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="2026/">All of 2026 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+          <div class="rows">
+            
+  <a class="row reveal" href="../reviews/beast-of-reincarnation/">
+    <span class="row__n">01</span>
+    <span class="row__thumb">    <img src="../assets/press/beast-of-reincarnation/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Beast of Reincarnation</span>
+      <span class="row__take">Every Pokémon game has been secretly asking for a dog. Now it&#039;s the whole game.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2026-08-16">Aug 16</time>
+    <span class="row__score" data-tone="warm">8.0</span>
+  </a>
+  <a class="row reveal" href="../reviews/big-walk/">
+    <span class="row__n">02</span>
+    <span class="row__thumb">    <img src="../assets/press/big-walk/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Big Walk</span>
+      <span class="row__take">Finally, a co-op game where nobody has a health bar to argue about.</span>
+    </span>
+    <span class="row__genre">Adventure</span>
+    <time class="row__date" datetime="2026-08-13">Aug 13</time>
+    <span class="row__score" data-tone="hot">8.6</span>
+  </a>
+  <a class="row reveal" href="../reviews/mina-the-hollower/">
+    <span class="row__n">03</span>
+    <span class="row__thumb">    <img src="../assets/press/mina-the-hollower/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Mina the Hollower</span>
+      <span class="row__take">The main character has a whip. That&#039;s the pitch. That&#039;s a great pitch.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2026-06-28">Jun 28</time>
+    <span class="row__score" data-tone="hot">8.5</span>
+  </a>
+  <a class="row reveal" href="../reviews/forza-horizon-6/">
+    <span class="row__n">04</span>
+    <span class="row__thumb">    <img src="../assets/press/forza-horizon-6/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Forza Horizon 6</span>
+      <span class="row__take">Bought a kei van in-game, thought about it for a week, did not buy one in real life.</span>
+    </span>
+    <span class="row__genre">Racing</span>
+    <time class="row__date" datetime="2026-06-07">Jun 7</time>
+    <span class="row__score" data-tone="hot">8.8</span>
+  </a>
+  <a class="row reveal" href="../reviews/cairn/">
+    <span class="row__n">05</span>
+    <span class="row__thumb">    <img src="../assets/press/cairn/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Cairn</span>
+      <span class="row__take">This is the first game to accurately simulate looking at a shelf and pulling something in our back.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2026-03-12">Mar 12</time>
+    <span class="row__score" data-tone="warm">8.4</span>
+  </a>
+          </div>
+        </section>
+        <section class="wrap section" aria-labelledby="y-2025">
+          
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">25 reviews</p>
+      <h2><span id="y-2025">2025</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="2025/">All of 2025 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+          <div class="rows">
+            
+  <a class="row reveal" href="../reviews/hollow-knight-silksong/">
+    <span class="row__n">01</span>
+    <span class="row__thumb">    <img src="../assets/press/hollow-knight-silksong/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Hollow Knight: Silksong</span>
+      <span class="row__take">The wait was years. Our first boss took slightly longer.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2025-10-16">Oct 16</time>
+    <span class="row__score" data-tone="hot">9.3</span>
+  </a>
+  <a class="row reveal" href="../reviews/hades-ii/">
+    <span class="row__n">02</span>
+    <span class="row__thumb">    <img src="../assets/press/hades-ii/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Hades II</span>
+      <span class="row__take">One more run means one more argument with a Titan and one more cold coffee.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2025-10-04">Oct 4</time>
+    <span class="row__score" data-tone="hot">9.5</span>
+  </a>
+  <a class="row reveal" href="../reviews/exovia/">
+    <span class="row__n">03</span>
+    <span class="row__thumb">    <img src="../assets/press/exovia/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Exovia</span>
+      <span class="row__take">Build a base in zero-G, misplace every wrench in three dimensions.</span>
+    </span>
+    <span class="row__genre">Zero-G Factory Simulation</span>
+    <time class="row__date" datetime="2025-09-30">Sep 30</time>
+    <span class="row__score" data-tone="hot">8.5</span>
+  </a>
+  <a class="row reveal" href="../reviews/akiiwan-relaxing-survival/">
+    <span class="row__n">04</span>
+    <span class="row__thumb">    <img src="../assets/press/akiiwan-relaxing-survival/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Akiiwan: Relaxing Survival</span>
+      <span class="row__take">Survival crafting for people who would prefer the trees not scream.</span>
+    </span>
+    <span class="row__genre">Relaxing Survival</span>
+    <time class="row__date" datetime="2025-09-28">Sep 28</time>
+    <span class="row__score" data-tone="cool">7.7</span>
+  </a>
+  <a class="row reveal" href="../reviews/fractured-blooms/">
+    <span class="row__n">05</span>
+    <span class="row__thumb">    <img src="../assets/press/fractured-blooms/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Fractured Blooms</span>
+      <span class="row__take">Cozy farming, but Tuesday is broken and possibly watching.</span>
+    </span>
+    <span class="row__genre">Psychological Life Sim</span>
+    <time class="row__date" datetime="2025-09-26">Sep 26</time>
+    <span class="row__score" data-tone="warm">8.1</span>
+  </a>
+  <a class="row reveal" href="../reviews/moros-protocol/">
+    <span class="row__n">06</span>
+    <span class="row__thumb">    <img src="../assets/press/moros-protocol/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Moros Protocol</span>
+      <span class="row__take">The ship is haunted, the guns are loud, and bedtime was an hour ago.</span>
+    </span>
+    <span class="row__genre">Roguelite Retro FPS</span>
+    <time class="row__date" datetime="2025-09-25">Sep 25</time>
+    <span class="row__score" data-tone="hot">9.0</span>
+  </a>
+  <a class="row reveal" href="../reviews/voidsayer/">
+    <span class="row__n">07</span>
+    <span class="row__thumb">    <img src="../assets/press/voidsayer/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Voidsayer</span>
+      <span class="row__take">Catch monsters, fight oblivion, try to remember which dad named the frog Terry.</span>
+    </span>
+    <span class="row__genre">Monster-Taming RPG</span>
+    <time class="row__date" datetime="2025-09-24">Sep 24</time>
+    <span class="row__score" data-tone="warm">8.4</span>
+  </a>
+  <a class="row reveal" href="../reviews/letter-lost/">
+    <span class="row__n">08</span>
+    <span class="row__thumb">    <img src="../assets/press/letter-lost/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Letter Lost</span>
+      <span class="row__take">Neither rain nor snow nor implied cult will stop this delivery.</span>
+    </span>
+    <span class="row__genre">Workplace Horror Adventure</span>
+    <time class="row__date" datetime="2025-09-23">Sep 23</time>
+    <span class="row__score" data-tone="cool">7.5</span>
+  </a>
+  <a class="row reveal" href="../reviews/sky-of-tides/">
+    <span class="row__n">09</span>
+    <span class="row__thumb">    <img src="../assets/press/sky-of-tides/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Sky of Tides</span>
+      <span class="row__take">The world literally broke into nine chunks. Great news for anyone who hates a normal map.</span>
+    </span>
+    <span class="row__genre">Narrative RPG</span>
+    <time class="row__date" datetime="2025-09-21">Sep 21</time>
+    <span class="row__score" data-tone="hot">8.6</span>
+  </a>
+  <a class="row reveal" href="../reviews/adaptory/">
+    <span class="row__n">10</span>
+    <span class="row__thumb">    <img src="../assets/press/adaptory/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Adaptory</span>
+      <span class="row__take">A colony sim where even the air has a spreadsheet.</span>
+    </span>
+    <span class="row__genre">Colony Simulation</span>
+    <time class="row__date" datetime="2025-09-20">Sep 20</time>
+    <span class="row__score" data-tone="warm">7.9</span>
+  </a>
+  <a class="row reveal" href="../reviews/sashimi-slayer/">
+    <span class="row__n">11</span>
+    <span class="row__thumb">    <img src="../assets/press/sashimi-slayer/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Sashimi Slayer</span>
+      <span class="row__take">We came for the sword controller. We stayed until our shoulders quit.</span>
+    </span>
+    <span class="row__genre">Rhythm Action</span>
+    <time class="row__date" datetime="2025-09-18">Sep 18</time>
+    <span class="row__score" data-tone="hot">8.8</span>
+  </a>
+  <a class="row reveal" href="../reviews/no-stone-unturned/">
+    <span class="row__n">12</span>
+    <span class="row__thumb">    <img src="../assets/press/no-stone-unturned/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">No Stone Unturned</span>
+      <span class="row__take">A chicken is dead. Three dads are already emotionally overinvested.</span>
+    </span>
+    <span class="row__genre">Comedy Detective Adventure</span>
+    <time class="row__date" datetime="2025-09-17">Sep 17</time>
+    <span class="row__score" data-tone="cool">7.2</span>
+  </a>
+  <a class="row reveal" href="../reviews/hank-drowning-on-dry-land/">
+    <span class="row__n">13</span>
+    <span class="row__thumb">    <img src="../assets/press/hank-drowning-on-dry-land/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Hank: Drowning On Dry Land</span>
+      <span class="row__take">Half an hour of cartoon noir, poison, and a very good reason to hydrate.</span>
+    </span>
+    <span class="row__genre">Narrative Adventure</span>
+    <time class="row__date" datetime="2025-09-15">Sep 15</time>
+    <span class="row__score" data-tone="warm">8.0</span>
+  </a>
+  <a class="row reveal" href="../reviews/table-tactics/">
+    <span class="row__n">14</span>
+    <span class="row__thumb">    <img src="../assets/press/table-tactics/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Table Tactics: physics-driven tabletop battles</span>
+      <span class="row__take">Finally, a strategy game where knocking things over counts as planning.</span>
+    </span>
+    <span class="row__genre">Physics Strategy</span>
+    <time class="row__date" datetime="2025-09-14">Sep 14</time>
+    <span class="row__score" data-tone="hot">9.1</span>
+  </a>
+  <a class="row reveal" href="../reviews/arcane-eats/">
+    <span class="row__n">15</span>
+    <span class="row__thumb">    <img src="../assets/press/arcane-eats/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Arcane Eats</span>
+      <span class="row__take">The dinner rush now has spells and cards, and still no clean spoons.</span>
+    </span>
+    <span class="row__genre">Cooking Deckbuilder</span>
+    <time class="row__date" datetime="2025-09-12">Sep 12</time>
+    <span class="row__score" data-tone="warm">8.3</span>
+  </a>
+  <a class="row reveal" href="../reviews/draco-and-the-seven-scales/">
+    <span class="row__n">16</span>
+    <span class="row__thumb">    <img src="../assets/press/draco-and-the-seven-scales/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Draco and the Seven Scales</span>
+      <span class="row__take">Pirates, dragons, and a map we will absolutely hold upside down.</span>
+    </span>
+    <span class="row__genre">Pirate Action Adventure</span>
+    <time class="row__date" datetime="2025-09-11">Sep 11</time>
+    <span class="row__score" data-tone="cool">7.6</span>
+  </a>
+  <a class="row reveal" href="../reviews/beatdown-city-survivors/">
+    <span class="row__n">17</span>
+    <span class="row__thumb">    <img src="../assets/press/beatdown-city-survivors/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Beatdown City Survivors</span>
+      <span class="row__take">The city has problems. Your solution is mostly uppercuts and puddles.</span>
+    </span>
+    <span class="row__genre">Action Survivors-Like</span>
+    <time class="row__date" datetime="2025-09-09">Sep 9</time>
+    <span class="row__score" data-tone="hot">8.5</span>
+  </a>
+  <a class="row reveal" href="../reviews/terrible-lizards/">
+    <span class="row__n">18</span>
+    <span class="row__thumb">    <img src="../assets/press/terrible-lizards/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Terrible Lizards</span>
+      <span class="row__take">Road trip rule one: never trust the dinosaur-shaped tourist trap.</span>
+    </span>
+    <span class="row__genre">Survival Horror</span>
+    <time class="row__date" datetime="2025-09-08">Sep 8</time>
+    <span class="row__score" data-tone="warm">7.8</span>
+  </a>
+  <a class="row reveal" href="../reviews/rogue-eclipse/">
+    <span class="row__n">19</span>
+    <span class="row__thumb">    <img src="../assets/press/rogue-eclipse/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Rogue Eclipse</span>
+      <span class="row__take">Space is vast, beautiful, and apparently full of things that need exploding.</span>
+    </span>
+    <span class="row__genre">Spaceflight Roguelike</span>
+    <time class="row__date" datetime="2025-09-06">Sep 6</time>
+    <span class="row__score" data-tone="hot">8.9</span>
+  </a>
+  <a class="row reveal" href="../reviews/rollergirl/">
+    <span class="row__n">20</span>
+    <span class="row__thumb">    <img src="../assets/press/rollergirl/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">RollerGirl</span>
+      <span class="row__take">A broken car, good music, and zero desire to call roadside assistance.</span>
+    </span>
+    <span class="row__genre">Slice-of-Life Adventure</span>
+    <time class="row__date" datetime="2025-09-05">Sep 5</time>
+    <span class="row__score" data-tone="warm">8.2</span>
+  </a>
+  <a class="row reveal" href="../reviews/blocks-for-babies/">
+    <span class="row__n">21</span>
+    <span class="row__thumb">    <img src="../assets/press/blocks-for-babies/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Blocks for Babies</span>
+      <span class="row__take">Tetris got a shotgun. We have follow-up questions.</span>
+    </span>
+    <span class="row__genre">Arcade Roguelite</span>
+    <time class="row__date" datetime="2025-09-03">Sep 3</time>
+    <span class="row__score" data-tone="cool">7.4</span>
+  </a>
+  <a class="row reveal" href="../reviews/nevers-end/">
+    <span class="row__n">22</span>
+    <span class="row__thumb">    <img src="../assets/press/nevers-end/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Never&#039;s End</span>
+      <span class="row__take">Possession: cheaper than recruiting, somehow worse for HR.</span>
+    </span>
+    <span class="row__genre">Tactical RPG</span>
+    <time class="row__date" datetime="2025-09-02">Sep 2</time>
+    <span class="row__score" data-tone="hot">8.7</span>
+  </a>
+  <a class="row reveal" href="../reviews/clair-obscur-expedition-33/">
+    <span class="row__n">23</span>
+    <span class="row__thumb">    <img src="../assets/press/clair-obscur-expedition-33/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Clair Obscur: Expedition 33</span>
+      <span class="row__take">Finally, a JRPG that also wants you to have Souls reflexes. Great.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2025-05-14">May 14</time>
+    <span class="row__score" data-tone="hot">9.7</span>
+  </a>
+  <a class="row reveal" href="../reviews/blue-prince/">
+    <span class="row__n">24</span>
+    <span class="row__thumb">    <img src="../assets/press/blue-prince/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Blue Prince</span>
+      <span class="row__take">Real estate has never made us this happy or this confused.</span>
+    </span>
+    <span class="row__genre">Adventure</span>
+    <time class="row__date" datetime="2025-05-11">May 11</time>
+    <span class="row__score" data-tone="hot">9.2</span>
+  </a>
+  <a class="row reveal" href="../reviews/split-fiction/">
+    <span class="row__n">25</span>
+    <span class="row__thumb">    <img src="../assets/press/split-fiction/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Split Fiction</span>
+      <span class="row__take">Turns out the best fantasy setting is &#039;someone else has to be player two.&#039;</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2025-03-19">Mar 19</time>
+    <span class="row__score" data-tone="hot">9.4</span>
+  </a>
+          </div>
+        </section>
+        <section class="wrap section" aria-labelledby="y-2024">
+          
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">5 reviews</p>
+      <h2><span id="y-2024">2024</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="2024/">All of 2024 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+          <div class="rows">
+            
+  <a class="row reveal" href="../reviews/ufo-50/">
+    <span class="row__n">01</span>
+    <span class="row__thumb">    <img src="../assets/press/ufo-50/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">UFO 50</span>
+      <span class="row__take">It&#039;s like our childhood, if our childhood had also been proofread.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2024-10-01">Oct 1</time>
+    <span class="row__score" data-tone="hot">9.2</span>
+  </a>
+  <a class="row reveal" href="../reviews/black-myth-wukong/">
+    <span class="row__n">02</span>
+    <span class="row__thumb">    <img src="../assets/press/black-myth-wukong/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Black Myth: Wukong</span>
+      <span class="row__take">Finally caught up with what our children have been reading in books all this time.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2024-09-30">Sep 30</time>
+    <span class="row__score" data-tone="warm">8.0</span>
+  </a>
+  <a class="row reveal" href="../reviews/animal-well/">
+    <span class="row__n">03</span>
+    <span class="row__thumb">    <img src="../assets/press/animal-well/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">ANIMAL WELL</span>
+      <span class="row__take">First game where &#039;get out of the well&#039; is a valid life goal.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2024-06-09">Jun 9</time>
+    <span class="row__score" data-tone="hot">8.9</span>
+  </a>
+  <a class="row reveal" href="../reviews/balatro/">
+    <span class="row__n">04</span>
+    <span class="row__thumb">    <img src="../assets/press/balatro/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Balatro</span>
+      <span class="row__take">Turns out we&#039;ve been playing the wrong poker for thirty years.</span>
+    </span>
+    <span class="row__genre">Strategy</span>
+    <time class="row__date" datetime="2024-02-29">Feb 29</time>
+    <span class="row__score" data-tone="hot">9.4</span>
+  </a>
+  <a class="row reveal" href="../reviews/helldivers-2/">
+    <span class="row__n">05</span>
+    <span class="row__thumb">    <img src="../assets/press/helldivers-2/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">HELLDIVERS™ 2</span>
+      <span class="row__take">The only game where &#039;friendly fire&#039; is a personality trait.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2024-02-28">Feb 28</time>
+    <span class="row__score" data-tone="hot">8.8</span>
+  </a>
+          </div>
+        </section>
+        <section class="wrap section" aria-labelledby="y-2023">
+          
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">5 reviews</p>
+      <h2><span id="y-2023">2023</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="2023/">All of 2023 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+          <div class="rows">
+            
+  <a class="row reveal" href="../reviews/cocoon/">
+    <span class="row__n">01</span>
+    <span class="row__thumb">    <img src="../assets/press/cocoon/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">COCOON</span>
+      <span class="row__take">Nested puzzles, nested naps. We finished them both.</span>
+    </span>
+    <span class="row__genre">Adventure</span>
+    <time class="row__date" datetime="2023-10-30">Oct 30</time>
+    <span class="row__score" data-tone="hot">8.7</span>
+  </a>
+  <a class="row reveal" href="../reviews/baldurs-gate-3/">
+    <span class="row__n">02</span>
+    <span class="row__thumb">    <img src="../assets/press/baldurs-gate-3/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Baldur&#039;s Gate 3</span>
+      <span class="row__take">Rolled a nat 20 on the sentence &#039;I&#039;ll just try it for an hour&#039;.</span>
+    </span>
+    <span class="row__genre">Adventure</span>
+    <time class="row__date" datetime="2023-08-12">Aug 12</time>
+    <span class="row__score" data-tone="hot">9.7</span>
+  </a>
+  <a class="row reveal" href="../reviews/dave-the-diver/">
+    <span class="row__n">03</span>
+    <span class="row__thumb">    <img src="../assets/press/dave-the-diver/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">DAVE THE DIVER</span>
+      <span class="row__take">Finally, a job simulator where the boss is a giant squid and it&#039;s fine.</span>
+    </span>
+    <span class="row__genre">Adventure</span>
+    <time class="row__date" datetime="2023-07-18">Jul 18</time>
+    <span class="row__score" data-tone="warm">8.3</span>
+  </a>
+  <a class="row reveal" href="../reviews/resident-evil-4/">
+    <span class="row__n">04</span>
+    <span class="row__thumb">    <img src="../assets/press/resident-evil-4/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Resident Evil 4</span>
+      <span class="row__take">Turns out marriage counselling was Leon rescuing Ashley the whole time.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2023-05-04">May 4</time>
+    <span class="row__score" data-tone="hot">9.3</span>
+  </a>
+  <a class="row reveal" href="../reviews/pizza-tower/">
+    <span class="row__n">05</span>
+    <span class="row__thumb">    <img src="../assets/press/pizza-tower/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Pizza Tower</span>
+      <span class="row__take">Best cardio we&#039;ve done in a decade and we didn&#039;t have to leave the couch.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2023-02-08">Feb 8</time>
+    <span class="row__score" data-tone="hot">9.0</span>
+  </a>
+          </div>
+        </section>
+        <section class="wrap section" aria-labelledby="y-2022">
+          
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">5 reviews</p>
+      <h2><span id="y-2022">2022</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="2022/">All of 2022 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+          <div class="rows">
+            
+  <a class="row reveal" href="../reviews/vampire-survivors/">
+    <span class="row__n">01</span>
+    <span class="row__thumb">    <img src="../assets/press/vampire-survivors/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Vampire Survivors</span>
+      <span class="row__take">It&#039;s a screensaver that hands out achievements. Best five euros I ever spent by accident.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2022-11-09">Nov 9</time>
+    <span class="row__score" data-tone="hot">8.8</span>
+  </a>
+  <a class="row reveal" href="../reviews/cult-of-the-lamb/">
+    <span class="row__n">02</span>
+    <span class="row__thumb">    <img src="../assets/press/cult-of-the-lamb/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Cult of the Lamb</span>
+      <span class="row__take">My cult expanded rapidly once I introduced dental.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2022-09-22">Sep 22</time>
+    <span class="row__score" data-tone="warm">7.9</span>
+  </a>
+  <a class="row reveal" href="../reviews/stray/">
+    <span class="row__n">03</span>
+    <span class="row__thumb">    <img src="../assets/press/stray/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Stray</span>
+      <span class="row__take">The first game where I checked on the kids because a cartoon cat looked sad.</span>
+    </span>
+    <span class="row__genre">Adventure</span>
+    <time class="row__date" datetime="2022-08-19">Aug 19</time>
+    <span class="row__score" data-tone="cool">7.6</span>
+  </a>
+  <a class="row reveal" href="../reviews/neon-white/">
+    <span class="row__n">04</span>
+    <span class="row__thumb">    <img src="../assets/press/neon-white/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Neon White</span>
+      <span class="row__take">First shooter that made a middle-aged man voluntarily replay a level. Terrifying.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2022-06-29">Jun 29</time>
+    <span class="row__score" data-tone="hot">8.7</span>
+  </a>
+  <a class="row reveal" href="../reviews/elden-ring/">
+    <span class="row__n">05</span>
+    <span class="row__thumb">    <img src="../assets/press/elden-ring/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">ELDEN RING</span>
+      <span class="row__take">First time we paused a boss fight for maths homework and came back to the same problem.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2022-03-05">Mar 5</time>
+    <span class="row__score" data-tone="hot">9.5</span>
+  </a>
+          </div>
+        </section>
+        <section class="wrap section" aria-labelledby="y-2021">
+          
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">5 reviews</p>
+      <h2><span id="y-2021">2021</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="2021/">All of 2021 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+          <div class="rows">
+            
+  <a class="row reveal" href="../reviews/inscryption/">
+    <span class="row__n">01</span>
+    <span class="row__thumb">    <img src="../assets/press/inscryption/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Inscryption</span>
+      <span class="row__take">First deckbuilder where the deckbuilder wants to build you into the deck.</span>
+    </span>
+    <span class="row__genre">Adventure</span>
+    <time class="row__date" datetime="2021-11-19">Nov 19</time>
+    <span class="row__score" data-tone="hot">9.0</span>
+  </a>
+  <a class="row reveal" href="../reviews/deathloop/">
+    <span class="row__n">02</span>
+    <span class="row__thumb">    <img src="../assets/press/deathloop/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">DEATHLOOP</span>
+      <span class="row__take">The only sim where &#039;I already know how tomorrow ends&#039; is bragging, not depression.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2021-10-25">Oct 25</time>
+    <span class="row__score" data-tone="warm">7.8</span>
+  </a>
+  <a class="row reveal" href="../reviews/resident-evil-village/">
+    <span class="row__n">03</span>
+    <span class="row__thumb">    <img src="../assets/press/resident-evil-village/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Resident Evil Village</span>
+      <span class="row__take">Finally an RE where the neck aches from looking up, not down at ammo counts.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2021-05-19">May 19</time>
+    <span class="row__score" data-tone="warm">8.1</span>
+  </a>
+  <a class="row reveal" href="../reviews/it-takes-two/">
+    <span class="row__n">04</span>
+    <span class="row__thumb">    <img src="../assets/press/it-takes-two/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">It Takes Two</span>
+      <span class="row__take">Sold as marriage counselling. It&#039;s actually kart racing. Same thing, honestly.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2021-04-03">Apr 3</time>
+    <span class="row__score" data-tone="hot">9.2</span>
+  </a>
+  <a class="row reveal" href="../reviews/valheim/">
+    <span class="row__n">05</span>
+    <span class="row__thumb">    <img src="../assets/press/valheim/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Valheim</span>
+      <span class="row__take">My back hurts and my longship sank. Ten out of ten viking authenticity.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2021-02-22">Feb 22</time>
+    <span class="row__score" data-tone="warm">8.4</span>
+  </a>
+          </div>
+        </section>
+        <section class="wrap section" aria-labelledby="y-2020">
+          
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">5 reviews</p>
+      <h2><span id="y-2020">2020</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="2020/">All of 2020 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+          <div class="rows">
+            
+  <a class="row reveal" href="../reviews/hades/">
+    <span class="row__n">01</span>
+    <span class="row__thumb">    <img src="../assets/press/hades/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Hades</span>
+      <span class="row__take">It&#039;s a game about screaming at your father, and unlike our teenage years, this time it&#039;s productive.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2020-09-26">Sep 26</time>
+    <span class="row__score" data-tone="hot">9.3</span>
+  </a>
+  <a class="row reveal" href="../reviews/deep-rock-galactic/">
+    <span class="row__n">02</span>
+    <span class="row__thumb">    <img src="../assets/press/deep-rock-galactic/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Deep Rock Galactic</span>
+      <span class="row__take">The last time three of us wore matching hats we were on holiday and lost.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2020-06-24">Jun 24</time>
+    <span class="row__score" data-tone="hot">9.0</span>
+  </a>
+  <a class="row reveal" href="../reviews/doom-eternal/">
+    <span class="row__n">03</span>
+    <span class="row__thumb">    <img src="../assets/press/doom-eternal/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">DOOM Eternal</span>
+      <span class="row__take">Our doctor said no juggling. We didn&#039;t tell him about the chainsaw part.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2020-04-19">Apr 19</time>
+    <span class="row__score" data-tone="hot">8.6</span>
+  </a>
+  <a class="row reveal" href="../reviews/half-life-alyx/">
+    <span class="row__n">04</span>
+    <span class="row__thumb">    <img src="../assets/press/half-life-alyx/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Half-Life: Alyx</span>
+      <span class="row__take">The scariest thing in VR isn&#039;t the headcrabs, it&#039;s admitting to your wife how much the headset cost.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2020-04-12">Apr 12</time>
+    <span class="row__score" data-tone="hot">8.8</span>
+  </a>
+  <a class="row reveal" href="../reviews/ori-and-the-will-of-the-wisps/">
+    <span class="row__n">05</span>
+    <span class="row__thumb">    <img src="../assets/press/ori-and-the-will-of-the-wisps/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Ori and the Will of the Wisps</span>
+      <span class="row__take">The only game where we&#039;ve had to pause because our eyes were doing something.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2020-03-23">Mar 23</time>
+    <span class="row__score" data-tone="warm">8.4</span>
+  </a>
+          </div>
+        </section>
+        <section class="wrap section" aria-labelledby="y-2019">
+          
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">5 reviews</p>
+      <h2><span id="y-2019">2019</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="2019/">All of 2019 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+          <div class="rows">
+            
+  <a class="row reveal" href="../reviews/disco-elysium/">
+    <span class="row__n">01</span>
+    <span class="row__thumb">    <img src="../assets/press/disco-elysium/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Disco Elysium</span>
+      <span class="row__take">Finally, a game where the voices in our head are also credited as skills.</span>
+    </span>
+    <span class="row__genre">RPG</span>
+    <time class="row__date" datetime="2019-10-24">Oct 24</time>
+    <span class="row__score" data-tone="hot">9.5</span>
+  </a>
+  <a class="row reveal" href="../reviews/sekiro-shadows-die-twice/">
+    <span class="row__n">02</span>
+    <span class="row__thumb">    <img src="../assets/press/sekiro-shadows-die-twice/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Sekiro: Shadows Die Twice</span>
+      <span class="row__take">The good news is our reflexes were bad before Sekiro came out, so there&#039;s no downgrade.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2019-04-10">Apr 10</time>
+    <span class="row__score" data-tone="hot">8.9</span>
+  </a>
+  <a class="row reveal" href="../reviews/devil-may-cry-5/">
+    <span class="row__n">03</span>
+    <span class="row__thumb">    <img src="../assets/press/devil-may-cry-5/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Devil May Cry 5</span>
+      <span class="row__take">The last time we got an SSS rank at anything, our kids were being born.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2019-04-07">Apr 7</time>
+    <span class="row__score" data-tone="warm">8.4</span>
+  </a>
+  <a class="row reveal" href="../reviews/slay-the-spire/">
+    <span class="row__n">04</span>
+    <span class="row__thumb">    <img src="../assets/press/slay-the-spire/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Slay the Spire</span>
+      <span class="row__take">It&#039;s a deckbuilder. That&#039;s an actual sentence we say to our wives now.</span>
+    </span>
+    <span class="row__genre">Strategy</span>
+    <time class="row__date" datetime="2019-03-06">Mar 6</time>
+    <span class="row__score" data-tone="hot">9.2</span>
+  </a>
+  <a class="row reveal" href="../reviews/resident-evil-2/">
+    <span class="row__n">05</span>
+    <span class="row__thumb">    <img src="../assets/press/resident-evil-2/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Resident Evil 2</span>
+      <span class="row__take">Turns out the scariest thing at 45 is the footsteps of a very tall man in a hat.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2019-02-06">Feb 6</time>
+    <span class="row__score" data-tone="hot">9.1</span>
+  </a>
+          </div>
+        </section>
+        <section class="wrap section" aria-labelledby="y-2018">
+          
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">5 reviews</p>
+      <h2><span id="y-2018">2018</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="2018/">All of 2018 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+          <div class="rows">
+            
+  <a class="row reveal" href="../reviews/return-of-the-obra-dinn/">
+    <span class="row__n">01</span>
+    <span class="row__thumb">    <img src="../assets/press/return-of-the-obra-dinn/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Return of the Obra Dinn</span>
+      <span class="row__take">Turns out I will happily take notes for a boat, but not a meeting.</span>
+    </span>
+    <span class="row__genre">Adventure</span>
+    <time class="row__date" datetime="2018-11-07">Nov 7</time>
+    <span class="row__score" data-tone="hot">9.3</span>
+  </a>
+  <a class="row reveal" href="../reviews/dead-cells/">
+    <span class="row__n">02</span>
+    <span class="row__thumb">    <img src="../assets/press/dead-cells/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Dead Cells</span>
+      <span class="row__take">Every death teaches me something. Mostly that I should have parried.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2018-09-17">Sep 17</time>
+    <span class="row__score" data-tone="hot">8.5</span>
+  </a>
+  <a class="row reveal" href="../reviews/monster-hunter-world/">
+    <span class="row__n">03</span>
+    <span class="row__thumb">    <img src="../assets/press/monster-hunter-world/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Monster Hunter: World</span>
+      <span class="row__take">I now own a spreadsheet called Great Jagras Farming Route. Please send help.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2018-09-08">Sep 8</time>
+    <span class="row__score" data-tone="warm">8.3</span>
+  </a>
+  <a class="row reveal" href="../reviews/subnautica/">
+    <span class="row__n">04</span>
+    <span class="row__thumb">    <img src="../assets/press/subnautica/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Subnautica</span>
+      <span class="row__take">First game to make me buy a bigger monitor. Then regret it, immediately.</span>
+    </span>
+    <span class="row__genre">Adventure</span>
+    <time class="row__date" datetime="2018-02-05">Feb 5</time>
+    <span class="row__score" data-tone="hot">8.8</span>
+  </a>
+  <a class="row reveal" href="../reviews/celeste/">
+    <span class="row__n">05</span>
+    <span class="row__thumb">    <img src="../assets/press/celeste/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Celeste</span>
+      <span class="row__take">The mountain wants you to be okay. The mountain also wants to kill you. Very balanced mountain.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2018-02-03">Feb 3</time>
+    <span class="row__score" data-tone="hot">9.1</span>
+  </a>
+          </div>
+        </section>
+        <section class="wrap section" aria-labelledby="y-2017">
+          
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">5 reviews</p>
+      <h2><span id="y-2017">2017</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="2017/">All of 2017 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+          <div class="rows">
+            
+  <a class="row reveal" href="../reviews/cuphead/">
+    <span class="row__n">01</span>
+    <span class="row__thumb">    <img src="../assets/press/cuphead/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Cuphead</span>
+      <span class="row__take">We had to start doing actual wrist stretches to play a cartoon.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2017-10-19">Oct 19</time>
+    <span class="row__score" data-tone="cool">7.6</span>
+  </a>
+  <a class="row reveal" href="../reviews/divinity-original-sin-2/">
+    <span class="row__n">02</span>
+    <span class="row__thumb">    <img src="../assets/press/divinity-original-sin-2/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Divinity: Original Sin 2</span>
+      <span class="row__take">Every party meeting ends in arson. So does every real one, honestly.</span>
+    </span>
+    <span class="row__genre">Adventure</span>
+    <time class="row__date" datetime="2017-09-23">Sep 23</time>
+    <span class="row__score" data-tone="hot">9.4</span>
+  </a>
+  <a class="row reveal" href="../reviews/prey/">
+    <span class="row__n">03</span>
+    <span class="row__thumb">    <img src="../assets/press/prey/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Prey</span>
+      <span class="row__take">The mimic ate my in-game keys. And also, somehow, my real ones.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2017-05-17">May 17</time>
+    <span class="row__score" data-tone="hot">9.0</span>
+  </a>
+  <a class="row reveal" href="../reviews/nier-automata/">
+    <span class="row__n">04</span>
+    <span class="row__thumb">    <img src="../assets/press/nier-automata/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">NieR:Automata™</span>
+      <span class="row__take">First game that made me cry. And I have watched every Pixar movie in a hospital.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2017-04-28">Apr 28</time>
+    <span class="row__score" data-tone="warm">8.4</span>
+  </a>
+  <a class="row reveal" href="../reviews/hollow-knight/">
+    <span class="row__n">05</span>
+    <span class="row__thumb">    <img src="../assets/press/hollow-knight/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Hollow Knight</span>
+      <span class="row__take">We came for the bugs. Stayed for the emotional damage.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2017-03-27">Mar 27</time>
+    <span class="row__score" data-tone="hot">8.9</span>
+  </a>
+          </div>
+        </section>
+        <section class="wrap section" aria-labelledby="y-2016">
+          
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">5 reviews</p>
+      <h2><span id="y-2016">2016</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="2016/">All of 2016 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+          <div class="rows">
+            
+  <a class="row reveal" href="../reviews/doom/">
+    <span class="row__n">01</span>
+    <span class="row__thumb">    <img src="../assets/press/doom/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">DOOM</span>
+      <span class="row__take">I have not been this loud at midnight since the children were born.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2016-05-21">May 21</time>
+    <span class="row__score" data-tone="hot">9.4</span>
+  </a>
+  <a class="row reveal" href="../reviews/dark-souls-iii/">
+    <span class="row__n">02</span>
+    <span class="row__thumb">    <img src="../assets/press/dark-souls-iii/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">DARK SOULS™ III</span>
+      <span class="row__take">The bonfire is now my emotional support furniture, thank you for asking.</span>
+    </span>
+    <span class="row__genre">Action</span>
+    <time class="row__date" datetime="2016-05-12">May 12</time>
+    <span class="row__score" data-tone="hot">8.7</span>
+  </a>
+  <a class="row reveal" href="../reviews/firewatch/">
+    <span class="row__n">03</span>
+    <span class="row__thumb">    <img src="../assets/press/firewatch/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Firewatch</span>
+      <span class="row__take">The only game where your handheld radio has more character development than you.</span>
+    </span>
+    <span class="row__genre">Adventure</span>
+    <time class="row__date" datetime="2016-03-22">Mar 22</time>
+    <span class="row__score" data-tone="warm">7.8</span>
+  </a>
+  <a class="row reveal" href="../reviews/stardew-valley/">
+    <span class="row__n">04</span>
+    <span class="row__thumb">    <img src="../assets/press/stardew-valley/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Stardew Valley</span>
+      <span class="row__take">Marnie&#039;s animals cost more than my kid&#039;s actual college fund.</span>
+    </span>
+    <span class="row__genre">RPG</span>
+    <time class="row__date" datetime="2016-03-17">Mar 17</time>
+    <span class="row__score" data-tone="hot">9.3</span>
+  </a>
+  <a class="row reveal" href="../reviews/xcom-2/">
+    <span class="row__n">05</span>
+    <span class="row__thumb">    <img src="../assets/press/xcom-2/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">XCOM® 2</span>
+      <span class="row__take">The dice have been sent to review, and they have chosen violence.</span>
+    </span>
+    <span class="row__genre">Strategy</span>
+    <time class="row__date" datetime="2016-02-17">Feb 17</time>
+    <span class="row__score" data-tone="hot">8.8</span>
+  </a>
+          </div>
+        </section>
+        <section class="wrap section" aria-labelledby="y-2015">
+          
+  <div class="sechead">
+    <div class="sechead__text">
+      <p class="kicker">5 reviews</p>
+      <h2><span id="y-2015">2015</span></h2>
+      
+    </div>
+    <a class="btn btn--ghost" href="2015/">All of 2015 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+          <div class="rows">
+            
+  <a class="row reveal" href="../reviews/fallout-4/">
+    <span class="row__n">01</span>
+    <span class="row__thumb">    <img src="../assets/press/fallout-4/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Fallout 4</span>
+      <span class="row__take">I came for the story. I stayed to make Preston Garvey suffer.</span>
+    </span>
+    <span class="row__genre">RPG</span>
+    <time class="row__date" datetime="2015-12-21">Dec 21</time>
+    <span class="row__score" data-tone="cool">7.2</span>
+  </a>
+  <a class="row reveal" href="../reviews/keep-talking-and-nobody-explodes/">
+    <span class="row__n">02</span>
+    <span class="row__thumb">    <img src="../assets/press/keep-talking-and-nobody-explodes/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Keep Talking and Nobody Explodes</span>
+      <span class="row__take">We defused the bomb. The friendship? Less clear.</span>
+    </span>
+    <span class="row__genre">Indie</span>
+    <time class="row__date" datetime="2015-10-28">Oct 28</time>
+    <span class="row__score" data-tone="hot">8.6</span>
+  </a>
+  <a class="row reveal" href="../reviews/undertale/">
+    <span class="row__n">03</span>
+    <span class="row__thumb">    <img src="../assets/press/undertale/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Undertale</span>
+      <span class="row__take">I petted the dog. Then I petted the dog again. Then I lost my job.</span>
+    </span>
+    <span class="row__genre">RPG</span>
+    <time class="row__date" datetime="2015-10-16">Oct 16</time>
+    <span class="row__score" data-tone="hot">8.9</span>
+  </a>
+  <a class="row reveal" href="../reviews/the-witcher-3-wild-hunt/">
+    <span class="row__n">04</span>
+    <span class="row__thumb">    <img src="../assets/press/the-witcher-3-wild-hunt/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">The Witcher 3: Wild Hunt</span>
+      <span class="row__take">Gwent stole more of my life than any of my children.</span>
+    </span>
+    <span class="row__genre">RPG</span>
+    <time class="row__date" datetime="2015-05-27">May 27</time>
+    <span class="row__score" data-tone="hot">9.5</span>
+  </a>
+  <a class="row reveal" href="../reviews/cities-skylines/">
+    <span class="row__n">05</span>
+    <span class="row__thumb">    <img src="../assets/press/cities-skylines/thumb.jpg" alt="" loading="lazy" decoding="async" width="480" height="270" sizes="88px" /></span>
+    <span class="row__main">
+      <span class="row__title">Cities: Skylines</span>
+      <span class="row__take">We didn&#039;t found a metropolis. We founded a very expensive intersection.</span>
+    </span>
+    <span class="row__genre">Simulation</span>
+    <time class="row__date" datetime="2015-03-23">Mar 23</time>
+    <span class="row__score" data-tone="warm">8.4</span>
+  </a>
+          </div>
+        </section>
+      </main>
+    
+  <footer class="foot">
+    <div class="wrap foot__grid">
+      <div class="foot__brandcol">
+        <a class="brand" href="../" aria-label="PsychoBros home">
+          
+  <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
+    <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
+    <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
+  </svg>
+          <span class="brand__word">Psycho<em>Bros</em></span>
+        </a>
+        <p>Three dads in their forties reviewing games between school pickup and bedtime. One of us will not stop talking about Descent.</p>
+      </div>
+      <div class="foot__col">
+        <h2>Read</h2>
+        <a href="../reviews/">All reviews</a>
+        <a href="../years/">Browse by year</a>
+        <a href="../tags/pax-west-2025/">PAX West 2025</a>
+      </div>
+      <div class="foot__col">
+        <h2>The boring bits</h2>
+        <a href="../about/#crew">Meet the dads</a>
+        <a href="../about/#standards">How we stay honest</a>
+        <a href="../about/#press">Press &amp; partnerships</a>
+      </div>
+      <div class="foot__col">
+        <h2>Elsewhere</h2>
+        <a href="https://github.com/PsychoBrosGames" rel="noreferrer">GitHub</a>
+        <a href="../about/#press">Get in touch</a>
+      </div>
+    </div>
+    <div class="wrap foot__bottom">
+      <p>&copy; <span data-year></span> PsychoBros. Built after the kids went to bed. Mostly.</p>
+      <p class="foot__rights">Game screenshots and key art are official press assets belonging to their respective developers and publishers, used editorially. <a href="../about/#standards">Image policy</a>.</p>
+      <a class="totop" href="#top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </footer>
+    <script src="../script.js"></script>
+  </body>
+</html>

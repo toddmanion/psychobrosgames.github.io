@@ -1,0 +1,1768 @@
+[
+  {
+    "slug": "the-witcher-3-wild-hunt",
+    "coverYear": 2015,
+    "tier": "AAA",
+    "appid": 292030,
+    "name": "The Witcher 3: Wild Hunt",
+    "steamName": "The Witcher 3: Wild Hunt",
+    "developers": [
+      "CD PROJEKT RED"
+    ],
+    "publishers": [
+      "CD PROJEKT RED"
+    ],
+    "releaseDate": "May 18, 2015",
+    "releaseYear": 2015,
+    "comingSoon": false,
+    "genres": [
+      "RPG"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "You are Geralt of Rivia, mercenary monster slayer. Before you stands a war-torn, monster-infested continent you can explore at will. Your current contract? Tracking down Ciri — the Child of Prophecy, a living weapon that can alter the shape of the world.",
+    "storeUrl": "https://store.steampowered.com/app/292030/",
+    "type": "game"
+  },
+  {
+    "slug": "keep-talking-and-nobody-explodes",
+    "coverYear": 2015,
+    "tier": "Indie",
+    "appid": 341800,
+    "name": "Keep Talking and Nobody Explodes",
+    "steamName": "Keep Talking and Nobody Explodes",
+    "developers": [
+      "Steel Crate Games"
+    ],
+    "publishers": [
+      "Steel Crate Games"
+    ],
+    "releaseDate": "Oct 8, 2015",
+    "releaseYear": 2015,
+    "comingSoon": false,
+    "genres": [
+      "Indie"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "shortDescription": "Find yourself trapped alone in a room with a ticking time bomb. Your friends have the manual to defuse it, but they can't see the bomb, so you're going to have to talk it out – fast!",
+    "storeUrl": "https://store.steampowered.com/app/341800/",
+    "type": "game"
+  },
+  {
+    "slug": "undertale",
+    "coverYear": 2015,
+    "tier": "Indie",
+    "appid": 391540,
+    "name": "Undertale",
+    "steamName": "Undertale",
+    "developers": [
+      "tobyfox"
+    ],
+    "publishers": [
+      "tobyfox"
+    ],
+    "releaseDate": "Sep 15, 2015",
+    "releaseYear": 2015,
+    "comingSoon": false,
+    "genres": [
+      "Indie",
+      "RPG"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "shortDescription": "UNDERTALE! The RPG game where you don't have to destroy anyone.",
+    "storeUrl": "https://store.steampowered.com/app/391540/",
+    "type": "game"
+  },
+  {
+    "slug": "fallout-4",
+    "coverYear": 2015,
+    "tier": "AAA",
+    "appid": 377160,
+    "name": "Fallout 4",
+    "steamName": "Fallout 4",
+    "developers": [
+      "Bethesda Game Studios"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "releaseDate": "Nov 9, 2015",
+    "releaseYear": 2015,
+    "comingSoon": false,
+    "genres": [
+      "RPG"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "From Bethesda Game Studios, the award-winning creators of Starfield and The Elder Scrolls V: Skyrim, comes Fallout 4. A landmark in open-world RPG design and winner of over 200 ‘Best Of’ honors, including the DICE and BAFTA Game of the Year.",
+    "storeUrl": "https://store.steampowered.com/app/377160/",
+    "type": "game"
+  },
+  {
+    "slug": "cities-skylines",
+    "coverYear": 2015,
+    "tier": "AA",
+    "appid": 255710,
+    "name": "Cities: Skylines",
+    "steamName": "Cities: Skylines",
+    "developers": [
+      "Colossal Order"
+    ],
+    "publishers": [
+      "Paradox Interactive"
+    ],
+    "releaseDate": "Mar 10, 2015",
+    "releaseYear": 2015,
+    "comingSoon": false,
+    "genres": [
+      "Simulation",
+      "Strategy"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "shortDescription": "Cities: Skylines is a modern take on the classic city simulation. The game introduces new game play elements to realize the thrill and hardships of creating and maintaining a real city whilst expanding on some well-established tropes of the city building experience.",
+    "storeUrl": "https://store.steampowered.com/app/255710/",
+    "type": "game"
+  },
+  {
+    "slug": "doom",
+    "coverYear": 2016,
+    "tier": "AAA",
+    "appid": 379720,
+    "name": "DOOM",
+    "steamName": "DOOM",
+    "developers": [
+      "id Software"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "releaseDate": "May 12, 2016",
+    "releaseYear": 2016,
+    "comingSoon": false,
+    "genres": [
+      "Action"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Now includes all three premium DLC packs (Unto the Evil, Hell Followed, and Bloodfall), maps, modes, and weapons, as well as all feature updates including Arcade Mode, Photo Mode, and the latest Update 6.66, which brings further multiplayer improvements as well as revamps multiplayer progression.",
+    "storeUrl": "https://store.steampowered.com/app/379720/",
+    "type": "game"
+  },
+  {
+    "slug": "stardew-valley",
+    "coverYear": 2016,
+    "tier": "Indie",
+    "appid": 413150,
+    "name": "Stardew Valley",
+    "steamName": "Stardew Valley",
+    "developers": [
+      "ConcernedApe"
+    ],
+    "publishers": [
+      "ConcernedApe"
+    ],
+    "releaseDate": "Feb 26, 2016",
+    "releaseYear": 2016,
+    "comingSoon": false,
+    "genres": [
+      "Indie",
+      "RPG",
+      "Simulation"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "shortDescription": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+    "storeUrl": "https://store.steampowered.com/app/413150/",
+    "type": "game"
+  },
+  {
+    "slug": "dark-souls-iii",
+    "coverYear": 2016,
+    "tier": "AAA",
+    "appid": 374320,
+    "name": "DARK SOULS™ III",
+    "steamName": "DARK SOULS™ III",
+    "developers": [
+      "FromSoftware, Inc."
+    ],
+    "publishers": [
+      "FromSoftware, Inc.",
+      "Bandai Namco Entertainment"
+    ],
+    "releaseDate": "Apr 11, 2016",
+    "releaseYear": 2016,
+    "comingSoon": false,
+    "genres": [
+      "Action"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Dark Souls continues to push the boundaries with the latest, ambitious chapter in the critically-acclaimed and genre-defining series. Prepare yourself and Embrace The Darkness!",
+    "storeUrl": "https://store.steampowered.com/app/374320/",
+    "type": "game"
+  },
+  {
+    "slug": "firewatch",
+    "coverYear": 2016,
+    "tier": "Indie",
+    "appid": 383870,
+    "name": "Firewatch",
+    "steamName": "Firewatch",
+    "developers": [
+      "Campo Santo"
+    ],
+    "publishers": [
+      "Panic",
+      "Campo Santo"
+    ],
+    "releaseDate": "Feb 9, 2016",
+    "releaseYear": 2016,
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "shortDescription": "Firewatch is a single-player first-person mystery set in the Wyoming wilderness, where your only emotional lifeline is the person on the other end of a handheld radio.",
+    "storeUrl": "https://store.steampowered.com/app/383870/",
+    "type": "game"
+  },
+  {
+    "slug": "xcom-2",
+    "coverYear": 2016,
+    "tier": "AAA",
+    "appid": 268500,
+    "name": "XCOM® 2",
+    "steamName": "XCOM® 2",
+    "developers": [
+      "Firaxis Games",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "publishers": [
+      "2K",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "releaseDate": "Feb 4, 2016",
+    "releaseYear": 2016,
+    "comingSoon": false,
+    "genres": [
+      "Strategy"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "shortDescription": "XCOM 2 is the sequel to XCOM: Enemy Unknown, the 2012 award-winning strategy game of the year. Earth has changed and is now under alien rule. Facing impossible odds you must rebuild XCOM, and ignite a global resistance to reclaim our world and save humanity.",
+    "storeUrl": "https://store.steampowered.com/app/268500/",
+    "type": "game"
+  },
+  {
+    "slug": "divinity-original-sin-2",
+    "coverYear": 2017,
+    "tier": "AA",
+    "appid": 435150,
+    "name": "Divinity: Original Sin 2",
+    "steamName": "Divinity: Original Sin 2 - Definitive Edition",
+    "developers": [
+      "Larian Studios"
+    ],
+    "publishers": [
+      "Larian Studios"
+    ],
+    "releaseDate": "Sep 14, 2017",
+    "releaseYear": 2017,
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "RPG",
+      "Strategy"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "The critically acclaimed RPG that raised the bar, from the creators of Baldur's Gate 3. Gather your party. Master deep, tactical combat. Venture as a party of up to four - but know that only one of you will have the chance to become a God.",
+    "storeUrl": "https://store.steampowered.com/app/435150/",
+    "type": "game"
+  },
+  {
+    "slug": "cuphead",
+    "coverYear": 2017,
+    "tier": "Indie",
+    "appid": 268910,
+    "name": "Cuphead",
+    "steamName": "Cuphead",
+    "developers": [
+      "Studio MDHR Entertainment Inc."
+    ],
+    "publishers": [
+      "Studio MDHR Entertainment Inc."
+    ],
+    "releaseDate": "Sep 29, 2017",
+    "releaseYear": 2017,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era, i.e. traditional hand drawn cel animation, watercolor backgrounds, and original jazz recordings.",
+    "storeUrl": "https://store.steampowered.com/app/268910/",
+    "type": "game"
+  },
+  {
+    "slug": "hollow-knight",
+    "coverYear": 2017,
+    "tier": "Indie",
+    "appid": 367520,
+    "name": "Hollow Knight",
+    "steamName": "Hollow Knight",
+    "developers": [
+      "Team Cherry"
+    ],
+    "publishers": [
+      "Team Cherry"
+    ],
+    "releaseDate": "Feb 24, 2017",
+    "releaseYear": 2017,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "shortDescription": "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.",
+    "storeUrl": "https://store.steampowered.com/app/367520/",
+    "type": "game"
+  },
+  {
+    "slug": "nier-automata",
+    "coverYear": 2017,
+    "tier": "AAA",
+    "appid": 524220,
+    "name": "NieR:Automata™",
+    "steamName": "NieR:Automata™",
+    "developers": [
+      "Square Enix",
+      "PlatinumGames Inc."
+    ],
+    "publishers": [
+      "Square Enix"
+    ],
+    "releaseDate": "Mar 17, 2017",
+    "releaseYear": 2017,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "NieR: Automata tells the story of androids 2B, 9S and A2 and their battle to reclaim the machine-driven dystopia overrun by powerful machines.",
+    "storeUrl": "https://store.steampowered.com/app/524220/",
+    "type": "game"
+  },
+  {
+    "slug": "prey",
+    "coverYear": 2017,
+    "tier": "AAA",
+    "appid": 480490,
+    "name": "Prey",
+    "steamName": "Prey",
+    "developers": [
+      "Arkane Studios"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "releaseDate": "May 4, 2017",
+    "releaseYear": 2017,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "In Prey, you awaken aboard Talos I, a space station orbiting the moon in the year 2032. You are the key subject of an experiment meant to alter humanity forever – but things have gone terribly wrong. The space station has been overrun by hostile aliens and you are now being hunted.",
+    "storeUrl": "https://store.steampowered.com/app/480490/",
+    "type": "game"
+  },
+  {
+    "slug": "celeste",
+    "coverYear": 2018,
+    "tier": "Indie",
+    "appid": 504230,
+    "name": "Celeste",
+    "steamName": "Celeste",
+    "developers": [
+      "Maddy Makes Games Inc.",
+      "Extremely OK Games, Ltd."
+    ],
+    "publishers": [
+      "Maddy Makes Games Inc."
+    ],
+    "releaseDate": "Jan 25, 2018",
+    "releaseYear": 2018,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "shortDescription": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
+    "storeUrl": "https://store.steampowered.com/app/504230/",
+    "type": "game"
+  },
+  {
+    "slug": "return-of-the-obra-dinn",
+    "coverYear": 2018,
+    "tier": "Indie",
+    "appid": 653530,
+    "name": "Return of the Obra Dinn",
+    "steamName": "Return of the Obra Dinn",
+    "developers": [
+      "Lucas Pope"
+    ],
+    "publishers": [
+      "3909"
+    ],
+    "releaseDate": "Oct 18, 2018",
+    "releaseYear": 2018,
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "Lost at sea 1803 ~ The good ship Obra Dinn.",
+    "storeUrl": "https://store.steampowered.com/app/653530/",
+    "type": "game"
+  },
+  {
+    "slug": "monster-hunter-world",
+    "coverYear": 2018,
+    "tier": "AAA",
+    "appid": 582010,
+    "name": "Monster Hunter: World",
+    "steamName": "Monster Hunter: World",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "releaseDate": "Aug 8, 2018",
+    "releaseYear": 2018,
+    "comingSoon": false,
+    "genres": [
+      "Action"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Welcome to a new world! In Monster Hunter: World, the latest installment in the series, you can enjoy the ultimate hunting experience, using everything at your disposal to hunt monsters in a new world teeming with surprises and excitement.",
+    "storeUrl": "https://store.steampowered.com/app/582010/",
+    "type": "game"
+  },
+  {
+    "slug": "dead-cells",
+    "coverYear": 2018,
+    "tier": "Indie",
+    "appid": 588650,
+    "name": "Dead Cells",
+    "steamName": "Dead Cells",
+    "developers": [
+      "Motion Twin"
+    ],
+    "publishers": [
+      "Motion Twin"
+    ],
+    "releaseDate": "Aug 6, 2018",
+    "releaseYear": 2018,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "shortDescription": "Dead Cells is a roguelite, metroidvania inspired, action-platformer. You'll explore a sprawling, ever-changing castle... assuming you’re able to fight your way past its keepers in 2D souls-lite combat. No checkpoints. Kill, die, learn, repeat.",
+    "storeUrl": "https://store.steampowered.com/app/588650/",
+    "type": "game"
+  },
+  {
+    "slug": "subnautica",
+    "coverYear": 2018,
+    "tier": "AA",
+    "appid": 264710,
+    "name": "Subnautica",
+    "steamName": "Subnautica",
+    "developers": [
+      "Unknown Worlds Entertainment"
+    ],
+    "publishers": [
+      "Unknown Worlds Entertainment"
+    ],
+    "releaseDate": "Jan 23, 2018",
+    "releaseYear": 2018,
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive.",
+    "storeUrl": "https://store.steampowered.com/app/264710/",
+    "type": "game"
+  },
+  {
+    "slug": "disco-elysium",
+    "coverYear": 2019,
+    "tier": "Indie",
+    "appid": 632470,
+    "name": "Disco Elysium",
+    "steamName": "Disco Elysium - The Final Cut",
+    "developers": [
+      "ZA/UM"
+    ],
+    "publishers": [
+      "ZA/UM"
+    ],
+    "releaseDate": "Oct 15, 2019",
+    "releaseYear": 2019,
+    "comingSoon": false,
+    "genres": [
+      "RPG"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "Disco Elysium - The Final Cut is a groundbreaking role playing game. You’re a detective with a unique skill system at your disposal and a whole city to carve your path across. Interrogate unforgettable characters, crack murders or take bribes. Become a hero or an absolute disaster of a human being.",
+    "storeUrl": "https://store.steampowered.com/app/632470/",
+    "type": "game"
+  },
+  {
+    "slug": "sekiro-shadows-die-twice",
+    "coverYear": 2019,
+    "tier": "AAA",
+    "appid": 814380,
+    "name": "Sekiro: Shadows Die Twice",
+    "steamName": "Sekiro™: Shadows Die Twice - GOTY Edition",
+    "developers": [
+      "FromSoftware, Inc."
+    ],
+    "publishers": [
+      "Activision (Excluding Japan and Asia)",
+      "FromSoftware, Inc. (Japan)",
+      "方块游戏 (Asia)"
+    ],
+    "releaseDate": "Mar 21, 2019",
+    "releaseYear": 2019,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Carve your own clever path to vengeance in the award winning adventure from developer FromSoftware, creators of Bloodborne and the Dark Souls series. Take Revenge. Restore Your Honor. Kill Ingeniously.",
+    "storeUrl": "https://store.steampowered.com/app/814380/",
+    "type": "game"
+  },
+  {
+    "slug": "devil-may-cry-5",
+    "coverYear": 2019,
+    "tier": "AAA",
+    "appid": 601150,
+    "name": "Devil May Cry 5",
+    "steamName": "Devil May Cry 5",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "releaseDate": "Mar 7, 2019",
+    "releaseYear": 2019,
+    "comingSoon": false,
+    "genres": [
+      "Action"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "The ultimate Devil Hunter is back in style, in the game action fans have been waiting for.",
+    "storeUrl": "https://store.steampowered.com/app/601150/",
+    "type": "game"
+  },
+  {
+    "slug": "slay-the-spire",
+    "coverYear": 2019,
+    "tier": "Indie",
+    "appid": 646570,
+    "name": "Slay the Spire",
+    "steamName": "Slay the Spire",
+    "developers": [
+      "Mega Crit"
+    ],
+    "publishers": [
+      "Mega Crit"
+    ],
+    "releaseDate": "Jan 23, 2019",
+    "releaseYear": 2019,
+    "comingSoon": false,
+    "genres": [
+      "Indie",
+      "Strategy"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "shortDescription": "We fused card games and roguelikes together to make the best single player deckbuilder we could. Craft a unique deck, encounter bizarre creatures, discover relics of immense power, and Slay the Spire!",
+    "storeUrl": "https://store.steampowered.com/app/646570/",
+    "type": "game"
+  },
+  {
+    "slug": "resident-evil-2",
+    "coverYear": 2019,
+    "tier": "AAA",
+    "appid": 883710,
+    "name": "Resident Evil 2",
+    "steamName": "Resident Evil 2",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "releaseDate": "Jan 24, 2019",
+    "releaseYear": 2019,
+    "comingSoon": false,
+    "genres": [
+      "Action"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "A deadly virus engulfs the residents of Raccoon City in September of 1998, plunging the city into chaos as flesh eating zombies roam the streets for survivors. An unparalleled adrenaline rush, gripping storyline, and unimaginable horrors await you. Witness the return of Resident Evil 2.",
+    "storeUrl": "https://store.steampowered.com/app/883710/",
+    "type": "game"
+  },
+  {
+    "slug": "hades",
+    "coverYear": 2020,
+    "tier": "Indie",
+    "appid": 1145360,
+    "name": "Hades",
+    "steamName": "Hades",
+    "developers": [
+      "Supergiant Games"
+    ],
+    "publishers": [
+      "Supergiant Games"
+    ],
+    "releaseDate": "Sep 17, 2020",
+    "releaseYear": 2020,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Indie",
+      "RPG"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.",
+    "storeUrl": "https://store.steampowered.com/app/1145360/",
+    "type": "game"
+  },
+  {
+    "slug": "half-life-alyx",
+    "coverYear": 2020,
+    "tier": "AAA",
+    "appid": 546560,
+    "name": "Half-Life: Alyx",
+    "steamName": "Half-Life: Alyx",
+    "developers": [
+      "Valve"
+    ],
+    "publishers": [
+      "Valve"
+    ],
+    "releaseDate": "Mar 23, 2020",
+    "releaseYear": 2020,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Half-Life: Alyx is Valve’s VR return to the Half-Life series. It’s the story of an impossible fight against a vicious alien race known as the Combine, set between the events of Half-Life and Half-Life 2. Playing as Alyx Vance, you are humanity’s only chance for survival.",
+    "storeUrl": "https://store.steampowered.com/app/546560/",
+    "type": "game"
+  },
+  {
+    "slug": "doom-eternal",
+    "coverYear": 2020,
+    "tier": "AAA",
+    "appid": 782330,
+    "name": "DOOM Eternal",
+    "steamName": "DOOM Eternal",
+    "developers": [
+      "id Software"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "releaseDate": "Mar 19, 2020",
+    "releaseYear": 2020,
+    "comingSoon": false,
+    "genres": [
+      "Action"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you.",
+    "storeUrl": "https://store.steampowered.com/app/782330/",
+    "type": "game"
+  },
+  {
+    "slug": "deep-rock-galactic",
+    "coverYear": 2020,
+    "tier": "AA",
+    "appid": 548430,
+    "name": "Deep Rock Galactic",
+    "steamName": "Deep Rock Galactic",
+    "developers": [
+      "Ghost Ship Games"
+    ],
+    "publishers": [
+      "Coffee Stain Publishing"
+    ],
+    "releaseDate": "May 13, 2020",
+    "releaseYear": 2020,
+    "comingSoon": false,
+    "genres": [
+      "Action"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Deep Rock Galactic is a 1-4 player co-op FPS featuring dwarven space miners, procedurally-generated destructible environments, and endless hordes of alien monsters. Explore cave systems, mine for minerals, and work together to survive!",
+    "storeUrl": "https://store.steampowered.com/app/548430/",
+    "type": "game"
+  },
+  {
+    "slug": "ori-and-the-will-of-the-wisps",
+    "coverYear": 2020,
+    "tier": "AA",
+    "appid": 1057090,
+    "name": "Ori and the Will of the Wisps",
+    "steamName": "Ori and the Will of the Wisps",
+    "developers": [
+      "Moon Studios GmbH"
+    ],
+    "publishers": [
+      "Xbox Game Studios"
+    ],
+    "releaseDate": "Mar 10, 2020",
+    "releaseYear": 2020,
+    "comingSoon": false,
+    "genres": [
+      "Action"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Play the critically acclaimed masterpiece. Embark on a new journey in a vast, exotic world where you’ll encounter towering enemies and challenging puzzles on your quest to unravel Ori’s destiny.",
+    "storeUrl": "https://store.steampowered.com/app/1057090/",
+    "type": "game"
+  },
+  {
+    "slug": "it-takes-two",
+    "coverYear": 2021,
+    "tier": "AA",
+    "appid": 1426210,
+    "name": "It Takes Two",
+    "steamName": "It Takes Two",
+    "developers": [
+      "Hazelight Studios"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ],
+    "releaseDate": "Mar 25, 2021",
+    "releaseYear": 2021,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
+    "storeUrl": "https://store.steampowered.com/app/1426210/",
+    "type": "game"
+  },
+  {
+    "slug": "valheim",
+    "coverYear": 2021,
+    "tier": "Indie",
+    "appid": 892970,
+    "name": "Valheim",
+    "steamName": "Valheim",
+    "developers": [
+      "Iron Gate AB"
+    ],
+    "publishers": [
+      "Coffee Stain Publishing"
+    ],
+    "releaseDate": "Feb 2, 2021",
+    "releaseYear": 2021,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "RPG",
+      "Early Access"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "shortDescription": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
+    "storeUrl": "https://store.steampowered.com/app/892970/",
+    "type": "game"
+  },
+  {
+    "slug": "inscryption",
+    "coverYear": 2021,
+    "tier": "Indie",
+    "appid": 1092790,
+    "name": "Inscryption",
+    "steamName": "Inscryption",
+    "developers": [
+      "Daniel Mullins Games"
+    ],
+    "publishers": [
+      "Devolver Digital"
+    ],
+    "releaseDate": "Oct 19, 2021",
+    "releaseYear": 2021,
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Strategy"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "shortDescription": "Inscryption is an inky black card-based odyssey that blends the deckbuilding roguelike, escape-room style puzzles, and psychological horror into a blood-laced smoothie. Darker still are the secrets inscrybed upon the cards...",
+    "storeUrl": "https://store.steampowered.com/app/1092790/",
+    "type": "game"
+  },
+  {
+    "slug": "deathloop",
+    "coverYear": 2021,
+    "tier": "AAA",
+    "appid": 1252330,
+    "name": "DEATHLOOP",
+    "steamName": "DEATHLOOP",
+    "developers": [
+      "Arkane Studios"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "releaseDate": "Sep 13, 2021",
+    "releaseYear": 2021,
+    "comingSoon": false,
+    "genres": [
+      "Action"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "DEATHLOOP is a next-gen FPS from Arkane Lyon, the award-winning studio behind Dishonored. In DEATHLOOP, two rival assassins are trapped in a mysterious timeloop on the island of Blackreef, doomed to repeat the same day for eternity.",
+    "storeUrl": "https://store.steampowered.com/app/1252330/",
+    "type": "game"
+  },
+  {
+    "slug": "resident-evil-village",
+    "coverYear": 2021,
+    "tier": "AAA",
+    "appid": 1196590,
+    "name": "Resident Evil Village",
+    "steamName": "Resident Evil Village",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "releaseDate": "May 6, 2021",
+    "releaseYear": 2021,
+    "comingSoon": false,
+    "genres": [
+      "Action"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Experience survival horror like never before in the 8th major installment in the Resident Evil franchise - Resident Evil Village. With detailed graphics, intense first-person action and masterful storytelling, the terror has never felt more realistic.",
+    "storeUrl": "https://store.steampowered.com/app/1196590/",
+    "type": "game"
+  },
+  {
+    "slug": "elden-ring",
+    "coverYear": 2022,
+    "tier": "AAA",
+    "appid": 1245620,
+    "name": "ELDEN RING",
+    "steamName": "ELDEN RING",
+    "developers": [
+      "FromSoftware, Inc."
+    ],
+    "publishers": [
+      "FromSoftware, Inc.",
+      "Bandai Namco Entertainment"
+    ],
+    "releaseDate": "Feb 24, 2022",
+    "releaseYear": 2022,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "THE CRITICALLY ACCLAIMED FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
+    "storeUrl": "https://store.steampowered.com/app/1245620/",
+    "type": "game"
+  },
+  {
+    "slug": "vampire-survivors",
+    "coverYear": 2022,
+    "tier": "Indie",
+    "appid": 1794680,
+    "name": "Vampire Survivors",
+    "steamName": "Vampire Survivors",
+    "developers": [
+      "poncle"
+    ],
+    "publishers": [
+      "poncle"
+    ],
+    "releaseDate": "Oct 20, 2022",
+    "releaseYear": 2022,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Casual",
+      "Indie",
+      "RPG"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "Mow down thousands of night creatures and survive until dawn! Vampire Survivors is a gothic horror casual game with rogue-lite elements, where your choices can allow you to quickly snowball against the hundreds of monsters that get thrown at you. Be the bullet hell!",
+    "storeUrl": "https://store.steampowered.com/app/1794680/",
+    "type": "game"
+  },
+  {
+    "slug": "stray",
+    "coverYear": 2022,
+    "tier": "AA",
+    "appid": 1332010,
+    "name": "Stray",
+    "steamName": "Stray",
+    "developers": [
+      "BlueTwelve Studio"
+    ],
+    "publishers": [
+      "Annapurna Interactive"
+    ],
+    "releaseDate": "Jul 19, 2022",
+    "releaseYear": 2022,
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "Lost, alone and separated from family, a stray cat must untangle an ancient mystery to escape a long-forgotten cybercity and find their way home.",
+    "storeUrl": "https://store.steampowered.com/app/1332010/",
+    "type": "game"
+  },
+  {
+    "slug": "cult-of-the-lamb",
+    "coverYear": 2022,
+    "tier": "Indie",
+    "appid": 1313140,
+    "name": "Cult of the Lamb",
+    "steamName": "Cult of the Lamb",
+    "developers": [
+      "Massive Monster"
+    ],
+    "publishers": [
+      "Devolver Digital"
+    ],
+    "releaseDate": "Aug 11, 2022",
+    "releaseYear": 2022,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "Strategy"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "Start your own cult in a land of false prophets, venturing out into diverse and mysterious regions to build a loyal community of woodland Followers and spread your Word to become the one true cult.",
+    "storeUrl": "https://store.steampowered.com/app/1313140/",
+    "type": "game"
+  },
+  {
+    "slug": "neon-white",
+    "coverYear": 2022,
+    "tier": "Indie",
+    "appid": 1533420,
+    "name": "Neon White",
+    "steamName": "Neon White",
+    "developers": [
+      "Angel Matrix"
+    ],
+    "publishers": [
+      "Annapurna Interactive"
+    ],
+    "releaseDate": "Jun 16, 2022",
+    "releaseYear": 2022,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Neon White is a single-player speedrunning FPS where you can sacrifice your guns for godlike parkour moves.",
+    "storeUrl": "https://store.steampowered.com/app/1533420/",
+    "type": "game"
+  },
+  {
+    "slug": "baldurs-gate-3",
+    "coverYear": 2023,
+    "tier": "AAA",
+    "appid": 1086940,
+    "name": "Baldur's Gate 3",
+    "steamName": "Baldur's Gate 3",
+    "developers": [
+      "Larian Studios"
+    ],
+    "publishers": [
+      "Larian Studios"
+    ],
+    "releaseDate": "Aug 3, 2023",
+    "releaseYear": 2023,
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "RPG",
+      "Strategy"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons &amp; Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
+    "storeUrl": "https://store.steampowered.com/app/1086940/",
+    "type": "game"
+  },
+  {
+    "slug": "dave-the-diver",
+    "coverYear": 2023,
+    "tier": "Indie",
+    "appid": 1868140,
+    "name": "DAVE THE DIVER",
+    "steamName": "DAVE THE DIVER",
+    "developers": [
+      "MINTROCKET"
+    ],
+    "publishers": [
+      "MINTROCKET"
+    ],
+    "releaseDate": "Jun 28, 2023",
+    "releaseYear": 2023,
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "Casual",
+      "RPG",
+      "Simulation"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "DAVE THE DIVER is a casual, singleplayer adventure RPG featuring deep-sea exploration and fishing during the day and sushi restaurant management at night. Join Dave and his quirky friends as they seek to uncover the secrets of the mysterious Blue Hole.",
+    "storeUrl": "https://store.steampowered.com/app/1868140/",
+    "type": "game"
+  },
+  {
+    "slug": "cocoon",
+    "coverYear": 2023,
+    "tier": "Indie",
+    "appid": 1497440,
+    "name": "COCOON",
+    "steamName": "COCOON",
+    "developers": [
+      "Geometric Interactive"
+    ],
+    "publishers": [
+      "Annapurna Interactive"
+    ],
+    "releaseDate": "Sep 29, 2023",
+    "releaseYear": 2023,
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "From Jeppe Carlsen, the lead gameplay designer of LIMBO and INSIDE — COCOON takes you on an adventure across worlds within worlds. Master world-leaping mechanics and solve intricate puzzles to unravel a cosmic mystery.",
+    "storeUrl": "https://store.steampowered.com/app/1497440/",
+    "type": "game"
+  },
+  {
+    "slug": "resident-evil-4",
+    "coverYear": 2023,
+    "tier": "AAA",
+    "appid": 2050650,
+    "name": "Resident Evil 4",
+    "steamName": "Resident Evil 4",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "releaseDate": "Mar 23, 2023",
+    "releaseYear": 2023,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Survival is just the beginning. Six years have passed since the biological disaster in Raccoon City. Leon S. Kennedy, one of the survivors, tracks the president's kidnapped daughter to a secluded European village, where there is something terribly wrong with the locals.",
+    "storeUrl": "https://store.steampowered.com/app/2050650/",
+    "type": "game"
+  },
+  {
+    "slug": "pizza-tower",
+    "coverYear": 2023,
+    "tier": "Indie",
+    "appid": 2231450,
+    "name": "Pizza Tower",
+    "steamName": "Pizza Tower",
+    "developers": [
+      "Tour De Pizza"
+    ],
+    "publishers": [
+      "Tour De Pizza"
+    ],
+    "releaseDate": "Jan 26, 2023",
+    "releaseYear": 2023,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Pizza Tower is a fast paced 2D platformer, with an emphasis on movement, exploration and score attack. Featuring highly stylized pixel art inspired by the cartoons from the '90s, and a highly energetic soundtrack.",
+    "storeUrl": "https://store.steampowered.com/app/2231450/",
+    "type": "game"
+  },
+  {
+    "slug": "balatro",
+    "coverYear": 2024,
+    "tier": "Indie",
+    "appid": 2379780,
+    "name": "Balatro",
+    "steamName": "Balatro",
+    "developers": [
+      "LocalThunk"
+    ],
+    "publishers": [
+      "Playstack"
+    ],
+    "releaseDate": "Feb 20, 2024",
+    "releaseYear": 2024,
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "Indie",
+      "Strategy"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+    "storeUrl": "https://store.steampowered.com/app/2379780/",
+    "type": "game"
+  },
+  {
+    "slug": "helldivers-2",
+    "coverYear": 2024,
+    "tier": "AAA",
+    "appid": 553850,
+    "name": "HELLDIVERS™ 2",
+    "steamName": "HELLDIVERS™ 2",
+    "developers": [
+      "Arrowhead Game Studios"
+    ],
+    "publishers": [
+      "PlayStation Publishing LLC"
+    ],
+    "releaseDate": "Feb 8, 2024",
+    "releaseYear": 2024,
+    "comingSoon": false,
+    "genres": [
+      "Action"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "The Galaxy’s Last Line of Offence. Enlist in the Helldivers and join the fight for freedom across a hostile galaxy in a fast, frantic, and ferocious third-person shooter.",
+    "storeUrl": "https://store.steampowered.com/app/553850/",
+    "type": "game"
+  },
+  {
+    "slug": "animal-well",
+    "coverYear": 2024,
+    "tier": "Indie",
+    "appid": 813230,
+    "name": "ANIMAL WELL",
+    "steamName": "ANIMAL WELL",
+    "developers": [
+      "Billy Basso"
+    ],
+    "publishers": [
+      "Bigmode"
+    ],
+    "releaseDate": "May 9, 2024",
+    "releaseYear": 2024,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Explore a dense, interconnected labyrinth, and unravel its many secrets. Collect items to manipulate your environment in surprising and meaningful ways. Encounter beautiful and unsettling creatures, as you attempt to survive what lurks in the dark. There is more than what you see.",
+    "storeUrl": "https://store.steampowered.com/app/813230/",
+    "type": "game"
+  },
+  {
+    "slug": "black-myth-wukong",
+    "coverYear": 2024,
+    "tier": "AAA",
+    "appid": 2358720,
+    "name": "Black Myth: Wukong",
+    "steamName": "Black Myth: Wukong",
+    "developers": [
+      "Game Science"
+    ],
+    "publishers": [
+      "Game Science"
+    ],
+    "releaseDate": "Aug 19, 2024",
+    "releaseYear": 2024,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "RPG"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Black Myth: Wukong is an action RPG rooted in Chinese mythology. You shall set out as the Destined One to venture into the challenges and marvels ahead, to uncover the obscured truth beneath the veil of a glorious legend from the past.",
+    "storeUrl": "https://store.steampowered.com/app/2358720/",
+    "type": "game"
+  },
+  {
+    "slug": "ufo-50",
+    "coverYear": 2024,
+    "tier": "Indie",
+    "appid": 1147860,
+    "name": "UFO 50",
+    "steamName": "UFO 50",
+    "developers": [
+      "Mossmouth"
+    ],
+    "publishers": [
+      "Mossmouth"
+    ],
+    "releaseDate": "Sep 18, 2024",
+    "releaseYear": 2024,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "RPG",
+      "Strategy"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "UFO 50 is a collection of 50 single and multiplayer games that span a variety of genres, from platformers and shoot 'em ups to puzzle games, roguelites, and RPGs. Our goal is to combine a familiar 8-bit aesthetic with new ideas and modern game design.",
+    "storeUrl": "https://store.steampowered.com/app/1147860/",
+    "type": "game"
+  },
+  {
+    "slug": "hades-ii",
+    "coverYear": 2025,
+    "tier": "AA",
+    "appid": 1145350,
+    "name": "Hades II",
+    "steamName": "Hades II",
+    "developers": [
+      "Supergiant Games"
+    ],
+    "publishers": [
+      "Supergiant Games"
+    ],
+    "releaseDate": "Sep 25, 2025",
+    "releaseYear": 2025,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Indie",
+      "RPG"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "Battle beyond the Underworld using dark sorcery to take on the Titan of Time in this bewitching sequel to the award-winning rogue-like dungeon crawler.",
+    "storeUrl": "https://store.steampowered.com/app/1145350/",
+    "type": "game"
+  },
+  {
+    "slug": "clair-obscur-expedition-33",
+    "coverYear": 2025,
+    "tier": "AA",
+    "appid": 1903340,
+    "name": "Clair Obscur: Expedition 33",
+    "steamName": "Clair Obscur: Expedition 33",
+    "developers": [
+      "Sandfall Interactive"
+    ],
+    "publishers": [
+      "Kepler Interactive"
+    ],
+    "releaseDate": "Apr 24, 2025",
+    "releaseYear": 2025,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Lead the members of Expedition 33 on their quest to destroy the Paintress so that she can never paint death again. Explore a world of wonders inspired by Belle Époque France and battle unique enemies in this turn-based RPG with real-time mechanics.",
+    "storeUrl": "https://store.steampowered.com/app/1903340/",
+    "type": "game"
+  },
+  {
+    "slug": "blue-prince",
+    "coverYear": 2025,
+    "tier": "Indie",
+    "appid": 1569580,
+    "name": "Blue Prince",
+    "steamName": "Blue Prince",
+    "developers": [
+      "Dogubomb"
+    ],
+    "publishers": [
+      "Raw Fury"
+    ],
+    "releaseDate": "Apr 10, 2025",
+    "releaseYear": 2025,
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Strategy"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "Welcome to Mt. Holly, where every dawn unveils a new mystery. Navigate through shifting corridors and ever-changing chambers in this genre-defying strategy puzzle adventure. But will your unpredictable path lead you to the rumored Room 46?",
+    "storeUrl": "https://store.steampowered.com/app/1569580/",
+    "type": "game"
+  },
+  {
+    "slug": "hollow-knight-silksong",
+    "coverYear": 2025,
+    "tier": "Indie",
+    "appid": 1030300,
+    "name": "Hollow Knight: Silksong",
+    "steamName": "Hollow Knight: Silksong",
+    "developers": [
+      "Team Cherry"
+    ],
+    "publishers": [
+      "Team Cherry"
+    ],
+    "releaseDate": "Sep 4, 2025",
+    "releaseYear": 2025,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "shortDescription": "Discover a vast, haunted kingdom in Hollow Knight: Silksong! Explore, fight and survive as you ascend to the peak of a land ruled by silk and song.",
+    "storeUrl": "https://store.steampowered.com/app/1030300/",
+    "type": "game"
+  },
+  {
+    "slug": "split-fiction",
+    "coverYear": 2025,
+    "tier": "AA",
+    "appid": 2001120,
+    "name": "Split Fiction",
+    "steamName": "Split Fiction",
+    "developers": [
+      "Hazelight Studios"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ],
+    "releaseDate": "Mar 6, 2025",
+    "releaseYear": 2025,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Embrace mind-blowing moments as you’re pulled deep into the many worlds of Split Fiction, a boundary-pushing co-op adventure.",
+    "storeUrl": "https://store.steampowered.com/app/2001120/",
+    "type": "game"
+  },
+  {
+    "slug": "big-walk",
+    "coverYear": 2026,
+    "tier": "Indie",
+    "appid": 1478500,
+    "name": "Big Walk",
+    "steamName": "Big Walk",
+    "developers": [
+      "House House"
+    ],
+    "publishers": [
+      "Panic"
+    ],
+    "releaseDate": "Aug 4, 2026",
+    "releaseYear": 2026,
+    "comingSoon": false,
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "shortDescription": "Hang out and get lost with close friends in a big world. A cooperative online walker-talker from the creators of Untitled Goose Game.",
+    "storeUrl": "https://store.steampowered.com/app/1478500/",
+    "type": "game"
+  },
+  {
+    "slug": "forza-horizon-6",
+    "coverYear": 2026,
+    "tier": "AAA",
+    "appid": 2483190,
+    "name": "Forza Horizon 6",
+    "steamName": "Forza Horizon 6",
+    "developers": [
+      "Playground Games"
+    ],
+    "publishers": [
+      "Xbox Game Studios"
+    ],
+    "releaseDate": "May 18, 2026",
+    "releaseYear": 2026,
+    "comingSoon": false,
+    "genres": [
+      "Racing",
+      "Simulation",
+      "Sports"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend in Forza Horizon's biggest open world driving adventure yet.",
+    "storeUrl": "https://store.steampowered.com/app/2483190/",
+    "type": "game"
+  },
+  {
+    "slug": "mina-the-hollower",
+    "coverYear": 2026,
+    "tier": "Indie",
+    "appid": 1875580,
+    "name": "Mina the Hollower",
+    "steamName": "Mina the Hollower",
+    "developers": [
+      "Yacht Club Games"
+    ],
+    "publishers": [
+      "Yacht Club Games"
+    ],
+    "releaseDate": "May 28, 2026",
+    "releaseYear": 2026,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "shortDescription": "Take control of Mina, a renowned Hollower hurtled into a desperate mission to rescue a cursed island. Whip foes, burrow through the ground, and explore a pixel-perfect world in Mina the Hollower, a brand new game from the developers who brought you Shovel Knight!",
+    "storeUrl": "https://store.steampowered.com/app/1875580/",
+    "type": "game"
+  },
+  {
+    "slug": "cairn",
+    "coverYear": 2026,
+    "tier": "Indie",
+    "appid": 1588550,
+    "name": "Cairn",
+    "steamName": "Cairn",
+    "developers": [
+      "The Game Bakers"
+    ],
+    "publishers": [
+      "The Game Bakers"
+    ],
+    "releaseDate": "Jan 29, 2026",
+    "releaseYear": 2026,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "Simulation",
+      "Sports"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Reach a summit never climbed before in this survival-climber from the creators of Furi and Haven. Climb anywhere and plan your route carefully, managing pitons and resources to survive unforgiving Mount Kami. Discover what Aava is willing to sacrifice to achieve the ascent of a lifetime.",
+    "storeUrl": "https://store.steampowered.com/app/1588550/",
+    "type": "game"
+  },
+  {
+    "slug": "beast-of-reincarnation",
+    "coverYear": 2026,
+    "tier": "AA",
+    "appid": 2001760,
+    "name": "Beast of Reincarnation",
+    "steamName": "Beast of Reincarnation",
+    "developers": [
+      "GAME FREAK inc."
+    ],
+    "publishers": [
+      "Fictions"
+    ],
+    "releaseDate": "Aug 3, 2026",
+    "releaseYear": 2026,
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "RPG"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "shortDescription": "Game Freak's brand-new title: Beast of Reincarnation is an action RPG with a fusion of real-time and turn-based combat. Experience the innovative &quot;one-person, one-dog action RPG&quot; in the beautiful yet harsh world of Beast of Reincarnation. What awaits at the end of Emma and Koo's journey?",
+    "storeUrl": "https://store.steampowered.com/app/2001760/",
+    "type": "game"
+  }
+]

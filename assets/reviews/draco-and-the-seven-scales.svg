@@ -17,17 +17,17 @@
   <rect width="1200" height="675" fill="url(#grid-dracoandthesevenscales)"/>
   <g>
     <path d="M292 0 L420 0 L196 675 L68 675 Z" fill="#3ddceb" opacity="0.85"/>
-    <path d="M388 0 L516 0 L292 675 L164 675 Z" fill="#ff4b1f" opacity="0.28"/>
+    <path d="M388 0 L516 0 L292 675 L164 675 Z" fill="#4d9dff" opacity="0.28"/>
     <path d="M484 0 L612 0 L388 675 L260 675 Z" fill="#3ddceb" opacity="0.85"/>
-    <path d="M580 0 L708 0 L484 675 L356 675 Z" fill="#ff4b1f" opacity="0.28"/>
+    <path d="M580 0 L708 0 L484 675 L356 675 Z" fill="#4d9dff" opacity="0.28"/>
     <path d="M676 0 L804 0 L580 675 L452 675 Z" fill="#3ddceb" opacity="0.85"/>
-    <path d="M772 0 L900 0 L676 675 L548 675 Z" fill="#ff4b1f" opacity="0.28"/>
+    <path d="M772 0 L900 0 L676 675 L548 675 Z" fill="#4d9dff" opacity="0.28"/>
     <path d="M868 0 L996 0 L772 675 L644 675 Z" fill="#3ddceb" opacity="0.85"/>
-    <path d="M964 0 L1092 0 L868 675 L740 675 Z" fill="#ff4b1f" opacity="0.28"/>
+    <path d="M964 0 L1092 0 L868 675 L740 675 Z" fill="#4d9dff" opacity="0.28"/>
     <path d="M1060 0 L1188 0 L964 675 L836 675 Z" fill="#3ddceb" opacity="0.85"/>
   </g>
   <rect width="1200" height="675" fill="url(#fade-dracoandthesevenscales)"/>
   <rect y="659" width="1200" height="16" fill="#3ddceb"/>
   <rect x="64" y="54" width="140" height="34" fill="#3ddceb"/>
-  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 14</text>
+  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 21</text>
 </svg>

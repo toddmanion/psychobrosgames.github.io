@@ -18,12 +18,12 @@
   <g>
     
     <rect x="420" y="118" width="360" height="360" fill="none" stroke="#3ddceb" stroke-width="18" transform="rotate(45 600 298)"/>
-    <rect x="500" y="198" width="200" height="200" fill="#ff4b1f" opacity="0.32" transform="rotate(45 600 298)"/>
+    <rect x="500" y="198" width="200" height="200" fill="#4d9dff" opacity="0.32" transform="rotate(45 600 298)"/>
     <rect x="560" y="258" width="80" height="80" fill="#3ddceb" transform="rotate(45 600 298)"/>
-    <path d="M96 604h1008" stroke="#ff4b1f" stroke-width="10" opacity="0.8"/>
+    <path d="M96 604h1008" stroke="#4d9dff" stroke-width="10" opacity="0.8"/>
   </g>
   <rect width="1200" height="675" fill="url(#fade-tabletactics)"/>
   <rect y="659" width="1200" height="16" fill="#3ddceb"/>
   <rect x="64" y="54" width="140" height="34" fill="#3ddceb"/>
-  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 12</text>
+  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 19</text>
 </svg>

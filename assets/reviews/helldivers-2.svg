@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t-helldivers2">
+  <title id="t-helldivers2">HELLDIVERS™ 2 artwork</title>
+  <defs>
+    <linearGradient id="bg-helldivers2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161c27"/>
+      <stop offset="1" stop-color="#0b0d12"/>
+    </linearGradient>
+    <radialGradient id="fade-helldivers2" cx="0.5" cy="0.46" r="0.78">
+      <stop offset="0.45" stop-color="#0b0d12" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0b0d12" stop-opacity="0.82"/>
+    </radialGradient>
+    <pattern id="grid-helldivers2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#eef1f7" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg-helldivers2)"/>
+  <rect width="1200" height="675" fill="url(#grid-helldivers2)"/>
+  <g>
+    
+    <rect x="152" y="318" width="46" height="202" fill="#4d9dff" opacity="0.55"/>
+    <rect x="230" y="166" width="46" height="354" fill="#3ddceb" opacity="0.92"/>
+    <rect x="308" y="432" width="46" height="88" fill="#3ddceb" opacity="0.92"/>
+    <rect x="386" y="280" width="46" height="240" fill="#4d9dff" opacity="0.55"/>
+    <rect x="464" y="128" width="46" height="392" fill="#3ddceb" opacity="0.92"/>
+    <rect x="542" y="394" width="46" height="126" fill="#3ddceb" opacity="0.92"/>
+    <rect x="620" y="242" width="46" height="278" fill="#4d9dff" opacity="0.55"/>
+    <rect x="698" y="90" width="46" height="430" fill="#3ddceb" opacity="0.92"/>
+    <rect x="776" y="356" width="46" height="164" fill="#3ddceb" opacity="0.92"/>
+    <rect x="854" y="204" width="46" height="316" fill="#4d9dff" opacity="0.55"/>
+    <rect x="932" y="52" width="46" height="468" fill="#3ddceb" opacity="0.92"/>
+    <rect x="1010" y="318" width="46" height="202" fill="#3ddceb" opacity="0.92"/>
+    <path d="M120 556h960" stroke="#3ddceb" stroke-width="8" opacity="0.5"/>
+  </g>
+  <rect width="1200" height="675" fill="url(#fade-helldivers2)"/>
+  <rect y="659" width="1200" height="16" fill="#3ddceb"/>
+  <rect x="64" y="54" width="140" height="34" fill="#3ddceb"/>
+  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 35</text>
+</svg>

@@ -20,12 +20,12 @@
     <circle cx="591" cy="300" r="214" fill="none" stroke="#3ddceb" stroke-width="18"/>
     <circle cx="591" cy="300" r="140" fill="none" stroke="#3ddceb" stroke-width="11" opacity="0.5"/>
     <circle cx="591" cy="300" r="68" fill="#3ddceb"/>
-    <path d="M150 512h900" stroke="#ff4b1f" stroke-width="9"/>
-    <circle cx="906" cy="126" r="24" fill="#ff4b1f"/>
-    <circle cx="288" cy="150" r="12" fill="#ff4b1f" opacity="0.6"/>
+    <path d="M150 512h900" stroke="#4d9dff" stroke-width="9"/>
+    <circle cx="906" cy="126" r="24" fill="#4d9dff"/>
+    <circle cx="288" cy="150" r="12" fill="#4d9dff" opacity="0.6"/>
   </g>
   <rect width="1200" height="675" fill="url(#fade-rogueeclipse)"/>
   <rect y="659" width="1200" height="16" fill="#3ddceb"/>
   <rect x="64" y="54" width="140" height="34" fill="#3ddceb"/>
-  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 17</text>
+  <text x="78" y="78" fill="#0b0d12" font-family="'Arial Black',Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="2.5">REVIEW 24</text>
 </svg>

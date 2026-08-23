@@ -14,12 +14,12 @@
       })();
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="All twenty PsychoBros reviews from PAX West 2025, with a Dad Hype Meter score for each game." />
+    <meta name="description" content="All 80 PsychoBros reviews, 2015 to 2026, with a Dad Hype Meter score for each game." />
     <meta name="theme-color" content="#0b0d12" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="PsychoBros" />
     <meta property="og:title" content="All reviews — PsychoBros" />
-    <meta property="og:description" content="All twenty PsychoBros reviews from PAX West 2025, with a Dad Hype Meter score for each game." />
+    <meta property="og:description" content="All 80 PsychoBros reviews, 2015 to 2026, with a Dad Hype Meter score for each game." />
     <meta property="og:url" content="https://psychobrosgames.github.io/reviews/" />
     <meta property="og:image" content="https://psychobrosgames.github.io/assets/psychobros-social-card.png" />
     <meta property="og:image:width" content="1200" />
@@ -34,7 +34,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../styles.css" />
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"PsychoBros reviews","url":"https://psychobrosgames.github.io/reviews/","description":"All twenty PsychoBros reviews from PAX West 2025, with a Dad Hype Meter score for each game."}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"PsychoBros reviews","url":"https://psychobrosgames.github.io/reviews/","description":"All 80 PsychoBros reviews, 2015 to 2026, with a Dad Hype Meter score for each game."}</script>
   </head>
   <body class="page-archive">
     <a class="skip" href="#main">Skip to content</a>
@@ -44,7 +44,7 @@
         <a class="brand" href="../" aria-label="PsychoBros home">
           
   <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
-    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-flame)" />
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
     <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
     <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
     <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
@@ -53,7 +53,7 @@
         </a>
         <nav class="masthead__nav" aria-label="Main navigation">
           <a href="../reviews/" aria-current="page">Reviews</a>
-          <a href="../pax-west-2025/">PAX West 2025</a>
+          <a href="../years/">By Year</a>
           <a href="../about/#crew">The Dads</a>
           <a href="../about/">About &amp; Press</a>
         </nav>
@@ -75,7 +75,7 @@
       </div>
       <nav class="mobilenav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true" inert>
         <a href="../reviews/" aria-current="page">Reviews</a>
-          <a href="../pax-west-2025/">PAX West 2025</a>
+          <a href="../years/">By Year</a>
           <a href="../about/#crew">The Dads</a>
           <a href="../about/">About &amp; Press</a>
       </nav>
@@ -87,8 +87,8 @@
           <div class="wrap">
             <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><span>/</span><span aria-current="page">Reviews</span></nav>
             <p class="kicker">The archive</p>
-            <h1>All twenty reviews</h1>
-            <p class="pagehead__deck">Every game we covered from PAX West 2025, newest first. Search it, filter it, or just scroll until something looks weird enough to click.</p>
+            <h1>All 80 reviews</h1>
+            <p class="pagehead__deck">Everything we have written up since 2015, newest first. Search it, filter it, or just scroll until something looks weird enough to click.</p>
           </div>
         </section>
 
@@ -97,12 +97,15 @@
             <label class="field">
               <span class="visually-hidden">Search reviews</span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
-              <input type="search" data-search placeholder="Search by game, studio, or genre" autocomplete="off" />
+              <input type="search" data-search placeholder="Search by game, studio, genre, or year" autocomplete="off" />
             </label>
-            <div class="chips" role="group" aria-label="Filter by collection">
-              <button class="chip is-active" type="button" data-filter="all">All <b>20</b></button>
-              <button class="chip" type="button" data-filter="pax-rising">PAX Rising <b>12</b></button>
-              <button class="chip" type="button" data-filter="official-pax">Steam event <b>8</b></button>
+            <div class="chips" role="group" aria-label="Filter by tag">
+              <button class="chip is-active" type="button" data-filter="all">All <b>80</b></button>
+              <button class="chip" type="button" data-filter="aaa">AAA <b>21</b></button>
+              <button class="chip" type="button" data-filter="indie">Indie <b>48</b></button>
+              <button class="chip" type="button" data-filter="rpg">RPG <b>18</b></button>
+              <button class="chip" type="button" data-filter="strategy">Strategy <b>9</b></button>
+              <button class="chip" type="button" data-filter="pax-west-2025">PAX West 2025 <b>20</b></button>
             </div>
           </div>
           <p class="resultline" data-result aria-live="polite"></p>
@@ -110,10 +113,137 @@
             
   <article class="card reveal"
     data-card
+    data-title="beast of reincarnation"
+    data-studio="game freak inc."
+    data-genre="action"
+    data-year="2026"
+    data-tags="aa|action|adventure|rpg">
+    <a class="card__art" href="../reviews/beast-of-reincarnation/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/beast-of-reincarnation/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.0</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-08-16">Aug 16</time></p>
+      <h3 class="card__title"><a href="../reviews/beast-of-reincarnation/">Beast of Reincarnation</a></h3>
+      <p class="card__take">Every Pokémon game has been secretly asking for a dog. Now it&#039;s the whole game.</p>
+      <p class="card__foot"><span>GAME FREAK inc.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="big walk"
+    data-studio="house house"
+    data-genre="adventure"
+    data-year="2026"
+    data-tags="indie|adventure">
+    <a class="card__art" href="../reviews/big-walk/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/big-walk/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.6</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2026-08-13">Aug 13</time></p>
+      <h3 class="card__title"><a href="../reviews/big-walk/">Big Walk</a></h3>
+      <p class="card__take">Finally, a co-op game where nobody has a health bar to argue about.</p>
+      <p class="card__foot"><span>House House</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="mina the hollower"
+    data-studio="yacht club games"
+    data-genre="action"
+    data-year="2026"
+    data-tags="indie|action|adventure">
+    <a class="card__art" href="../reviews/mina-the-hollower/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/mina-the-hollower/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.5</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-06-28">Jun 28</time></p>
+      <h3 class="card__title"><a href="../reviews/mina-the-hollower/">Mina the Hollower</a></h3>
+      <p class="card__take">The main character has a whip. That&#039;s the pitch. That&#039;s a great pitch.</p>
+      <p class="card__foot"><span>Yacht Club Games</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="forza horizon 6"
+    data-studio="playground games"
+    data-genre="racing"
+    data-year="2026"
+    data-tags="aaa|racing|simulation|sports">
+    <a class="card__art" href="../reviews/forza-horizon-6/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/forza-horizon-6/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.8</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Racing</span><time datetime="2026-06-07">Jun 7</time></p>
+      <h3 class="card__title"><a href="../reviews/forza-horizon-6/">Forza Horizon 6</a></h3>
+      <p class="card__take">Bought a kei van in-game, thought about it for a week, did not buy one in real life.</p>
+      <p class="card__foot"><span>Playground Games</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="cairn"
+    data-studio="the game bakers"
+    data-genre="action"
+    data-year="2026"
+    data-tags="indie|action|adventure|simulation">
+    <a class="card__art" href="../reviews/cairn/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/cairn/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.4</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2026-03-12">Mar 12</time></p>
+      <h3 class="card__title"><a href="../reviews/cairn/">Cairn</a></h3>
+      <p class="card__take">This is the first game to accurately simulate looking at a shelf and pulling something in our back.</p>
+      <p class="card__foot"><span>The Game Bakers</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="hollow knight: silksong"
+    data-studio="team cherry"
+    data-genre="action"
+    data-year="2025"
+    data-tags="indie|action|adventure">
+    <a class="card__art" href="../reviews/hollow-knight-silksong/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/hollow-knight-silksong/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.3</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2025-10-16">Oct 16</time></p>
+      <h3 class="card__title"><a href="../reviews/hollow-knight-silksong/">Hollow Knight: Silksong</a></h3>
+      <p class="card__take">The wait was years. Our first boss took slightly longer.</p>
+      <p class="card__foot"><span>Team Cherry</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="hades ii"
+    data-studio="supergiant games"
+    data-genre="action"
+    data-year="2025"
+    data-tags="aa|action|rpg">
+    <a class="card__art" href="../reviews/hades-ii/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/hades-ii/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.5</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2025-10-04">Oct 4</time></p>
+      <h3 class="card__title"><a href="../reviews/hades-ii/">Hades II</a></h3>
+      <p class="card__take">One more run means one more argument with a Titan and one more cold coffee.</p>
+      <p class="card__foot"><span>Supergiant Games</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
     data-title="exovia"
     data-studio="byterockers&#039; games"
     data-genre="zero-g factory simulation"
-    data-group="official-pax">
+    data-year="2025"
+    data-tags="indie|pax-west-2025">
     <a class="card__art" href="../reviews/exovia/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/exovia/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="hot"><b>8.5</b><i>hype</i></span>
@@ -121,7 +251,7 @@
     <div class="card__body">
       <p class="card__meta"><span class="tag">Zero-G Factory Simulation</span><time datetime="2025-09-30">Sep 30</time></p>
       <h3 class="card__title"><a href="../reviews/exovia/">Exovia</a></h3>
-      <p class="card__take">Build a factory in zero gravity. Misplace every wrench in three dimensions.</p>
+      <p class="card__take">Build a base in zero-G, misplace every wrench in three dimensions.</p>
       <p class="card__foot"><span>ByteRockers&#039; Games</span></p>
     </div>
   </article>
@@ -130,7 +260,8 @@
     data-title="akiiwan: relaxing survival"
     data-studio="little buffalo studios"
     data-genre="relaxing survival"
-    data-group="official-pax">
+    data-year="2025"
+    data-tags="indie|pax-west-2025">
     <a class="card__art" href="../reviews/akiiwan-relaxing-survival/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/akiiwan-relaxing-survival/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="cool"><b>7.7</b><i>hype</i></span>
@@ -138,7 +269,7 @@
     <div class="card__body">
       <p class="card__meta"><span class="tag">Relaxing Survival</span><time datetime="2025-09-28">Sep 28</time></p>
       <h3 class="card__title"><a href="../reviews/akiiwan-relaxing-survival/">Akiiwan: Relaxing Survival</a></h3>
-      <p class="card__take">Survival crafting for people who would prefer nature not scream at them.</p>
+      <p class="card__take">Survival crafting for people who would prefer the trees not scream.</p>
       <p class="card__foot"><span>Little Buffalo Studios</span></p>
     </div>
   </article>
@@ -147,7 +278,8 @@
     data-title="fractured blooms"
     data-studio="serenity forge"
     data-genre="psychological life sim"
-    data-group="official-pax">
+    data-year="2025"
+    data-tags="indie|pax-west-2025">
     <a class="card__art" href="../reviews/fractured-blooms/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/fractured-blooms/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="warm"><b>8.1</b><i>hype</i></span>
@@ -155,7 +287,7 @@
     <div class="card__body">
       <p class="card__meta"><span class="tag">Psychological Life Sim</span><time datetime="2025-09-26">Sep 26</time></p>
       <h3 class="card__title"><a href="../reviews/fractured-blooms/">Fractured Blooms</a></h3>
-      <p class="card__take">Cozy gardening, except Tuesday is broken and possibly watching you.</p>
+      <p class="card__take">Cozy farming, but Tuesday is broken and possibly watching.</p>
       <p class="card__foot"><span>Serenity Forge</span></p>
     </div>
   </article>
@@ -164,7 +296,8 @@
     data-title="moros protocol"
     data-studio="pixel reign"
     data-genre="roguelite retro fps"
-    data-group="official-pax">
+    data-year="2025"
+    data-tags="indie|pax-west-2025">
     <a class="card__art" href="../reviews/moros-protocol/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/moros-protocol/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="hot"><b>9.0</b><i>hype</i></span>
@@ -172,7 +305,7 @@
     <div class="card__body">
       <p class="card__meta"><span class="tag">Roguelite Retro FPS</span><time datetime="2025-09-25">Sep 25</time></p>
       <h3 class="card__title"><a href="../reviews/moros-protocol/">Moros Protocol</a></h3>
-      <p class="card__take">The spaceship is haunted, the guns are loud, and bedtime was an hour ago.</p>
+      <p class="card__take">The ship is haunted, the guns are loud, and bedtime was an hour ago.</p>
       <p class="card__foot"><span>Pixel Reign</span></p>
     </div>
   </article>
@@ -181,7 +314,8 @@
     data-title="voidsayer"
     data-studio="pavel auseitasau"
     data-genre="monster-taming rpg"
-    data-group="official-pax">
+    data-year="2025"
+    data-tags="indie|pax-west-2025">
     <a class="card__art" href="../reviews/voidsayer/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/voidsayer/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="warm"><b>8.4</b><i>hype</i></span>
@@ -189,7 +323,7 @@
     <div class="card__body">
       <p class="card__meta"><span class="tag">Monster-Taming RPG</span><time datetime="2025-09-24">Sep 24</time></p>
       <h3 class="card__title"><a href="../reviews/voidsayer/">Voidsayer</a></h3>
-      <p class="card__take">Catch monsters, fight oblivion, remember which dad named them all.</p>
+      <p class="card__take">Catch monsters, fight oblivion, try to remember which dad named the frog Terry.</p>
       <p class="card__foot"><span>Pavel Auseitasau</span></p>
     </div>
   </article>
@@ -198,7 +332,8 @@
     data-title="letter lost"
     data-studio="flatnine games"
     data-genre="workplace horror adventure"
-    data-group="official-pax">
+    data-year="2025"
+    data-tags="indie|pax-west-2025">
     <a class="card__art" href="../reviews/letter-lost/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/letter-lost/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="cool"><b>7.5</b><i>hype</i></span>
@@ -206,7 +341,7 @@
     <div class="card__body">
       <p class="card__meta"><span class="tag">Workplace Horror Adventure</span><time datetime="2025-09-23">Sep 23</time></p>
       <h3 class="card__title"><a href="../reviews/letter-lost/">Letter Lost</a></h3>
-      <p class="card__take">Neither rain nor snow nor workplace horror will stop this delivery.</p>
+      <p class="card__take">Neither rain nor snow nor implied cult will stop this delivery.</p>
       <p class="card__foot"><span>FlatNine Games</span></p>
     </div>
   </article>
@@ -215,7 +350,8 @@
     data-title="sky of tides"
     data-studio="lofty sky entertainment inc."
     data-genre="narrative rpg"
-    data-group="official-pax">
+    data-year="2025"
+    data-tags="indie|pax-west-2025">
     <a class="card__art" href="../reviews/sky-of-tides/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/sky-of-tides/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="hot"><b>8.6</b><i>hype</i></span>
@@ -223,7 +359,7 @@
     <div class="card__body">
       <p class="card__meta"><span class="tag">Narrative RPG</span><time datetime="2025-09-21">Sep 21</time></p>
       <h3 class="card__title"><a href="../reviews/sky-of-tides/">Sky of Tides</a></h3>
-      <p class="card__take">The world broke apart. Great news for anyone who hates normal maps.</p>
+      <p class="card__take">The world literally broke into nine chunks. Great news for anyone who hates a normal map.</p>
       <p class="card__foot"><span>Lofty Sky Entertainment Inc.</span></p>
     </div>
   </article>
@@ -232,7 +368,8 @@
     data-title="adaptory"
     data-studio="stormcloak games"
     data-genre="colony simulation"
-    data-group="official-pax">
+    data-year="2025"
+    data-tags="indie|pax-west-2025">
     <a class="card__art" href="../reviews/adaptory/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/adaptory/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="warm"><b>7.9</b><i>hype</i></span>
@@ -249,7 +386,8 @@
     data-title="sashimi slayer"
     data-studio="shrimp fried rice games"
     data-genre="rhythm action"
-    data-group="pax-rising">
+    data-year="2025"
+    data-tags="indie|pax-west-2025|pax-rising-showcase">
     <a class="card__art" href="../reviews/sashimi-slayer/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/sashimi-slayer/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="hot"><b>8.8</b><i>hype</i></span>
@@ -257,7 +395,7 @@
     <div class="card__body">
       <p class="card__meta"><span class="tag">Rhythm Action</span><time datetime="2025-09-18">Sep 18</time></p>
       <h3 class="card__title"><a href="../reviews/sashimi-slayer/">Sashimi Slayer</a></h3>
-      <p class="card__take">We came for the sword controller and stayed because our arms hurt.</p>
+      <p class="card__take">We came for the sword controller. We stayed until our shoulders quit.</p>
       <p class="card__foot"><span>Shrimp Fried Rice Games</span></p>
     </div>
   </article>
@@ -266,7 +404,8 @@
     data-title="no stone unturned"
     data-studio="wise monkey entertainment ltd."
     data-genre="comedy detective adventure"
-    data-group="pax-rising">
+    data-year="2025"
+    data-tags="indie|pax-west-2025|pax-rising-showcase">
     <a class="card__art" href="../reviews/no-stone-unturned/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/no-stone-unturned/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="cool"><b>7.2</b><i>hype</i></span>
@@ -274,7 +413,7 @@
     <div class="card__body">
       <p class="card__meta"><span class="tag">Comedy Detective Adventure</span><time datetime="2025-09-17">Sep 17</time></p>
       <h3 class="card__title"><a href="../reviews/no-stone-unturned/">No Stone Unturned</a></h3>
-      <p class="card__take">A chicken is dead. Three dads are now emotionally overinvested.</p>
+      <p class="card__take">A chicken is dead. Three dads are already emotionally overinvested.</p>
       <p class="card__foot"><span>Wise Monkey Entertainment Ltd.</span></p>
     </div>
   </article>
@@ -283,7 +422,8 @@
     data-title="hank: drowning on dry land"
     data-studio="my next games"
     data-genre="narrative adventure"
-    data-group="pax-rising">
+    data-year="2025"
+    data-tags="indie|pax-west-2025|pax-rising-showcase">
     <a class="card__art" href="../reviews/hank-drowning-on-dry-land/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/hank-drowning-on-dry-land/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="warm"><b>8.0</b><i>hype</i></span>
@@ -291,7 +431,7 @@
     <div class="card__body">
       <p class="card__meta"><span class="tag">Narrative Adventure</span><time datetime="2025-09-15">Sep 15</time></p>
       <h3 class="card__title"><a href="../reviews/hank-drowning-on-dry-land/">Hank: Drowning On Dry Land</a></h3>
-      <p class="card__take">Thirty minutes of cartoon noir, poison, and excellent reasons to hydrate.</p>
+      <p class="card__take">Half an hour of cartoon noir, poison, and a very good reason to hydrate.</p>
       <p class="card__foot"><span>My Next Games</span></p>
     </div>
   </article>
@@ -300,7 +440,8 @@
     data-title="table tactics: physics-driven tabletop battles"
     data-studio="unbound creations"
     data-genre="physics strategy"
-    data-group="pax-rising">
+    data-year="2025"
+    data-tags="indie|pax-west-2025|pax-rising-showcase">
     <a class="card__art" href="../reviews/table-tactics/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/table-tactics/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="hot"><b>9.1</b><i>hype</i></span>
@@ -317,7 +458,8 @@
     data-title="arcane eats"
     data-studio="wonderbelly games"
     data-genre="cooking deckbuilder"
-    data-group="pax-rising">
+    data-year="2025"
+    data-tags="indie|pax-west-2025|pax-rising-showcase">
     <a class="card__art" href="../reviews/arcane-eats/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/arcane-eats/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="warm"><b>8.3</b><i>hype</i></span>
@@ -325,7 +467,7 @@
     <div class="card__body">
       <p class="card__meta"><span class="tag">Cooking Deckbuilder</span><time datetime="2025-09-12">Sep 12</time></p>
       <h3 class="card__title"><a href="../reviews/arcane-eats/">Arcane Eats</a></h3>
-      <p class="card__take">The dinner rush now has spells, cards, and still no clean spoons.</p>
+      <p class="card__take">The dinner rush now has spells and cards, and still no clean spoons.</p>
       <p class="card__foot"><span>Wonderbelly Games</span></p>
     </div>
   </article>
@@ -334,7 +476,8 @@
     data-title="draco and the seven scales"
     data-studio="ice goat games"
     data-genre="pirate action adventure"
-    data-group="pax-rising">
+    data-year="2025"
+    data-tags="indie|pax-west-2025|pax-rising-showcase">
     <a class="card__art" href="../reviews/draco-and-the-seven-scales/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/draco-and-the-seven-scales/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="cool"><b>7.6</b><i>hype</i></span>
@@ -351,7 +494,8 @@
     data-title="beatdown city survivors"
     data-studio="nuchallenger"
     data-genre="action survivors-like"
-    data-group="pax-rising">
+    data-year="2025"
+    data-tags="indie|pax-west-2025|pax-rising-showcase">
     <a class="card__art" href="../reviews/beatdown-city-survivors/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/beatdown-city-survivors/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="hot"><b>8.5</b><i>hype</i></span>
@@ -359,7 +503,7 @@
     <div class="card__body">
       <p class="card__meta"><span class="tag">Action Survivors-Like</span><time datetime="2025-09-09">Sep 9</time></p>
       <h3 class="card__title"><a href="../reviews/beatdown-city-survivors/">Beatdown City Survivors</a></h3>
-      <p class="card__take">The city has problems. Your solution is mostly uppercuts.</p>
+      <p class="card__take">The city has problems. Your solution is mostly uppercuts and puddles.</p>
       <p class="card__foot"><span>NuChallenger</span></p>
     </div>
   </article>
@@ -368,7 +512,8 @@
     data-title="terrible lizards"
     data-studio="wdr studios llc"
     data-genre="survival horror"
-    data-group="pax-rising">
+    data-year="2025"
+    data-tags="indie|pax-west-2025|pax-rising-showcase">
     <a class="card__art" href="../reviews/terrible-lizards/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/terrible-lizards/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="warm"><b>7.8</b><i>hype</i></span>
@@ -376,7 +521,7 @@
     <div class="card__body">
       <p class="card__meta"><span class="tag">Survival Horror</span><time datetime="2025-09-08">Sep 8</time></p>
       <h3 class="card__title"><a href="../reviews/terrible-lizards/">Terrible Lizards</a></h3>
-      <p class="card__take">Road trip rule one: never trust the dinosaur-shaped roadside attraction.</p>
+      <p class="card__take">Road trip rule one: never trust the dinosaur-shaped tourist trap.</p>
       <p class="card__foot"><span>WDR Studios LLC</span></p>
     </div>
   </article>
@@ -385,7 +530,8 @@
     data-title="rogue eclipse"
     data-studio="huskrafts"
     data-genre="spaceflight roguelike"
-    data-group="pax-rising">
+    data-year="2025"
+    data-tags="indie|pax-west-2025|pax-rising-showcase">
     <a class="card__art" href="../reviews/rogue-eclipse/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/rogue-eclipse/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="hot"><b>8.9</b><i>hype</i></span>
@@ -402,7 +548,8 @@
     data-title="rollergirl"
     data-studio="pushing vertices"
     data-genre="slice-of-life adventure"
-    data-group="pax-rising">
+    data-year="2025"
+    data-tags="indie|pax-west-2025|pax-rising-showcase">
     <a class="card__art" href="../reviews/rollergirl/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/rollergirl/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="warm"><b>8.2</b><i>hype</i></span>
@@ -419,7 +566,8 @@
     data-title="blocks for babies"
     data-studio="bunksoft interactive llc"
     data-genre="arcade roguelite"
-    data-group="pax-rising">
+    data-year="2025"
+    data-tags="indie|pax-west-2025|pax-rising-showcase">
     <a class="card__art" href="../reviews/blocks-for-babies/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/blocks-for-babies/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="cool"><b>7.4</b><i>hype</i></span>
@@ -436,7 +584,8 @@
     data-title="never&#039;s end"
     data-studio="hypersect"
     data-genre="tactical rpg"
-    data-group="pax-rising">
+    data-year="2025"
+    data-tags="indie|pax-west-2025|pax-rising-showcase">
     <a class="card__art" href="../reviews/nevers-end/" tabindex="-1" aria-hidden="true">
       <img src="../assets/press/nevers-end/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
       <span class="score" data-tone="hot"><b>8.7</b><i>hype</i></span>
@@ -444,8 +593,962 @@
     <div class="card__body">
       <p class="card__meta"><span class="tag">Tactical RPG</span><time datetime="2025-09-02">Sep 2</time></p>
       <h3 class="card__title"><a href="../reviews/nevers-end/">Never&#039;s End</a></h3>
-      <p class="card__take">Possession: cheaper than recruiting and somehow worse for HR.</p>
+      <p class="card__take">Possession: cheaper than recruiting, somehow worse for HR.</p>
       <p class="card__foot"><span>Hypersect</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="clair obscur: expedition 33"
+    data-studio="sandfall interactive"
+    data-genre="action"
+    data-year="2025"
+    data-tags="aa|action|rpg">
+    <a class="card__art" href="../reviews/clair-obscur-expedition-33/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/clair-obscur-expedition-33/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.7</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2025-05-14">May 14</time></p>
+      <h3 class="card__title"><a href="../reviews/clair-obscur-expedition-33/">Clair Obscur: Expedition 33</a></h3>
+      <p class="card__take">Finally, a JRPG that also wants you to have Souls reflexes. Great.</p>
+      <p class="card__foot"><span>Sandfall Interactive</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="blue prince"
+    data-studio="dogubomb"
+    data-genre="adventure"
+    data-year="2025"
+    data-tags="indie|adventure|strategy">
+    <a class="card__art" href="../reviews/blue-prince/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/blue-prince/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.2</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2025-05-11">May 11</time></p>
+      <h3 class="card__title"><a href="../reviews/blue-prince/">Blue Prince</a></h3>
+      <p class="card__take">Real estate has never made us this happy or this confused.</p>
+      <p class="card__foot"><span>Dogubomb</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="split fiction"
+    data-studio="hazelight studios"
+    data-genre="action"
+    data-year="2025"
+    data-tags="aa|action|adventure">
+    <a class="card__art" href="../reviews/split-fiction/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/split-fiction/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.4</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2025-03-19">Mar 19</time></p>
+      <h3 class="card__title"><a href="../reviews/split-fiction/">Split Fiction</a></h3>
+      <p class="card__take">Turns out the best fantasy setting is &#039;someone else has to be player two.&#039;</p>
+      <p class="card__foot"><span>Hazelight Studios</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="ufo 50"
+    data-studio="mossmouth"
+    data-genre="action"
+    data-year="2024"
+    data-tags="indie|action|adventure|rpg">
+    <a class="card__art" href="../reviews/ufo-50/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/ufo-50/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.2</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2024-10-01">Oct 1</time></p>
+      <h3 class="card__title"><a href="../reviews/ufo-50/">UFO 50</a></h3>
+      <p class="card__take">It&#039;s like our childhood, if our childhood had also been proofread.</p>
+      <p class="card__foot"><span>Mossmouth</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="black myth: wukong"
+    data-studio="game science"
+    data-genre="action"
+    data-year="2024"
+    data-tags="aaa|action|adventure|rpg">
+    <a class="card__art" href="../reviews/black-myth-wukong/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/black-myth-wukong/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.0</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2024-09-30">Sep 30</time></p>
+      <h3 class="card__title"><a href="../reviews/black-myth-wukong/">Black Myth: Wukong</a></h3>
+      <p class="card__take">Finally caught up with what our children have been reading in books all this time.</p>
+      <p class="card__foot"><span>Game Science</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="animal well"
+    data-studio="billy basso"
+    data-genre="action"
+    data-year="2024"
+    data-tags="indie|action|adventure">
+    <a class="card__art" href="../reviews/animal-well/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/animal-well/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.9</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2024-06-09">Jun 9</time></p>
+      <h3 class="card__title"><a href="../reviews/animal-well/">ANIMAL WELL</a></h3>
+      <p class="card__take">First game where &#039;get out of the well&#039; is a valid life goal.</p>
+      <p class="card__foot"><span>Billy Basso</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="balatro"
+    data-studio="localthunk"
+    data-genre="strategy"
+    data-year="2024"
+    data-tags="indie|strategy">
+    <a class="card__art" href="../reviews/balatro/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/balatro/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.4</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Strategy</span><time datetime="2024-02-29">Feb 29</time></p>
+      <h3 class="card__title"><a href="../reviews/balatro/">Balatro</a></h3>
+      <p class="card__take">Turns out we&#039;ve been playing the wrong poker for thirty years.</p>
+      <p class="card__foot"><span>LocalThunk</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="helldivers™ 2"
+    data-studio="arrowhead game studios"
+    data-genre="action"
+    data-year="2024"
+    data-tags="aaa|action">
+    <a class="card__art" href="../reviews/helldivers-2/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/helldivers-2/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.8</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2024-02-28">Feb 28</time></p>
+      <h3 class="card__title"><a href="../reviews/helldivers-2/">HELLDIVERS™ 2</a></h3>
+      <p class="card__take">The only game where &#039;friendly fire&#039; is a personality trait.</p>
+      <p class="card__foot"><span>Arrowhead Game Studios</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="cocoon"
+    data-studio="geometric interactive"
+    data-genre="adventure"
+    data-year="2023"
+    data-tags="indie|adventure">
+    <a class="card__art" href="../reviews/cocoon/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/cocoon/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.7</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2023-10-30">Oct 30</time></p>
+      <h3 class="card__title"><a href="../reviews/cocoon/">COCOON</a></h3>
+      <p class="card__take">Nested puzzles, nested naps. We finished them both.</p>
+      <p class="card__foot"><span>Geometric Interactive</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="baldur&#039;s gate 3"
+    data-studio="larian studios"
+    data-genre="adventure"
+    data-year="2023"
+    data-tags="aaa|adventure|rpg|strategy">
+    <a class="card__art" href="../reviews/baldurs-gate-3/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/baldurs-gate-3/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.7</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2023-08-12">Aug 12</time></p>
+      <h3 class="card__title"><a href="../reviews/baldurs-gate-3/">Baldur&#039;s Gate 3</a></h3>
+      <p class="card__take">Rolled a nat 20 on the sentence &#039;I&#039;ll just try it for an hour&#039;.</p>
+      <p class="card__foot"><span>Larian Studios</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="dave the diver"
+    data-studio="mintrocket"
+    data-genre="adventure"
+    data-year="2023"
+    data-tags="indie|adventure|rpg|simulation">
+    <a class="card__art" href="../reviews/dave-the-diver/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/dave-the-diver/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.3</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2023-07-18">Jul 18</time></p>
+      <h3 class="card__title"><a href="../reviews/dave-the-diver/">DAVE THE DIVER</a></h3>
+      <p class="card__take">Finally, a job simulator where the boss is a giant squid and it&#039;s fine.</p>
+      <p class="card__foot"><span>MINTROCKET</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="resident evil 4"
+    data-studio="capcom co., ltd."
+    data-genre="action"
+    data-year="2023"
+    data-tags="aaa|action|adventure">
+    <a class="card__art" href="../reviews/resident-evil-4/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/resident-evil-4/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.3</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2023-05-04">May 4</time></p>
+      <h3 class="card__title"><a href="../reviews/resident-evil-4/">Resident Evil 4</a></h3>
+      <p class="card__take">Turns out marriage counselling was Leon rescuing Ashley the whole time.</p>
+      <p class="card__foot"><span>CAPCOM Co., Ltd.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="pizza tower"
+    data-studio="tour de pizza"
+    data-genre="action"
+    data-year="2023"
+    data-tags="indie|action">
+    <a class="card__art" href="../reviews/pizza-tower/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/pizza-tower/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.0</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2023-02-08">Feb 8</time></p>
+      <h3 class="card__title"><a href="../reviews/pizza-tower/">Pizza Tower</a></h3>
+      <p class="card__take">Best cardio we&#039;ve done in a decade and we didn&#039;t have to leave the couch.</p>
+      <p class="card__foot"><span>Tour De Pizza</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="vampire survivors"
+    data-studio="poncle"
+    data-genre="action"
+    data-year="2022"
+    data-tags="indie|action|rpg">
+    <a class="card__art" href="../reviews/vampire-survivors/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/vampire-survivors/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.8</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2022-11-09">Nov 9</time></p>
+      <h3 class="card__title"><a href="../reviews/vampire-survivors/">Vampire Survivors</a></h3>
+      <p class="card__take">It&#039;s a screensaver that hands out achievements. Best five euros I ever spent by accident.</p>
+      <p class="card__foot"><span>poncle</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="cult of the lamb"
+    data-studio="massive monster"
+    data-genre="action"
+    data-year="2022"
+    data-tags="indie|action|adventure|strategy">
+    <a class="card__art" href="../reviews/cult-of-the-lamb/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/cult-of-the-lamb/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>7.9</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2022-09-22">Sep 22</time></p>
+      <h3 class="card__title"><a href="../reviews/cult-of-the-lamb/">Cult of the Lamb</a></h3>
+      <p class="card__take">My cult expanded rapidly once I introduced dental.</p>
+      <p class="card__foot"><span>Massive Monster</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="stray"
+    data-studio="bluetwelve studio"
+    data-genre="adventure"
+    data-year="2022"
+    data-tags="aa|adventure">
+    <a class="card__art" href="../reviews/stray/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/stray/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="cool"><b>7.6</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2022-08-19">Aug 19</time></p>
+      <h3 class="card__title"><a href="../reviews/stray/">Stray</a></h3>
+      <p class="card__take">The first game where I checked on the kids because a cartoon cat looked sad.</p>
+      <p class="card__foot"><span>BlueTwelve Studio</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="neon white"
+    data-studio="angel matrix"
+    data-genre="action"
+    data-year="2022"
+    data-tags="indie|action|adventure">
+    <a class="card__art" href="../reviews/neon-white/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/neon-white/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.7</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2022-06-29">Jun 29</time></p>
+      <h3 class="card__title"><a href="../reviews/neon-white/">Neon White</a></h3>
+      <p class="card__take">First shooter that made a middle-aged man voluntarily replay a level. Terrifying.</p>
+      <p class="card__foot"><span>Angel Matrix</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="elden ring"
+    data-studio="fromsoftware, inc."
+    data-genre="action"
+    data-year="2022"
+    data-tags="aaa|action|rpg">
+    <a class="card__art" href="../reviews/elden-ring/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/elden-ring/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.5</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2022-03-05">Mar 5</time></p>
+      <h3 class="card__title"><a href="../reviews/elden-ring/">ELDEN RING</a></h3>
+      <p class="card__take">First time we paused a boss fight for maths homework and came back to the same problem.</p>
+      <p class="card__foot"><span>FromSoftware, Inc.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="inscryption"
+    data-studio="daniel mullins games"
+    data-genre="adventure"
+    data-year="2021"
+    data-tags="indie|adventure|strategy">
+    <a class="card__art" href="../reviews/inscryption/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/inscryption/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.0</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2021-11-19">Nov 19</time></p>
+      <h3 class="card__title"><a href="../reviews/inscryption/">Inscryption</a></h3>
+      <p class="card__take">First deckbuilder where the deckbuilder wants to build you into the deck.</p>
+      <p class="card__foot"><span>Daniel Mullins Games</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="deathloop"
+    data-studio="arkane studios"
+    data-genre="action"
+    data-year="2021"
+    data-tags="aaa|action">
+    <a class="card__art" href="../reviews/deathloop/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/deathloop/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>7.8</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2021-10-25">Oct 25</time></p>
+      <h3 class="card__title"><a href="../reviews/deathloop/">DEATHLOOP</a></h3>
+      <p class="card__take">The only sim where &#039;I already know how tomorrow ends&#039; is bragging, not depression.</p>
+      <p class="card__foot"><span>Arkane Studios</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="resident evil village"
+    data-studio="capcom co., ltd."
+    data-genre="action"
+    data-year="2021"
+    data-tags="aaa|action">
+    <a class="card__art" href="../reviews/resident-evil-village/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/resident-evil-village/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.1</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2021-05-19">May 19</time></p>
+      <h3 class="card__title"><a href="../reviews/resident-evil-village/">Resident Evil Village</a></h3>
+      <p class="card__take">Finally an RE where the neck aches from looking up, not down at ammo counts.</p>
+      <p class="card__foot"><span>CAPCOM Co., Ltd.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="it takes two"
+    data-studio="hazelight studios"
+    data-genre="action"
+    data-year="2021"
+    data-tags="aa|action|adventure">
+    <a class="card__art" href="../reviews/it-takes-two/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/it-takes-two/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.2</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2021-04-03">Apr 3</time></p>
+      <h3 class="card__title"><a href="../reviews/it-takes-two/">It Takes Two</a></h3>
+      <p class="card__take">Sold as marriage counselling. It&#039;s actually kart racing. Same thing, honestly.</p>
+      <p class="card__foot"><span>Hazelight Studios</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="valheim"
+    data-studio="iron gate ab"
+    data-genre="action"
+    data-year="2021"
+    data-tags="indie|action|adventure|rpg">
+    <a class="card__art" href="../reviews/valheim/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/valheim/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.4</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2021-02-22">Feb 22</time></p>
+      <h3 class="card__title"><a href="../reviews/valheim/">Valheim</a></h3>
+      <p class="card__take">My back hurts and my longship sank. Ten out of ten viking authenticity.</p>
+      <p class="card__foot"><span>Iron Gate AB</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="hades"
+    data-studio="supergiant games"
+    data-genre="action"
+    data-year="2020"
+    data-tags="indie|action|rpg">
+    <a class="card__art" href="../reviews/hades/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/hades/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.3</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2020-09-26">Sep 26</time></p>
+      <h3 class="card__title"><a href="../reviews/hades/">Hades</a></h3>
+      <p class="card__take">It&#039;s a game about screaming at your father, and unlike our teenage years, this time it&#039;s productive.</p>
+      <p class="card__foot"><span>Supergiant Games</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="deep rock galactic"
+    data-studio="ghost ship games"
+    data-genre="action"
+    data-year="2020"
+    data-tags="aa|action">
+    <a class="card__art" href="../reviews/deep-rock-galactic/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/deep-rock-galactic/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.0</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2020-06-24">Jun 24</time></p>
+      <h3 class="card__title"><a href="../reviews/deep-rock-galactic/">Deep Rock Galactic</a></h3>
+      <p class="card__take">The last time three of us wore matching hats we were on holiday and lost.</p>
+      <p class="card__foot"><span>Ghost Ship Games</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="doom eternal"
+    data-studio="id software"
+    data-genre="action"
+    data-year="2020"
+    data-tags="aaa|action">
+    <a class="card__art" href="../reviews/doom-eternal/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/doom-eternal/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.6</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2020-04-19">Apr 19</time></p>
+      <h3 class="card__title"><a href="../reviews/doom-eternal/">DOOM Eternal</a></h3>
+      <p class="card__take">Our doctor said no juggling. We didn&#039;t tell him about the chainsaw part.</p>
+      <p class="card__foot"><span>id Software</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="half-life: alyx"
+    data-studio="valve"
+    data-genre="action"
+    data-year="2020"
+    data-tags="aaa|action|adventure">
+    <a class="card__art" href="../reviews/half-life-alyx/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/half-life-alyx/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.8</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2020-04-12">Apr 12</time></p>
+      <h3 class="card__title"><a href="../reviews/half-life-alyx/">Half-Life: Alyx</a></h3>
+      <p class="card__take">The scariest thing in VR isn&#039;t the headcrabs, it&#039;s admitting to your wife how much the headset cost.</p>
+      <p class="card__foot"><span>Valve</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="ori and the will of the wisps"
+    data-studio="moon studios gmbh"
+    data-genre="action"
+    data-year="2020"
+    data-tags="aa|action">
+    <a class="card__art" href="../reviews/ori-and-the-will-of-the-wisps/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/ori-and-the-will-of-the-wisps/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.4</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2020-03-23">Mar 23</time></p>
+      <h3 class="card__title"><a href="../reviews/ori-and-the-will-of-the-wisps/">Ori and the Will of the Wisps</a></h3>
+      <p class="card__take">The only game where we&#039;ve had to pause because our eyes were doing something.</p>
+      <p class="card__foot"><span>Moon Studios GmbH</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="disco elysium"
+    data-studio="za/um"
+    data-genre="rpg"
+    data-year="2019"
+    data-tags="indie|rpg">
+    <a class="card__art" href="../reviews/disco-elysium/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/disco-elysium/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.5</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">RPG</span><time datetime="2019-10-24">Oct 24</time></p>
+      <h3 class="card__title"><a href="../reviews/disco-elysium/">Disco Elysium</a></h3>
+      <p class="card__take">Finally, a game where the voices in our head are also credited as skills.</p>
+      <p class="card__foot"><span>ZA/UM</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="sekiro: shadows die twice"
+    data-studio="fromsoftware, inc."
+    data-genre="action"
+    data-year="2019"
+    data-tags="aaa|action|adventure">
+    <a class="card__art" href="../reviews/sekiro-shadows-die-twice/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/sekiro-shadows-die-twice/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.9</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2019-04-10">Apr 10</time></p>
+      <h3 class="card__title"><a href="../reviews/sekiro-shadows-die-twice/">Sekiro: Shadows Die Twice</a></h3>
+      <p class="card__take">The good news is our reflexes were bad before Sekiro came out, so there&#039;s no downgrade.</p>
+      <p class="card__foot"><span>FromSoftware, Inc.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="devil may cry 5"
+    data-studio="capcom co., ltd."
+    data-genre="action"
+    data-year="2019"
+    data-tags="aaa|action">
+    <a class="card__art" href="../reviews/devil-may-cry-5/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/devil-may-cry-5/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.4</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2019-04-07">Apr 7</time></p>
+      <h3 class="card__title"><a href="../reviews/devil-may-cry-5/">Devil May Cry 5</a></h3>
+      <p class="card__take">The last time we got an SSS rank at anything, our kids were being born.</p>
+      <p class="card__foot"><span>CAPCOM Co., Ltd.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="slay the spire"
+    data-studio="mega crit"
+    data-genre="strategy"
+    data-year="2019"
+    data-tags="indie|strategy">
+    <a class="card__art" href="../reviews/slay-the-spire/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/slay-the-spire/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.2</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Strategy</span><time datetime="2019-03-06">Mar 6</time></p>
+      <h3 class="card__title"><a href="../reviews/slay-the-spire/">Slay the Spire</a></h3>
+      <p class="card__take">It&#039;s a deckbuilder. That&#039;s an actual sentence we say to our wives now.</p>
+      <p class="card__foot"><span>Mega Crit</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="resident evil 2"
+    data-studio="capcom co., ltd."
+    data-genre="action"
+    data-year="2019"
+    data-tags="aaa|action">
+    <a class="card__art" href="../reviews/resident-evil-2/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/resident-evil-2/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.1</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2019-02-06">Feb 6</time></p>
+      <h3 class="card__title"><a href="../reviews/resident-evil-2/">Resident Evil 2</a></h3>
+      <p class="card__take">Turns out the scariest thing at 45 is the footsteps of a very tall man in a hat.</p>
+      <p class="card__foot"><span>CAPCOM Co., Ltd.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="return of the obra dinn"
+    data-studio="lucas pope"
+    data-genre="adventure"
+    data-year="2018"
+    data-tags="indie|adventure">
+    <a class="card__art" href="../reviews/return-of-the-obra-dinn/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/return-of-the-obra-dinn/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.3</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2018-11-07">Nov 7</time></p>
+      <h3 class="card__title"><a href="../reviews/return-of-the-obra-dinn/">Return of the Obra Dinn</a></h3>
+      <p class="card__take">Turns out I will happily take notes for a boat, but not a meeting.</p>
+      <p class="card__foot"><span>Lucas Pope</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="dead cells"
+    data-studio="motion twin"
+    data-genre="action"
+    data-year="2018"
+    data-tags="indie|action|adventure">
+    <a class="card__art" href="../reviews/dead-cells/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/dead-cells/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.5</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2018-09-17">Sep 17</time></p>
+      <h3 class="card__title"><a href="../reviews/dead-cells/">Dead Cells</a></h3>
+      <p class="card__take">Every death teaches me something. Mostly that I should have parried.</p>
+      <p class="card__foot"><span>Motion Twin</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="monster hunter: world"
+    data-studio="capcom co., ltd."
+    data-genre="action"
+    data-year="2018"
+    data-tags="aaa|action">
+    <a class="card__art" href="../reviews/monster-hunter-world/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/monster-hunter-world/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.3</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2018-09-08">Sep 8</time></p>
+      <h3 class="card__title"><a href="../reviews/monster-hunter-world/">Monster Hunter: World</a></h3>
+      <p class="card__take">I now own a spreadsheet called Great Jagras Farming Route. Please send help.</p>
+      <p class="card__foot"><span>CAPCOM Co., Ltd.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="subnautica"
+    data-studio="unknown worlds entertainment"
+    data-genre="adventure"
+    data-year="2018"
+    data-tags="aa|adventure">
+    <a class="card__art" href="../reviews/subnautica/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/subnautica/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.8</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2018-02-05">Feb 5</time></p>
+      <h3 class="card__title"><a href="../reviews/subnautica/">Subnautica</a></h3>
+      <p class="card__take">First game to make me buy a bigger monitor. Then regret it, immediately.</p>
+      <p class="card__foot"><span>Unknown Worlds Entertainment</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="celeste"
+    data-studio="maddy makes games inc."
+    data-genre="action"
+    data-year="2018"
+    data-tags="indie|action|adventure">
+    <a class="card__art" href="../reviews/celeste/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/celeste/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.1</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2018-02-03">Feb 3</time></p>
+      <h3 class="card__title"><a href="../reviews/celeste/">Celeste</a></h3>
+      <p class="card__take">The mountain wants you to be okay. The mountain also wants to kill you. Very balanced mountain.</p>
+      <p class="card__foot"><span>Maddy Makes Games Inc.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="cuphead"
+    data-studio="studio mdhr entertainment inc."
+    data-genre="action"
+    data-year="2017"
+    data-tags="indie|action">
+    <a class="card__art" href="../reviews/cuphead/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/cuphead/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="cool"><b>7.6</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2017-10-19">Oct 19</time></p>
+      <h3 class="card__title"><a href="../reviews/cuphead/">Cuphead</a></h3>
+      <p class="card__take">We had to start doing actual wrist stretches to play a cartoon.</p>
+      <p class="card__foot"><span>Studio MDHR Entertainment Inc.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="divinity: original sin 2"
+    data-studio="larian studios"
+    data-genre="adventure"
+    data-year="2017"
+    data-tags="aa|adventure|rpg|strategy">
+    <a class="card__art" href="../reviews/divinity-original-sin-2/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/divinity-original-sin-2/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.4</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2017-09-23">Sep 23</time></p>
+      <h3 class="card__title"><a href="../reviews/divinity-original-sin-2/">Divinity: Original Sin 2</a></h3>
+      <p class="card__take">Every party meeting ends in arson. So does every real one, honestly.</p>
+      <p class="card__foot"><span>Larian Studios</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="prey"
+    data-studio="arkane studios"
+    data-genre="action"
+    data-year="2017"
+    data-tags="aaa|action|adventure">
+    <a class="card__art" href="../reviews/prey/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/prey/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.0</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2017-05-17">May 17</time></p>
+      <h3 class="card__title"><a href="../reviews/prey/">Prey</a></h3>
+      <p class="card__take">The mimic ate my in-game keys. And also, somehow, my real ones.</p>
+      <p class="card__foot"><span>Arkane Studios</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="nier:automata™"
+    data-studio="square enix"
+    data-genre="action"
+    data-year="2017"
+    data-tags="aaa|action|rpg">
+    <a class="card__art" href="../reviews/nier-automata/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/nier-automata/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.4</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2017-04-28">Apr 28</time></p>
+      <h3 class="card__title"><a href="../reviews/nier-automata/">NieR:Automata™</a></h3>
+      <p class="card__take">First game that made me cry. And I have watched every Pixar movie in a hospital.</p>
+      <p class="card__foot"><span>Square Enix</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="hollow knight"
+    data-studio="team cherry"
+    data-genre="action"
+    data-year="2017"
+    data-tags="indie|action|adventure">
+    <a class="card__art" href="../reviews/hollow-knight/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/hollow-knight/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.9</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2017-03-27">Mar 27</time></p>
+      <h3 class="card__title"><a href="../reviews/hollow-knight/">Hollow Knight</a></h3>
+      <p class="card__take">We came for the bugs. Stayed for the emotional damage.</p>
+      <p class="card__foot"><span>Team Cherry</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="doom"
+    data-studio="id software"
+    data-genre="action"
+    data-year="2016"
+    data-tags="aaa|action">
+    <a class="card__art" href="../reviews/doom/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/doom/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.4</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2016-05-21">May 21</time></p>
+      <h3 class="card__title"><a href="../reviews/doom/">DOOM</a></h3>
+      <p class="card__take">I have not been this loud at midnight since the children were born.</p>
+      <p class="card__foot"><span>id Software</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="dark souls™ iii"
+    data-studio="fromsoftware, inc."
+    data-genre="action"
+    data-year="2016"
+    data-tags="aaa|action">
+    <a class="card__art" href="../reviews/dark-souls-iii/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/dark-souls-iii/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.7</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Action</span><time datetime="2016-05-12">May 12</time></p>
+      <h3 class="card__title"><a href="../reviews/dark-souls-iii/">DARK SOULS™ III</a></h3>
+      <p class="card__take">The bonfire is now my emotional support furniture, thank you for asking.</p>
+      <p class="card__foot"><span>FromSoftware, Inc.</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="firewatch"
+    data-studio="campo santo"
+    data-genre="adventure"
+    data-year="2016"
+    data-tags="indie|adventure">
+    <a class="card__art" href="../reviews/firewatch/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/firewatch/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>7.8</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Adventure</span><time datetime="2016-03-22">Mar 22</time></p>
+      <h3 class="card__title"><a href="../reviews/firewatch/">Firewatch</a></h3>
+      <p class="card__take">The only game where your handheld radio has more character development than you.</p>
+      <p class="card__foot"><span>Campo Santo</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="stardew valley"
+    data-studio="concernedape"
+    data-genre="rpg"
+    data-year="2016"
+    data-tags="indie|rpg|simulation">
+    <a class="card__art" href="../reviews/stardew-valley/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/stardew-valley/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.3</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">RPG</span><time datetime="2016-03-17">Mar 17</time></p>
+      <h3 class="card__title"><a href="../reviews/stardew-valley/">Stardew Valley</a></h3>
+      <p class="card__take">Marnie&#039;s animals cost more than my kid&#039;s actual college fund.</p>
+      <p class="card__foot"><span>ConcernedApe</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="xcom® 2"
+    data-studio="firaxis games"
+    data-genre="strategy"
+    data-year="2016"
+    data-tags="aaa|strategy">
+    <a class="card__art" href="../reviews/xcom-2/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/xcom-2/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.8</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Strategy</span><time datetime="2016-02-17">Feb 17</time></p>
+      <h3 class="card__title"><a href="../reviews/xcom-2/">XCOM® 2</a></h3>
+      <p class="card__take">The dice have been sent to review, and they have chosen violence.</p>
+      <p class="card__foot"><span>Firaxis Games</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="fallout 4"
+    data-studio="bethesda game studios"
+    data-genre="rpg"
+    data-year="2015"
+    data-tags="aaa|rpg">
+    <a class="card__art" href="../reviews/fallout-4/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/fallout-4/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="cool"><b>7.2</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">RPG</span><time datetime="2015-12-21">Dec 21</time></p>
+      <h3 class="card__title"><a href="../reviews/fallout-4/">Fallout 4</a></h3>
+      <p class="card__take">I came for the story. I stayed to make Preston Garvey suffer.</p>
+      <p class="card__foot"><span>Bethesda Game Studios</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="keep talking and nobody explodes"
+    data-studio="steel crate games"
+    data-genre="indie"
+    data-year="2015"
+    data-tags="indie">
+    <a class="card__art" href="../reviews/keep-talking-and-nobody-explodes/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/keep-talking-and-nobody-explodes/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.6</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Indie</span><time datetime="2015-10-28">Oct 28</time></p>
+      <h3 class="card__title"><a href="../reviews/keep-talking-and-nobody-explodes/">Keep Talking and Nobody Explodes</a></h3>
+      <p class="card__take">We defused the bomb. The friendship? Less clear.</p>
+      <p class="card__foot"><span>Steel Crate Games</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="undertale"
+    data-studio="tobyfox"
+    data-genre="rpg"
+    data-year="2015"
+    data-tags="indie|rpg">
+    <a class="card__art" href="../reviews/undertale/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/undertale/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>8.9</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">RPG</span><time datetime="2015-10-16">Oct 16</time></p>
+      <h3 class="card__title"><a href="../reviews/undertale/">Undertale</a></h3>
+      <p class="card__take">I petted the dog. Then I petted the dog again. Then I lost my job.</p>
+      <p class="card__foot"><span>tobyfox</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="the witcher 3: wild hunt"
+    data-studio="cd projekt red"
+    data-genre="rpg"
+    data-year="2015"
+    data-tags="aaa|rpg">
+    <a class="card__art" href="../reviews/the-witcher-3-wild-hunt/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/the-witcher-3-wild-hunt/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="hot"><b>9.5</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">RPG</span><time datetime="2015-05-27">May 27</time></p>
+      <h3 class="card__title"><a href="../reviews/the-witcher-3-wild-hunt/">The Witcher 3: Wild Hunt</a></h3>
+      <p class="card__take">Gwent stole more of my life than any of my children.</p>
+      <p class="card__foot"><span>CD PROJEKT RED</span></p>
+    </div>
+  </article>
+  <article class="card reveal"
+    data-card
+    data-title="cities: skylines"
+    data-studio="colossal order"
+    data-genre="simulation"
+    data-year="2015"
+    data-tags="aa|simulation|strategy">
+    <a class="card__art" href="../reviews/cities-skylines/" tabindex="-1" aria-hidden="true">
+      <img src="../assets/press/cities-skylines/cover.jpg" alt="" loading="lazy" decoding="async" width="1200" height="675" sizes="(max-width: 640px) 92vw, (max-width: 1080px) 44vw, 30vw" />
+      <span class="score" data-tone="warm"><b>8.4</b><i>score</i></span>
+    </a>
+    <div class="card__body">
+      <p class="card__meta"><span class="tag">Simulation</span><time datetime="2015-03-23">Mar 23</time></p>
+      <h3 class="card__title"><a href="../reviews/cities-skylines/">Cities: Skylines</a></h3>
+      <p class="card__take">We didn&#039;t found a metropolis. We founded a very expensive intersection.</p>
+      <p class="card__foot"><span>Colossal Order</span></p>
     </div>
   </article>
           </div>
@@ -459,7 +1562,7 @@
         <a class="brand" href="../" aria-label="PsychoBros home">
           
   <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
-    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-flame)" />
+    <rect x="1.5" y="8.5" width="37" height="23" rx="7.5" fill="var(--pb-blue)" />
     <path d="M9.5 20h7M13 16.5v7" stroke="#0b0d12" stroke-width="2.8" stroke-linecap="round" />
     <circle cx="26.5" cy="17.6" r="2.5" fill="#0b0d12" />
     <circle cx="31" cy="23" r="2.5" fill="#0b0d12" />
@@ -471,7 +1574,8 @@
       <div class="foot__col">
         <h2>Read</h2>
         <a href="../reviews/">All reviews</a>
-        <a href="../pax-west-2025/">PAX West 2025</a>
+        <a href="../years/">Browse by year</a>
+        <a href="../tags/pax-west-2025/">PAX West 2025</a>
       </div>
       <div class="foot__col">
         <h2>The boring bits</h2>
